@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+
+
+	<ThingDef ParentName="ResourceVerbBase">
+		<defName>ZWB_Dredgewood</defName>
+		<label>dredgewood</label>
+		<description>A woody material gathered from certain dry land corals. Useful for building structures and weapons, and generally considered to be quite pretty.</description>
+		<graphicData>
+			<texPath>ZWB_Textures/Things/Dredgewood</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<equippedAngleOffset>-20</equippedAngleOffset>
+		<soundInteract>Wood_Drop</soundInteract>
+		<soundDrop>Wood_Drop</soundDrop>
+		<statBases>
+			<MarketValue>1.8</MarketValue>
+			<MaxHitPoints>130</MaxHitPoints>
+			<Mass>0.4</Mass>
+			<Flammability>0.6</Flammability>
+			<DeteriorationRate>0.3</DeteriorationRate>
+			<StuffPower_Armor_Sharp>0.60</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.50</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>0.50</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>8</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>6</StuffPower_Insulation_Heat>
+			<SharpDamageMultiplier>0.55</SharpDamageMultiplier>
+			<BluntDamageMultiplier>0.8</BluntDamageMultiplier>
+		</statBases>
+		<burnableByRecipe>true</burnableByRecipe>
+		<healthAffectsPrice>false</healthAffectsPrice>
+		<minRewardCount>10</minRewardCount>
+		<stuffProps>
+			<stuffAdjective>dredgewood</stuffAdjective>
+			<categories>
+				<li>Woody</li>
+			</categories>
+			<commonality>0.2</commonality>
+			<color>(217,160,154)</color>
+			<constructEffect>ConstructWood</constructEffect>
+			<appearance>Planks</appearance>
+			<soundImpactBullet>BulletImpact_Wood</soundImpactBullet>
+			<soundMeleeHitSharp>MeleeHit_Wood</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Wood</soundMeleeHitBlunt>
+			<soundImpactMelee>Pawn_Melee_Punch_HitBuilding_Wood</soundImpactMelee>
+			<statFactors>
+				<MaxHitPoints>0.65</MaxHitPoints>
+				<Beauty>1.5</Beauty>
+				<Flammability>0.6</Flammability>
+				<WorkToMake>0.7</WorkToMake>
+				<WorkToBuild>0.7</WorkToBuild>
+				<DoorOpenSpeed>1.2</DoorOpenSpeed>
+			</statFactors>
+			<canSuggestUseDefaultStuff>true</canSuggestUseDefaultStuff>
+		</stuffProps>
+		<isTechHediff>true</isTechHediff>
+		<thingCategories>
+			<li>ResourcesRaw</li>
+		</thingCategories>
+		<techHediffsTags>
+			<li>Poor</li>
+		</techHediffsTags>
+		<weaponClasses>
+			<li>Melee</li>
+			<li>MeleeBlunt</li>
+			<li>Neolithic</li>
+		</weaponClasses>
+		<tools>
+			<li>
+				<label>dredgewood log</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>8</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<allowedArchonexusCount>150</allowedArchonexusCount>
+	</ThingDef>
+
+
+	<ThingDef ParentName="ChunkBase">
+		<defName>ZWB_ChunkCoralite</defName>
+		<label>coralite chunk</label>
+		<description>A chunk of coralite. Can be cut into usable stone blocks.</description>
+		<statBases>
+			<BeautyOutdoors>0</BeautyOutdoors>
+			<Mass>7</Mass>
+		</statBases>
+		<stackLimit>5</stackLimit>
+		<drawGUIOverlay>true</drawGUIOverlay>
+		<soundDrop>ChunkRock_Drop</soundDrop>
+		<graphicData>
+			<texPath>Things/Item/Chunk/ChunkStone</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<flipExtraRotation>80</flipExtraRotation>
+			<color>(128,86,98)</color>
+		</graphicData>
+		<thingCategories>
+			<li>StoneChunks</li>
+		</thingCategories>
+		<butcherProducts>
+			<ZWB_BlocksCoralite>8</ZWB_BlocksCoralite>
+		</butcherProducts>
+	</ThingDef>
+
+
+
+
+	<ThingDef ParentName="StoneBlocksBase">
+		<defName>ZWB_BlocksCoralite</defName>
+		<label>coralite blocks</label>
+		<description>Blocks of solid coralite. Coralite is considered to be quite pretty.</description>
+		<graphicData>
+			<color>(128,86,98)</color>
+		</graphicData>
+		<statBases>
+			<Mass>0.85</Mass>
+			<SharpDamageMultiplier>0.5</SharpDamageMultiplier>
+		</statBases>
+		<stuffProps>
+			<color>(128,86,98)</color>
+			<soundImpactBullet>BulletImpact_Ground</soundImpactBullet>
+			<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+			<soundImpactMelee>Pawn_Melee_Punch_HitBuilding_Stone</soundImpactMelee>
+			<stuffAdjective>coralite</stuffAdjective>
+			<statFactors>
+				<Beauty>1.4</Beauty>
+				<MaxHitPoints>1.5</MaxHitPoints>
+				<WorkToBuild>5.0</WorkToBuild>
+				<WorkToMake>1.1</WorkToMake>
+			</statFactors>
+			<canSuggestUseDefaultStuff>true</canSuggestUseDefaultStuff>
+		</stuffProps>
+	</ThingDef>
+
+
+
+
+
+	<RecipeDef ParentName="MakeStoneBlocksBase">
+		<defName>ZWB_Make_BlocksCoralite</defName>
+		<label>make coralite blocks</label>
+		<description>Cuts coralite chunks into usable blocks.</description>
+		<workAmount>600</workAmount>
+		<targetCountAdjustment>8</targetCountAdjustment>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ZWB_ChunkCoralite</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>ZWB_ChunkCoralite</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<ZWB_BlocksCoralite>8</ZWB_BlocksCoralite>
+		</products>
+	</RecipeDef>
+
+</Defs>
+

@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	
+	<ThingDef ParentName="PlantBase">
+		<defName>ZWB_FireCoral</defName>
+		<label>fire coral</label>
+		<description>Spongey and blue.</description>
+		<statBases>
+		  <MaxHitPoints>90</MaxHitPoints>
+		  <Nutrition>0.25</Nutrition>
+		</statBases>
+		<graphicData>
+			<texPath>ZWB_Textures/Plants/FireCoral</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<selectable>true</selectable>
+		<neverMultiSelect>false</neverMultiSelect>
+		<uiIconScale>0.85</uiIconScale>
+		<plant>
+			<immatureGraphicPath>ZWB_Textures/Plants/FireCoral_Immature</immatureGraphicPath>
+			<fertilitySensitivity>0.5</fertilitySensitivity>
+			<growDays>4.5</growDays>
+			<wildClusterRadius>4</wildClusterRadius>
+			<wildClusterWeight>70</wildClusterWeight>
+			<visualSizeRange>0.75~1.2</visualSizeRange>
+			<topWindExposure>0.20</topWindExposure>
+			<wildOrder>2</wildOrder>
+			<harvestYield>1</harvestYield>
+			<harvestTag>Standard</harvestTag>
+			<harvestedThingDef>ZWB_WeaponFireCoral</harvestedThingDef>
+		</plant>
+	</ThingDef>
+	
+	
+	<ThingDef ParentName="BaseWeapon">
+		<defName>ZWB_WeaponFireCoral</defName>
+		<label>throwable fire coral</label>
+		<description>This jagged piece of coral can be thrown at an enemy, resulting in a painful paralyzing sting for anyone struck.</description>
+		<tradeability>Sellable</tradeability>
+
+		<graphicData>
+			<texPath>ZWB_Textures/Things/FireCoralProjectile</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Interact_Grenade</soundInteract>
+		<techLevel>Neolithic</techLevel>
+		<statBases>
+			<MarketValue>40</MarketValue>
+			<Mass>1</Mass>
+			<RangedWeapon_Cooldown>3.1</RangedWeapon_Cooldown>
+		</statBases>
+
+		<weaponTags>
+			<li>GrenadeDestructive</li>
+		</weaponTags>
+		<thingCategories>
+			<li>Grenades</li>
+		</thingCategories>
+		<verbs>
+			<li>
+				<label>throw fire coral</label>
+				<verbClass>Verb_ShootOneUse</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<range>20</range>
+				
+				<warmupTime>1.5</warmupTime>
+				<noiseRadius>4</noiseRadius>
+				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+				<soundCast>ThrowGrenade</soundCast>
+				<targetParams>
+					<canTargetLocations>false</canTargetLocations>
+				</targetParams>
+				<defaultProjectile>ZWB_FireCoralProjectile</defaultProjectile>
+				<rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
+			</li>
+		</verbs>
+
+	</ThingDef>
+
+	<ThingDef ParentName="BaseBullet">
+		<defName>ZWB_FireCoralProjectile</defName>
+		<label>fire coral</label>
+
+		<graphicData>
+			<texPath>ZWB_Textures/Things/FireCoralProjectile</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<flyOverhead>false</flyOverhead>
+			<damageDef>ZWB_ParalysingFireSting</damageDef>
+			<damageAmountBase>10</damageAmountBase>
+			<speed>55</speed>
+		</projectile>
+	</ThingDef>
+
+
+
+	<DamageDef ParentName="Scratch">
+		<defName>ZWB_ParalysingFireSting</defName>
+		<label>fire coral sting</label>
+		<additionalHediffs>
+			<li>
+				<hediff>ZWB_FireCoralParalysis</hediff>
+				<severityFixed>1</severityFixed>
+				<victimSeverityScaling>ToxicResistance</victimSeverityScaling>
+				<inverseStatScaling>true</inverseStatScaling>
+			</li>
+		</additionalHediffs>
+	</DamageDef>
+	
+
+  <HediffDef ParentName="DiseaseBase">
+    <defName>ZWB_FireCoralParalysis</defName>
+    <label>fire coral paralysis</label>
+	<description>A strong neurotoxin, causing paralysis and a great deal of pain.</description>
+	<makesSickThought>true</makesSickThought>
+    <initialSeverity>1</initialSeverity>
+    <maxSeverity>1</maxSeverity>
+    <comps>
+      <!-- <li Class="HediffCompProperties_Disappears"> -->
+        <!-- <disappearsAfterTicks> -->
+          <!-- <min>30000</min> -->
+          <!-- <max>30000</max> -->
+        <!-- </disappearsAfterTicks> -->
+      <!-- </li> -->
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.8</severityPerDay>
+      </li>
+    </comps>
+    <stages>
+      <li>
+	    <label>residual</label>
+        <painOffset>0.1</painOffset>
+      </li>
+	   <li>
+	    <label>painful</label> 
+		<minSeverity>0.2</minSeverity>
+        <painOffset>0.35</painOffset>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <setMax>0.90</setMax>
+          </li>
+          <li>
+            <capacity>Moving</capacity>
+            <setMax>0.85</setMax>
+          </li>
+        </capMods>
+      </li>
+	  <li>
+	    <label>stunned</label>
+		<minSeverity>0.55</minSeverity>
+        <painOffset>0.6</painOffset>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <setMax>0.6</setMax>
+          </li>
+          <li>
+            <capacity>Moving</capacity>
+            <setMax>0.40</setMax>
+          </li>
+        </capMods>
+      </li>
+	  <li>
+	    <label>paralysed</label>
+		<minSeverity>0.90</minSeverity>
+        <painOffset>0.9</painOffset>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <setMax>0.05</setMax>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+  
+</Defs>
+

@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThingDef ParentName="PlantBase" Name="ZWB_TyrianVeilBase" Abstract="True">
+		<statBases>
+			<MaxHitPoints>60</MaxHitPoints>
+			<Nutrition>0.2</Nutrition>
+		</statBases>
+		<graphicData>
+			<texPath>ZWB_Textures/Plants/TyrianVeil</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<shadowData>
+				<volume>(0.15, 0.18, 0.15)</volume>
+				<offset>(0,0,-0.38)</offset>
+			</shadowData>
+		</graphicData>
+		<selectable>true</selectable>
+		<pathCost>14</pathCost>
+		<ingestible/>
+		<plant>
+			<immatureGraphicPath>ZWB_Textures/Plants/TyrianVeil_Immature</immatureGraphicPath>
+			<growDays>7.5</growDays>
+			<dieIfLeafless>false</dieIfLeafless>
+			<harvestWork>400</harvestWork>
+			<harvestTag>Standard</harvestTag>
+
+			<harvestedThingDef>ZWB_TyrianVeilCloth</harvestedThingDef>
+
+			<harvestYield>9</harvestYield>
+			<topWindExposure>0.2</topWindExposure>
+			<visualSizeRange>0.5~1.2</visualSizeRange>
+
+			<wildOrder>2</wildOrder>
+			<wildClusterRadius>5</wildClusterRadius>
+			<wildClusterWeight>250</wildClusterWeight>
+		</plant>
+	</ThingDef>
+
+
+
+
+	<ThingDef ParentName="ZWB_TyrianVeilBase">
+		<defName>ZWB_TyrianVeilWild</defName>
+		<label>wild tyrian veil</label>
+		<description>A purple foliose coral, which can be harvested and used as a textile.</description>
+		<neverMultiSelect>false</neverMultiSelect>
+
+	</ThingDef>
+
+
+
+
+	<ThingDef ParentName="ZWB_TyrianVeilBase">
+		<defName>ZWB_TyrianVeil</defName>
+		<label>tyrian veil</label>
+		<description>A purple foliose coral, which can be harvested and used as a textile.</description>
+		<plant>
+			<growDays>7</growDays>
+			<sowWork>800</sowWork>
+			<sowMinSkill>8</sowMinSkill>
+			<sowTags>
+				<li>Ground</li>
+				<li>Hydroponic</li>
+			</sowTags>
+			<sowMinSkill>7</sowMinSkill>
+			<sowResearchPrerequisites>
+				<li>Devilstrand</li>
+			</sowResearchPrerequisites>
+		</plant>
+	</ThingDef>
+
+
+
+
+
+	<ThingDef ParentName="ResourceBase">
+		<defName>ZWB_TyrianVeilCloth</defName>
+		<label>tyrian veil</label>
+		<description>Fabric harvested from a foliose coral. The interlocking fibers make it especially protective against sharp weapons, and it is difficult to burn.</description>
+		<graphicData>
+			<texPath>ZWB_Textures/Things/TyrianVeilCloth</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<MarketValue>4.9</MarketValue>
+			<Mass>0.032</Mass>
+			<Flammability>0.3</Flammability>
+			<DeteriorationRate>3</DeteriorationRate>
+			<StuffPower_Armor_Sharp>1.45</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.32</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>2.25</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>15</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>29</StuffPower_Insulation_Heat>
+		</statBases>
+		<burnableByRecipe>true</burnableByRecipe>
+		<healthAffectsPrice>false</healthAffectsPrice>
+		<minRewardCount>30</minRewardCount>
+		<stuffProps>
+			<categories>
+				<li>Fabric</li>
+			</categories>
+			<commonality>0.20</commonality>
+			<color>(128,92,148)</color>
+			<statFactors>
+				<Flammability>0.27</Flammability>
+				<MaxHitPoints>0.85</MaxHitPoints>
+				<Beauty>3.5</Beauty>
+			</statFactors>
+		</stuffProps>
+		<thingCategories>
+			<li>Textiles</li>
+		</thingCategories>
+		<allowedArchonexusCount>80</allowedArchonexusCount>
+	</ThingDef>
+
+
+
+</Defs>
+

@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+  <BiomeDef>							
+	<defName>ZWB_LandReef</defName>
+	<label>LandReef</label>
+	<description>Test dsnd biome</description>
+	<texture>World/Biomes/Desert</texture>
+	<workerClass>RWTestMod.BiomeWorker_Test</workerClass>
+	<settlementSelectionWeight>0.5</settlementSelectionWeight>
+    <movementDifficulty>1.5</movementDifficulty>
+	<animalDensity>0.0</animalDensity>
+	<plantDensity>0.9</plantDensity>
+	<wildPlantRegrowDays>12</wildPlantRegrowDays>
+	<forageability>1</forageability>
+	<foragedFood>RawBerries</foragedFood>
+    <maxFishPopulation>720</maxFishPopulation>
+    <!-- <wildPlantsCareAboutLocalFertility>false</wildPlantsCareAboutLocalFertility> -->
+    <fishTypes MayRequire="Ludeon.RimWorld.Odyssey">
+      <freshwater_Common>
+        <Fish_Tilapia MayRequire="Ludeon.RimWorld.Odyssey">1</Fish_Tilapia>
+      </freshwater_Common>
+      <freshwater_Uncommon>
+        <Fish_Piranha MayRequire="Ludeon.RimWorld.Odyssey">1</Fish_Piranha>
+      </freshwater_Uncommon>
+      <saltwater_Common>
+        <Fish_Bluefish MayRequire="Ludeon.RimWorld.Odyssey">1</Fish_Bluefish>
+      </saltwater_Common>
+      <saltwater_Uncommon>
+        <Fish_Tuna MayRequire="Ludeon.RimWorld.Odyssey">1</Fish_Tuna>
+        <Fish_Flounder MayRequire="Ludeon.RimWorld.Odyssey">1</Fish_Flounder>
+      </saltwater_Uncommon>
+      <rareCatchesSetMaker MayRequire="Ludeon.RimWorld.Odyssey">RareFishingCatches_Tropical</rareCatchesSetMaker>
+    </fishTypes>
+	<soundsAmbient>
+      <li>Ambient_NightInsects_Standard</li>
+    </soundsAmbient>
+	<diseaseMtbDays>60</diseaseMtbDays>
+    <diseases>
+      <li>
+        <diseaseInc>Disease_Flu</diseaseInc>
+        <commonality>100</commonality>
+      </li>
+      <li>
+        <diseaseInc>Disease_Plague</diseaseInc>
+        <commonality>100</commonality>
+      </li>
+      <li>
+        <diseaseInc>Disease_GutWorms</diseaseInc>
+        <commonality>50</commonality>
+      </li>
+      <li>
+        <diseaseInc>Disease_FibrousMechanites</diseaseInc>
+        <commonality>30</commonality>
+      </li>
+      <li>
+        <diseaseInc>Disease_SensoryMechanites</diseaseInc>
+        <commonality>30</commonality>
+      </li>
+      <li>
+        <diseaseInc>Disease_MuscleParasites</diseaseInc>
+        <commonality>50</commonality>
+      </li>
+      
+      <li>
+        <diseaseInc>Disease_AnimalFlu</diseaseInc>
+        <commonality>100</commonality>
+      </li>
+      <li>
+        <diseaseInc>Disease_AnimalPlague</diseaseInc>
+        <commonality>100</commonality>
+      </li>
+    </diseases>
+	<terrainsByFertility>
+      <li>
+        <terrain>Sand</terrain>
+        <min>-999</min>
+        <max>0.25</max>
+      </li>
+      <li>
+        <terrain>ZWB_MidSand</terrain>
+        <min>0.25</min>
+        <max>0.65</max>
+      </li>
+      <li>
+        <terrain>ZWB_FertileSand</terrain>
+        <min>0.65</min>
+        <max>999</max>
+      </li>
+    </terrainsByFertility>
+    <terrainPatchMakers>
+      <li>
+        <perlinFrequency>0.022</perlinFrequency>
+        <isPond>true</isPond>
+        <thresholds>
+          <li>
+            <terrain>ZWB_FertileSand</terrain>
+            <min>0.45</min>
+            <max>0.85</max>
+          </li>
+          <li>
+            <terrain>WaterOceanShallow</terrain>
+            <min>0.85</min>
+            <max>999</max>
+          </li>
+        </thresholds>
+      </li>
+    </terrainPatchMakers>
+
+	<baseWeatherCommonalities>
+      <Clear>18</Clear>
+      <Fog>1</Fog>
+      <Rain>2</Rain>
+      <DryThunderstorm>1.5</DryThunderstorm>
+      <RainyThunderstorm>1</RainyThunderstorm>
+      <FoggyRain>1</FoggyRain>
+      <SnowGentle>2</SnowGentle>
+      <SnowHard>4</SnowHard>
+    </baseWeatherCommonalities>
+    <wildPlants>
+<!-- ground cover -->
+		<ZWB_ValentineTrumpets>0.1</ZWB_ValentineTrumpets>
+		<ZWB_LilacFrill>0.65</ZWB_LilacFrill>
+		<ZWB_Sinkweed>3.5</ZWB_Sinkweed>
+		<ZWB_Seagrass>1.7</ZWB_Seagrass>
+		<ZWB_Kelp>1.7</ZWB_Kelp>
+		
+		<ZWB_Firegrass>0.25</ZWB_Firegrass>
+		<ZWB_SaltPot>1.0</ZWB_SaltPot>
+		<ZWB_CobaltScrunge>0.2</ZWB_CobaltScrunge>
+		
+	<!-- harvestable for materials -->
+		<ZWB_StarCoral>1.3</ZWB_StarCoral>
+		<ZWB_Table>0.06</ZWB_Table>
+		<ZWB_Brainstone>0.7</ZWB_Brainstone>
+		<ZWB_SeaRod>0.2</ZWB_SeaRod>
+		<ZWB_SeaWhip>0.35</ZWB_SeaWhip>
+		
+	<!-- harvestable other -->
+		<ZWB_TyrianVeilWild>0.03</ZWB_TyrianVeilWild>
+		<ZWB_FireCoral>0.01</ZWB_FireCoral>
+		
+	</wildPlants>
+	<wildAnimals>
+		<Rat>1.0</Rat>
+	</wildAnimals>
+    <allowedPackAnimals>
+      <li>Muffalo</li>
+      <li>Alpaca</li>
+      <li>Dromedary</li>
+    </allowedPackAnimals>
+	</BiomeDef>
+
+</Defs>
