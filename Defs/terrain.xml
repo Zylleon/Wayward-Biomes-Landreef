@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-	
-	
-	
-	
-	
-	
+
+
+
+
+
+
 	<TerrainDef ParentName="NaturalTerrainBase">
 		<defName>ZWB_FertileSand</defName>
 		<label>fertile sand</label>
@@ -42,10 +42,10 @@
 		</tools>
 		<pollutionColor>(1, 1, 1, 0.25)</pollutionColor>
 	</TerrainDef>
-	
-	
-	
-	
+
+
+
+
 	<TerrainDef ParentName="NaturalTerrainBase">
 		<defName>ZWB_MidSand</defName>
 		<label>mid sand</label>
@@ -82,9 +82,49 @@
 		</tools>
 		<pollutionColor>(1, 1, 1, 0.25)</pollutionColor>
 	</TerrainDef>
-	
-	
-	
-	
+
+
+
+
+	<TerrainDef ParentName="FloorBase">
+		<defName>ZWB_DredgewoodFloor</defName>
+		<label>dredgewood floor</label>
+		<renderPrecedence>250</renderPrecedence>
+		<description>Dredgewood plank flooring for that warm, homey feeling. While it is quick to lay, it is also very flammable.</description>
+		<texturePath>ZWB_Textures/Terrain/DredgewoodFloor</texturePath>
+		<burnedDef>BurnedWoodPlankFloor</burnedDef>
+		<color>(227,184,180)</color>
+		<pollutionShaderType MayRequire="Ludeon.RimWorld.Biotech">TerrainFadeRoughSoftLight</pollutionShaderType>
+		<pollutionOverlayTexturePath>Terrain/Surfaces/PollutionFloorSmooth</pollutionOverlayTexturePath>
+		<isPaintable>true</isPaintable>
+		<statBases>
+			<WorkToBuild>125</WorkToBuild>
+			<Flammability>0.075</Flammability>
+			<Beauty>2</Beauty>
+		</statBases>
+		<costList>
+			<ZWB_Dredgewood>4</ZWB_Dredgewood>
+		</costList>
+		<constructEffect>ConstructWood</constructEffect>
+		<!-- <uiOrder>2000</uiOrder> -->
+	</TerrainDef>
+
+
+
+	<TerrainDef ParentName="TileStoneBase">
+		<defName>ZWB_CoraliteFloor</defName>
+		<label>coralite floor</label>
+		<color>(140,100,112)</color>
+		<texturePath>ZWB_Textures/Terrain/CoraliteFloor</texturePath>
+		<costList>
+			<ZWB_BlocksCoralite>5</ZWB_BlocksCoralite>
+		</costList>
+		<statBases>
+			<Beauty>3</Beauty>
+		</statBases>
+	</TerrainDef>
+
+
+
 </Defs>
 
