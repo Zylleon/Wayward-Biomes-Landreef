@@ -7,9 +7,9 @@
 
 
 	<TerrainDef ParentName="NaturalTerrainBase">
-		<defName>ZWB_FertileSand</defName>
-		<label>fertile sand</label>
-		<texturePath>ZWB_Textures/Terrain/FertileSand</texturePath>
+		<defName>ZWB_BiogenicSand</defName>
+		<label>biogenic sand</label>
+		<texturePath>ZWB_Textures/Terrain/BiogenicSand</texturePath>
 		<pollutionOverlayTexturePath>Terrain/Surfaces/PollutionSand</pollutionOverlayTexturePath>
 		<edgeType>FadeRough</edgeType>
 		<categoryType>Sand</categoryType>
@@ -47,9 +47,9 @@
 
 
 	<TerrainDef ParentName="NaturalTerrainBase">
-		<defName>ZWB_MidSand</defName>
-		<label>mid sand</label>
-		<texturePath>ZWB_Textures/Terrain/MidSand</texturePath>
+		<defName>ZWB_GenicSand</defName>
+		<label>genic sand</label>
+		<texturePath>ZWB_Textures/Terrain/GenicSand</texturePath>
 		<pollutionOverlayTexturePath>Terrain/Surfaces/PollutionSand</pollutionOverlayTexturePath>
 		<edgeType>FadeRough</edgeType>
 		<categoryType>Sand</categoryType>
@@ -112,12 +112,12 @@
 
 
 	<TerrainDef ParentName="TileStoneBase">
-		<defName>ZWB_CoraliteFloor</defName>
-		<label>coralite floor</label>
+		<defName>ZWB_CoralithFloor</defName>
+		<label>coralith floor</label>
 		<color>(140,100,112)</color>
-		<texturePath>ZWB_Textures/Terrain/CoraliteFloor</texturePath>
+		<texturePath>ZWB_Textures/Terrain/CoralithFloor</texturePath>
 		<costList>
-			<ZWB_BlocksCoralite>5</ZWB_BlocksCoralite>
+			<ZWB_CoralithChunk>5</ZWB_CoralithChunk>
 		</costList>
 		<statBases>
 			<Beauty>3</Beauty>

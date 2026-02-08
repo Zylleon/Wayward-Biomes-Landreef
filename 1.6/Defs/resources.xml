@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-
+<!-- Dredgewood -->
 
 	<ThingDef ParentName="ResourceVerbBase">
 		<defName>ZWB_Dredgewood</defName>
@@ -81,52 +81,29 @@
 	</ThingDef>
 
 
-	<ThingDef ParentName="ChunkBase">
-		<defName>ZWB_ChunkCoralite</defName>
-		<label>coralite chunk</label>
-		<description>A chunk of coralite. Can be cut into usable stone blocks.</description>
+	<ThingDef ParentName="StoneBlocksBase">
+		<defName>ZWB_CoralithChunk</defName>
+		<label>coralith</label>
+		<description>A chunk of coralith. Can be used as stone.</description>
 		<statBases>
 			<BeautyOutdoors>0</BeautyOutdoors>
-			<Mass>7</Mass>
-		</statBases>
-		<stackLimit>5</stackLimit>
-		<drawGUIOverlay>true</drawGUIOverlay>
-		<soundDrop>ChunkRock_Drop</soundDrop>
-		<graphicData>
-			<texPath>Things/Item/Chunk/ChunkStone</texPath>
-			<graphicClass>Graphic_Random</graphicClass>
-			<flipExtraRotation>80</flipExtraRotation>
-			<color>(128,86,98)</color>
-		</graphicData>
-		<thingCategories>
-			<li>StoneChunks</li>
-		</thingCategories>
-		<butcherProducts>
-			<ZWB_BlocksCoralite>8</ZWB_BlocksCoralite>
-		</butcherProducts>
-	</ThingDef>
-
-
-
-
-	<ThingDef ParentName="StoneBlocksBase">
-		<defName>ZWB_BlocksCoralite</defName>
-		<label>coralite blocks</label>
-		<description>Blocks of solid coralite. Coralite is considered to be quite pretty.</description>
-		<graphicData>
-			<color>(128,86,98)</color>
-		</graphicData>
-		<statBases>
-			<Mass>0.85</Mass>
+			<Mass>.85</Mass>
 			<SharpDamageMultiplier>0.5</SharpDamageMultiplier>
 		</statBases>
+		<soundDrop>ChunkRock_Drop</soundDrop>
+		<graphicData>
+			<texPath>ZWB_Textures/Things/Coralith</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<flipExtraRotation>80</flipExtraRotation>
+			<!-- <color>(128,86,98)</color> -->
+		</graphicData>
 		<stuffProps>
 			<color>(128,86,98)</color>
 			<soundImpactBullet>BulletImpact_Ground</soundImpactBullet>
 			<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
 			<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
 			<soundImpactMelee>Pawn_Melee_Punch_HitBuilding_Stone</soundImpactMelee>
-			<stuffAdjective>coralite</stuffAdjective>
+			<stuffAdjective>coralith</stuffAdjective>
 			<statFactors>
 				<Beauty>1.4</Beauty>
 				<MaxHitPoints>1.5</MaxHitPoints>
@@ -137,35 +114,6 @@
 		</stuffProps>
 	</ThingDef>
 
-
-
-
-
-	<RecipeDef ParentName="MakeStoneBlocksBase">
-		<defName>ZWB_Make_BlocksCoralite</defName>
-		<label>make coralite blocks</label>
-		<description>Cuts coralite chunks into usable blocks.</description>
-		<workAmount>600</workAmount>
-		<targetCountAdjustment>8</targetCountAdjustment>
-		<ingredients>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>ZWB_ChunkCoralite</li>
-					</thingDefs>
-				</filter>
-				<count>1</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<thingDefs>
-				<li>ZWB_ChunkCoralite</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<products>
-			<ZWB_BlocksCoralite>8</ZWB_BlocksCoralite>
-		</products>
-	</RecipeDef>
 
 </Defs>
 

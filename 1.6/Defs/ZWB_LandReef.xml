@@ -79,12 +79,12 @@
 				<max>0.25</max>
 			</li>
 			<li>
-				<terrain>ZWB_MidSand</terrain>
+				<terrain>ZWB_GenicSand</terrain>
 				<min>0.25</min>
 				<max>0.65</max>
 			</li>
 			<li>
-				<terrain>ZWB_FertileSand</terrain>
+				<terrain>ZWB_BiogenicSand</terrain>
 				<min>0.65</min>
 				<max>999</max>
 			</li>
@@ -95,7 +95,7 @@
 				<isPond>true</isPond>
 				<thresholds>
 					<li>
-						<terrain>ZWB_FertileSand</terrain>
+						<terrain>ZWB_BiogenicSand</terrain>
 						<min>0.45</min>
 						<max>0.85</max>
 					</li>
@@ -140,8 +140,8 @@
 			<ZWB_SeaWhip>0.35</ZWB_SeaWhip>
 
 			<!-- harvestable food -->
-			<ZWB_Bonefruit>0.2</ZWB_Bonefruit>
-			<ZWB_Redstalk>0.2</ZWB_Redstalk>
+			<ZWB_Bonefruit>0.05</ZWB_Bonefruit>
+			<ZWB_Redstalk>0.05</ZWB_Redstalk>
 
 			<!-- harvestable other -->
 			<ZWB_TyrianVeilWild>0.03</ZWB_TyrianVeilWild>

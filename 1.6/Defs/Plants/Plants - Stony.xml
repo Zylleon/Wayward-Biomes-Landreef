@@ -9,7 +9,7 @@
 			<visualSizeRange>0.4~1.6</visualSizeRange>
 			<topWindExposure>0</topWindExposure>
 			<wildOrder>2</wildOrder>
-			<harvestedThingDef>ZWB_ChunkCoralite</harvestedThingDef>
+			<harvestedThingDef>ZWB_CoralithChunk</harvestedThingDef>
 			<harvestYield>5</harvestYield>
 			<harvestTag>Standard</harvestTag>
 			<harvestMinGrowth>0.85</harvestMinGrowth>
@@ -38,7 +38,7 @@
 			<wildClusterWeight>500</wildClusterWeight>
 			<visualSizeRange>0.4~1.6</visualSizeRange>
 			<wildOrder>2</wildOrder>
-			<harvestYield>5</harvestYield>
+			<harvestYield>15</harvestYield>
 		</plant>
 	</ThingDef>
 	
@@ -59,12 +59,12 @@
 		<uiIconScale>0.85</uiIconScale>
 		<plant>
 			<fertilitySensitivity>0.2</fertilitySensitivity>
-			<growDays>12</growDays>
+			<growDays>11</growDays>
 			<wildClusterRadius>4</wildClusterRadius>
 			<wildClusterWeight>90</wildClusterWeight>
 			<visualSizeRange>0.4~0.9</visualSizeRange>
 			<wildOrder>2</wildOrder>
-			<harvestYield>2</harvestYield>
+			<harvestYield>4</harvestYield>
 		</plant>
 	</ThingDef>
 	

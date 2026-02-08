@@ -96,7 +96,7 @@
 	<ThingDef ParentName="ZWB_DredgewoodTreeBase">
 		<defName>ZWB_SeaWhip</defName>
 		<label>sea whip</label>
-		<description>A woody coral.</description>
+		<description>A long diverged relative of the orange coral, this blue coral is known for its quick growth. It can be chopped down for a small amount of dredgewood.</description>
 		<graphicData>
 			<texPath>ZWB_Textures/Plants/SeaWhip</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
@@ -123,7 +123,7 @@
 		<ThingDef ParentName="BushBase">
 		<defName>ZWB_Table</defName>
 		<label>table</label>
-		<description>A thingie</description>
+		<description>A type of coral that has long ago moved to land. While rather rare, it has existed on land for so long that its structure is nearly identical to the wood of trees, and it can be harvested for normal wood.</description>
 		<graphicData>
 			<texPath>ZWB_Textures/Plants/Table</texPath>
 			<graphicClass>Graphic_Random</graphicClass>

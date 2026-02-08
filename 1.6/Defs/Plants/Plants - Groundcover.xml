@@ -4,12 +4,12 @@
 	<ThingDef ParentName="PlantBase">
 		<defName>ZWB_ValentineTrumpets</defName>
 		<label>valentine trumpets</label>
-		<description>A cluster of tiny, brightly colored coral.</description>
+		<description>A small type of tubular coral that grows in small clusters. It is praised and sought after for its beauty. Many will often give a bouquet of these to their loved ones as gifts.</description>
 		<statBases>
 			<MaxHitPoints>85</MaxHitPoints>
-			<Beauty>4</Beauty>
-			<BeautyOutdoors>4</BeautyOutdoors>
-			<Nutrition>0.25</Nutrition>
+			<Beauty>14</Beauty>
+			<BeautyOutdoors>14</BeautyOutdoors>
+			<Nutrition>0.15</Nutrition>
 		</statBases>
 		<graphicData>
 			<texPath>ZWB_Textures/Plants/ValentineTrumpets</texPath>
@@ -33,15 +33,16 @@
 			<purpose>Beauty</purpose>
 		</plant>
 	</ThingDef>
-	
-	
+
+
 	<ThingDef ParentName="BushBase">
 		<defName>ZWB_LilacFrill</defName>
 		<label>lilac frill</label>
-		<description>A pale purple sea fan, adapted for dry land.</description>
+		<description>A kind of sea fan adapted for life on land. It’s nice to look at.</description>
 		<statBases>
 			<Beauty>8</Beauty>
 			<BeautyOutdoors>8</BeautyOutdoors>
+			<Nutrition>0.25</Nutrition>
 		</statBases>
 		<graphicData>
 			<texPath>ZWB_Textures/Plants/LilacFrill</texPath>
@@ -55,11 +56,19 @@
 		<plant>
 			<wildClusterRadius>3</wildClusterRadius>
 			<wildClusterWeight>300</wildClusterWeight>
+			<sowWork>750</sowWork>
+			<sowTags>
+				<li>Ground</li>
+				<li>Decorative</li>
+			</sowTags>
+			<growDays>4.5</growDays>
+			<growMinGlow>0.3</growMinGlow>
+			<wildOrder>2</wildOrder>
 		</plant>
 	</ThingDef>
-	
-	
-	
+
+
+
 	<ThingDef ParentName="PlantBase">
 		<defName>ZWB_Sinkweed</defName>
 		<label>sinkweed</label>
@@ -88,9 +97,9 @@
 			<wildOrder>1</wildOrder>
 		</plant>
 	</ThingDef>
-	
-	
-	
+
+
+
 	<ThingDef ParentName="PlantBase">
 		<defName>ZWB_Kelp</defName>
 		<label>kelp</label>
@@ -119,9 +128,9 @@
 			<wildOrder>1</wildOrder>
 		</plant>
 	</ThingDef>
-	
-	
-	
+
+
+
 	<ThingDef ParentName="PlantBase">
 		<defName>ZWB_Seagrass</defName>
 		<label>seagrass</label>
@@ -151,10 +160,10 @@
 			<maxGrowthTemperature>75</maxGrowthTemperature>
 		</plant>
 	</ThingDef>
-	
-	
-	
-	
+
+
+
+
 	<ThingDef ParentName="PlantBase">
 		<defName>ZWB_Firegrass</defName>
 		<label>firegrass</label>
@@ -184,9 +193,9 @@
 			<maxGrowthTemperature>75</maxGrowthTemperature>
 		</plant>
 	</ThingDef>
-	
-	
-	
+
+
+
 	<ThingDef ParentName="PlantBase">
 		<defName>ZWB_SaltPot</defName>
 		<label>salt pot</label>
@@ -218,16 +227,16 @@
 			<wildOrder>2</wildOrder>
 		</plant>
 	</ThingDef>
-	
-	
-	
+
+
+
 	<ThingDef ParentName="PlantBase">
 		<defName>ZWB_CobaltScrunge</defName>
 		<label>cobalt scrunge</label>
 		<description>Spongey and blue.</description>
 		<statBases>
-		  <MaxHitPoints>90</MaxHitPoints>
-		  <Nutrition>0.25</Nutrition>
+			<MaxHitPoints>90</MaxHitPoints>
+			<Nutrition>0.25</Nutrition>
 		</statBases>
 		<graphicData>
 			<texPath>ZWB_Textures/Plants/CobaltScrunge</texPath>
@@ -244,15 +253,15 @@
 			<wildOrder>2</wildOrder>
 		</plant>
 	</ThingDef>
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
+
+
+
+
+
+
+
+
+
 </Defs>
 
