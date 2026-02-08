@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <ModMetaData>
-  <name>New Biome Mod</name>
+  <name>Wayward Biomes: Landreef</name>
   <author>Zylle</author>
   <supportedVersions><li>1.6</li></supportedVersions>
-  <packageId>zylle.NewBiomeMod</packageId>
+  <packageId>zylle.WaywardBiomes.Landreef</packageId>
   <description>
   Description goes here.
 

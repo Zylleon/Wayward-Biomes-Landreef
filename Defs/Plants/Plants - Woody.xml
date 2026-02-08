@@ -67,7 +67,7 @@
 	<ThingDef ParentName="ZWB_DredgewoodTreeBase">
 		<defName>ZWB_SeaRod</defName>
 		<label>sea rod</label>
-		<description>A woody coral.</description>
+		<description>A slow growing coral adapted to grow on land. It is named after it's distinctive fiery coloring. It can be chopped down for Dredgewood, a fire-resistant woody material.</description>
 		<graphicData>
 			<texPath>ZWB_Textures/Plants/SeaRod</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
@@ -123,7 +123,7 @@
 		<ThingDef ParentName="BushBase">
 		<defName>ZWB_Table</defName>
 		<label>table</label>
-		<description>Not a stone at all but a slow-growing coral, adapted for life on dry land.</description>
+		<description>A thingie</description>
 		<graphicData>
 			<texPath>ZWB_Textures/Plants/Table</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
