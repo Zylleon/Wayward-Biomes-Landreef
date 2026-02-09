@@ -27,19 +27,29 @@
 		</tags>
 	</BodyPartDef>
 
+	<BodyPartDef>
+		<defName>ZWB_Fin</defName>
+		<label>fin</label>
+		<hitPoints>10</hitPoints>
+		<skinCovered>false</skinCovered>
+		<canScarify>true</canScarify>
+		<bleedRate>0</bleedRate>
+	</BodyPartDef>
 
 
-  <BodyPartGroupDef>
-    <defName>ZWB_FrontLeftFlipper</defName>
-    <label>front left flipper</label>
-    <labelShort>flipper</labelShort>
-  </BodyPartGroupDef>
-  
-  <BodyPartGroupDef>
-    <defName>ZWB_FrontRightFlipper</defName>
-    <label>front right flipper</label>
-    <labelShort>flipper</labelShort>
-  </BodyPartGroupDef>
+
+
+	<BodyPartGroupDef>
+		<defName>ZWB_FrontLeftFlipper</defName>
+		<label>front left flipper</label>
+		<labelShort>flipper</labelShort>
+	</BodyPartGroupDef>
+
+	<BodyPartGroupDef>
+		<defName>ZWB_FrontRightFlipper</defName>
+		<label>front right flipper</label>
+		<labelShort>flipper</labelShort>
+	</BodyPartGroupDef>
 
 
 

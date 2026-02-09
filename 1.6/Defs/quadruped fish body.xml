@@ -130,14 +130,18 @@
 					<customLabel>rear left flipper</customLabel>
 					<coverage>0.07</coverage>
 					<height>Bottom</height>
-					
 				</li>
 				<li>
 					<def>ZWB_Flipper</def>
 					<customLabel>rear right flipper</customLabel>
 					<coverage>0.07</coverage>
 					<height>Bottom</height>
-					
+				</li>
+				<li>
+					<def>ZWB_Fin</def>
+					<customLabel>dorsal fin</customLabel>
+					<coverage>0.03</coverage>
+					<height>Top</height>
 				</li>
 			</parts>
 		</corePart>

@@ -27,7 +27,7 @@
 			<harvestWork>190</harvestWork>
 			<maxMeshCount>4</maxMeshCount>
 			<harvestTag>Standard</harvestTag>
-			<harvestAfterGrowth>0.30</harvestAfterGrowth>
+			<!-- <harvestAfterGrowth>0.30</harvestAfterGrowth> -->
 			<harvestedThingDef>ZWB_RawRedstalk</harvestedThingDef>
 			<wildClusterRadius>5</wildClusterRadius>
 			<wildClusterWeight>250</wildClusterWeight>

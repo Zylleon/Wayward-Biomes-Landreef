@@ -134,7 +134,7 @@
 			<ZWB_StarCoral>1.3</ZWB_StarCoral>
 			<ZWB_Brainstone>0.5</ZWB_Brainstone>
 
-			<ZWB_Table>0.08</ZWB_Table>
+			<ZWB_LauBranch>0.08</ZWB_LauBranch>
 
 			<ZWB_SeaRod>0.2</ZWB_SeaRod>
 			<ZWB_SeaWhip>0.35</ZWB_SeaWhip>
@@ -149,7 +149,7 @@
 
 		</wildPlants>
 		<wildAnimals>
-			<Rat>1.0</Rat>
+			<ZWB_YellowTang>1.0</ZWB_YellowTang>
 			<ZWB_Jesterfish>1.0</ZWB_Jesterfish>
 		</wildAnimals>
 		<allowedPackAnimals>
