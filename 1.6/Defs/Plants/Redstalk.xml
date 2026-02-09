@@ -21,14 +21,14 @@
 		<plant>
 			<fertilityMin>0.5</fertilityMin>
 			<fertilitySensitivity>0.5</fertilitySensitivity>
-			<growDays>6</growDays>
+			<growDays>3.5</growDays>
 			<immatureGraphicPath>ZWB_Textures/Plants/Redstalk_Immature</immatureGraphicPath>
-			<harvestYield>10</harvestYield>
+			<harvestYield>7</harvestYield>
 			<harvestWork>190</harvestWork>
 			<maxMeshCount>4</maxMeshCount>
 			<harvestTag>Standard</harvestTag>
 			<harvestAfterGrowth>0.30</harvestAfterGrowth>
-			<harvestedThingDef>RawBerries</harvestedThingDef>
+			<harvestedThingDef>ZWB_RawRedstalk</harvestedThingDef>
 			<wildClusterRadius>5</wildClusterRadius>
 			<wildClusterWeight>250</wildClusterWeight>
 			<visualSizeRange>0.5~0.85</visualSizeRange>
@@ -40,5 +40,27 @@
 
 
 
+  <ThingDef ParentName="PlantFoodRawBase">
+    <defName>ZWB_RawRedstalk</defName>
+    <label>redstalk fruit</label>
+    <description>Raw redstalk fruit.</description>
+    <soundInteract>Grain_Drop</soundInteract>
+    <soundDrop>Grain_Drop</soundDrop>
+    <graphicData>
+      <texPath>ZWB_Textures/Things/RedstalkFruit</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.1</MarketValue>
+    </statBases>
+    <ingestible>
+      <foodType>VegetableOrFruit</foodType>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>25</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
 </Defs>
 

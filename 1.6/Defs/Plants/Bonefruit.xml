@@ -25,13 +25,13 @@
 		<plant>
 			<fertilityMin>0.5</fertilityMin>
 			<fertilitySensitivity>0.5</fertilitySensitivity>
-			<growDays>6</growDays>
+			<growDays>9.5</growDays>
 			<immatureGraphicPath>ZWB_Textures/Plants/Bonefruit_Immature</immatureGraphicPath>
-			<harvestYield>10</harvestYield>
+			<harvestYield>21</harvestYield>
 			<harvestWork>250</harvestWork>
 			<harvestTag>Standard</harvestTag>
 			<harvestAfterGrowth>0.30</harvestAfterGrowth>
-			<harvestedThingDef>RawBerries</harvestedThingDef>
+			<harvestedThingDef>ZWB_BonefruitFruit</harvestedThingDef>
 			<wildClusterRadius>5</wildClusterRadius>
 			<wildClusterWeight>250</wildClusterWeight>
 			<visualSizeRange>0.6~1.0</visualSizeRange>
@@ -42,6 +42,30 @@
 	</ThingDef>
 
 
+
+  <ThingDef ParentName="PlantFoodRawBase">
+    <defName>ZWB_BonefruitFruit</defName>
+    <label>bonefruit fruit</label>
+    <description>Assorted berries. Nice to eat, even when raw.</description>
+    <graphicData>
+      <texPath>ZWB_Textures/Things/BonefruitFruit</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.2</MarketValue>
+      <Mass>0.027</Mass>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>34</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+    <ingestible>
+      <preferability>RawTasty</preferability>
+      <tasteThought></tasteThought>
+      <foodType>VegetableOrFruit</foodType>
+    </ingestible>
+  </ThingDef>
 
 </Defs>
 

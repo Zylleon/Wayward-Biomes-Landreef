@@ -67,7 +67,7 @@
 	<ThingDef ParentName="ZWB_DredgewoodTreeBase">
 		<defName>ZWB_SeaRod</defName>
 		<label>sea rod</label>
-		<description>A slow growing coral adapted to grow on land. It is named after it's distinctive fiery coloring. It can be chopped down for Dredgewood, a fire-resistant woody material.</description>
+		<description>A slow growing coral adapted to grow on land. It is named after it's distinctive fiery coloring. It can be chopped down for dredgewood, a fire-resistant woody material.</description>
 		<graphicData>
 			<texPath>ZWB_Textures/Plants/SeaRod</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
@@ -121,9 +121,9 @@
 	
 	
 		<ThingDef ParentName="BushBase">
-		<defName>ZWB_Table</defName>
-		<label>table</label>
-		<description>A type of coral that has long ago moved to land. While rather rare, it has existed on land for so long that its structure is nearly identical to the wood of trees, and it can be harvested for normal wood.</description>
+		<defName>ZWB_LauBranch</defName>
+		<label>lau branch</label>
+		<description>A type of woody coral that has long ago moved to land. While rather rare, it has existed on land for so long that its structure is nearly identical to the wood of trees, and it can be harvested for normal wood.</description>
 		<graphicData>
 			<texPath>ZWB_Textures/Plants/Table</texPath>
 			<graphicClass>Graphic_Random</graphicClass>

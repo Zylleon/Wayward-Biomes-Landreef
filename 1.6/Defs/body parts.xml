@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+
+
+	<BodyPartDef>
+		<defName>ZWB_Nares</defName>
+		<label>nares</label>
+		<hitPoints>10</hitPoints>
+		<frostbiteVulnerability>5</frostbiteVulnerability>
+		<skinCovered>true</skinCovered>
+		<canScarify>true</canScarify>
+		<beautyRelated>true</beautyRelated>
+		<solid>true</solid>
+		<bleedRate>0</bleedRate>
+		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+	</BodyPartDef>
+
+	<BodyPartDef>
+		<defName>ZWB_Flipper</defName>
+		<label>flpper</label>
+		<hitPoints>30</hitPoints>
+		<skinCovered>true</skinCovered>
+		<canScarify>true</canScarify>
+		<tags>
+			<li>MovingLimbCore</li>
+		</tags>
+	</BodyPartDef>
+
+
+
+  <BodyPartGroupDef>
+    <defName>ZWB_FrontLeftFlipper</defName>
+    <label>front left flipper</label>
+    <labelShort>flipper</labelShort>
+  </BodyPartGroupDef>
+  
+  <BodyPartGroupDef>
+    <defName>ZWB_FrontRightFlipper</defName>
+    <label>front right flipper</label>
+    <labelShort>flipper</labelShort>
+  </BodyPartGroupDef>
+
+
+
+
+
+
+</Defs>
+

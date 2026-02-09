@@ -38,7 +38,7 @@
 	<ThingDef ParentName="BushBase">
 		<defName>ZWB_LilacFrill</defName>
 		<label>lilac frill</label>
-		<description>A kind of sea fan adapted for life on land. It’s nice to look at.</description>
+		<description>A kind of sea fan adapted for life on land. It’s nice to look at, and commonly found in tidewrack reefs.</description>
 		<statBases>
 			<Beauty>8</Beauty>
 			<BeautyOutdoors>8</BeautyOutdoors>
@@ -72,7 +72,7 @@
 	<ThingDef ParentName="PlantBase">
 		<defName>ZWB_Sinkweed</defName>
 		<label>sinkweed</label>
-		<description>A reddish, briney frond.</description>
+		<description>A briney frond found in various shades of dull red. Quite common.</description>
 		<statBases>
 			<MaxHitPoints>85</MaxHitPoints>
 			<Beauty>4</Beauty>
@@ -103,7 +103,7 @@
 	<ThingDef ParentName="PlantBase">
 		<defName>ZWB_Kelp</defName>
 		<label>kelp</label>
-		<description>A greenish, briney frond.</description>
+		<description>A dull green vine-like plant that can be found covering the floors of tidewrack reefs.</description>
 		<statBases>
 			<MaxHitPoints>85</MaxHitPoints>
 			<Beauty>4</Beauty>
@@ -134,7 +134,7 @@
 	<ThingDef ParentName="PlantBase">
 		<defName>ZWB_Seagrass</defName>
 		<label>seagrass</label>
-		<description>Wild tall seagrass. Slows down anyone moving over it.</description>
+		<description>A blue-green tall grass that adapted to grow on land. One of the most common types of plant found in tidewrack reefs.</description>
 		<statBases>
 			<MaxHitPoints>90</MaxHitPoints>
 			<Flammability>1.3</Flammability>
@@ -167,7 +167,7 @@
 	<ThingDef ParentName="PlantBase">
 		<defName>ZWB_Firegrass</defName>
 		<label>firegrass</label>
-		<description>Wild tall seagrass. Slows down anyone moving over it.</description>
+		<description>Short, fiery red grass adapted for life on land.</description>
 		<statBases>
 			<MaxHitPoints>90</MaxHitPoints>
 			<Flammability>1.3</Flammability>
@@ -253,11 +253,6 @@
 			<wildOrder>2</wildOrder>
 		</plant>
 	</ThingDef>
-
-
-
-
-
 
 
 
