@@ -3,15 +3,15 @@
 
 
 	<ThingDef ParentName="PlantBase" >
-		<defName>ZWB_Bonefruit</defName>
-		<label>bonefruit</label>
+		<defName>ZWB_Lilypad</defName>
+		<label>lilypad</label>
 		<description>A bushy wild plant which yields delicious berries. Berries can be cooked, but they're also good to eat even when raw.</description>
 		<statBases>
 			<MaxHitPoints>120</MaxHitPoints>
 			<Nutrition>0.50</Nutrition>
 		</statBases>
 		<graphicData>
-			<texPath>ZWB_Textures/Plants/Bonefruit</texPath>
+			<texPath>ZWB_Textures/Plants/Lilypad</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 			<shadowData>
 				<volume>(0.35, 0.35, 0.25)</volume>
@@ -26,12 +26,12 @@
 			<fertilityMin>0.5</fertilityMin>
 			<fertilitySensitivity>0.5</fertilitySensitivity>
 			<growDays>9.5</growDays>
-			<immatureGraphicPath>ZWB_Textures/Plants/Bonefruit_Immature</immatureGraphicPath>
+			<immatureGraphicPath>ZWB_Textures/Plants/Lilypad_Immature</immatureGraphicPath>
 			<harvestYield>21</harvestYield>
 			<harvestWork>250</harvestWork>
 			<harvestTag>Standard</harvestTag>
 			<harvestAfterGrowth>0.30</harvestAfterGrowth>
-			<harvestedThingDef>ZWB_BonefruitFruit</harvestedThingDef>
+			<harvestedThingDef>ZWB_Algfruit</harvestedThingDef>
 			<wildClusterRadius>5</wildClusterRadius>
 			<wildClusterWeight>250</wildClusterWeight>
 			<visualSizeRange>0.6~1.0</visualSizeRange>
@@ -42,13 +42,13 @@
 	</ThingDef>
 
 
-
+<!--
   <ThingDef ParentName="PlantFoodRawBase">
-    <defName>ZWB_BonefruitFruit</defName>
-    <label>bonefruit fruit</label>
+    <defName>ZWB_AlgfruitFruit</defName>
+    <label>algfruit fruit</label>
     <description>Assorted berries. Nice to eat, even when raw.</description>
     <graphicData>
-      <texPath>ZWB_Textures/Things/BonefruitFruit</texPath>
+      <texPath>ZWB_Textures/Things/AlgfruitFruit</texPath>
     </graphicData>
     <statBases>
       <MarketValue>1.2</MarketValue>
@@ -66,6 +66,8 @@
       <foodType>VegetableOrFruit</foodType>
     </ingestible>
   </ThingDef>
+-->
+
 
 </Defs>
 

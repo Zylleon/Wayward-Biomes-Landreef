@@ -5,7 +5,7 @@
 	<ThingDef ParentName="PlantBase">
 		<defName>ZWB_FireCoral</defName>
 		<label>fire coral</label>
-		<description>Spongey and blue.</description>
+		<description>A bright orange branching coral that can leave a slight tingling sensation on the skin when lightly touched. Some tribes use its branches as weapons, the hard impact causes the coral to shatter and pierce the skin, leaving the victim with a much worse reaction.</description>
 		<statBases>
 		  <MaxHitPoints>90</MaxHitPoints>
 		  <Nutrition>0.25</Nutrition>
@@ -36,7 +36,7 @@
 	<ThingDef ParentName="BaseWeapon">
 		<defName>ZWB_WeaponFireCoral</defName>
 		<label>throwable fire coral</label>
-		<description>This jagged piece of coral can be thrown at an enemy, resulting in a painful paralyzing sting for anyone struck.</description>
+		<description>This jagged piece of coral can be thrown at an enemy. The coral shatters on impact, piercing the skin and resulting in a painful paralyzing sting for anyone struck.</description>
 		<tradeability>Sellable</tradeability>
 
 		<graphicData>

@@ -140,8 +140,9 @@
 			<ZWB_SeaWhip>0.35</ZWB_SeaWhip>
 
 			<!-- harvestable food -->
-			<ZWB_Bonefruit>0.05</ZWB_Bonefruit>
+			<ZWB_AlgfruitCoral>0.05</ZWB_AlgfruitCoral>
 			<ZWB_Redstalk>0.05</ZWB_Redstalk>
+			<ZWB_Lilypad>0.2</ZWB_Lilypad>
 
 			<!-- harvestable other -->
 			<ZWB_TyrianVeilWild>0.03</ZWB_TyrianVeilWild>

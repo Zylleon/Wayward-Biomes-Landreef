@@ -87,8 +87,8 @@
 			<Mass>0.032</Mass>
 			<Flammability>0.3</Flammability>
 			<DeteriorationRate>3</DeteriorationRate>
-			<StuffPower_Armor_Sharp>1.45</StuffPower_Armor_Sharp>
-			<StuffPower_Armor_Blunt>0.32</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Sharp>1.42</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.40</StuffPower_Armor_Blunt>
 			<StuffPower_Armor_Heat>2.25</StuffPower_Armor_Heat>
 			<StuffPower_Insulation_Cold>15</StuffPower_Insulation_Cold>
 			<StuffPower_Insulation_Heat>29</StuffPower_Insulation_Heat>

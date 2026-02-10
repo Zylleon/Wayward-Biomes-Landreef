@@ -167,7 +167,7 @@
 	<ThingDef ParentName="PlantBase">
 		<defName>ZWB_Firegrass</defName>
 		<label>firegrass</label>
-		<description>Short, fiery red grass adapted for life on land.</description>
+		<description>A sparse grass with a distinctive short and stubby look to its blades.</description>
 		<statBases>
 			<MaxHitPoints>90</MaxHitPoints>
 			<Flammability>1.3</Flammability>
@@ -198,12 +198,12 @@
 
 	<ThingDef ParentName="PlantBase">
 		<defName>ZWB_SaltPot</defName>
-		<label>salt pot</label>
+		<label>saltpot</label>
 		<description>A small, fast growing, terrestiral coral.</description>
 		<statBases>
 			<MaxHitPoints>150</MaxHitPoints>
-			<Beauty>4</Beauty>
-			<BeautyOutdoors>4</BeautyOutdoors>
+			<Beauty>6</Beauty>
+			<BeautyOutdoors>6</BeautyOutdoors>
 			<Nutrition>0.25</Nutrition>
 		</statBases>
 		<graphicData>
@@ -233,7 +233,7 @@
 	<ThingDef ParentName="PlantBase">
 		<defName>ZWB_CobaltScrunge</defName>
 		<label>cobalt scrunge</label>
-		<description>Spongey and blue.</description>
+		<description>A blue sponge-like organism found throughout tidewrack reefs.</description>
 		<statBases>
 			<MaxHitPoints>90</MaxHitPoints>
 			<Nutrition>0.25</Nutrition>
