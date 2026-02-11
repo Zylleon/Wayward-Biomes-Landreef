@@ -6,13 +6,12 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>ZWB_YellowTang</defName>
 		<label>yellow tang</label>
-		<description>A large semiamphibious pack animal descended from a species of clown fish that had adapted to a land based life style. Jester Fish are used throughout the rim as pack animals and livestock due to their docile nature.</description>
+		<description>PLACEHOLDER</description>
 		<statBases>
-			<MoveSpeed>3.2</MoveSpeed>
+			<MoveSpeed>3.8</MoveSpeed>
 			<ComfyTemperatureMin>-10</ComfyTemperatureMin>
 			<MarketValue>300</MarketValue>
-			<FilthRate>16</FilthRate>
-			<Wildness>0.15</Wildness>
+			<Wildness>0.35</Wildness>
 		</statBases>
 		<comps>
 			<li Class="CompProperties_EggLayer">
@@ -27,12 +26,11 @@
 		<race>
 			<body>ZWB_QuadrupedLandFish</body>
 			<herdAnimal>true</herdAnimal>
-			<baseBodySize>0.8</baseBodySize>
-			<baseHungerRate>0.35</baseHungerRate>
-			<baseHealthScale>0.75</baseHealthScale>
+			<baseBodySize>0.7</baseBodySize>
+			<baseHungerRate>0.30</baseHungerRate>
+			<baseHealthScale>0.85</baseHealthScale>
 			<foodType>VegetarianRoughAnimal</foodType>
 			<leatherDef>Leather_Plain</leatherDef>
-			<!-- <roamMtbDays>2</roamMtbDays> -->
 			<trainability>Intermediate</trainability>
 			<lifeExpectancy>14</lifeExpectancy>
 			<lifeStageAges>
@@ -84,7 +82,7 @@
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
-				<power>5</power>
+				<power>7</power>
 				<cooldownTime>2</cooldownTime>
 				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
@@ -121,8 +119,8 @@
 		<label>yellow tang</label>
 		<race>ZWB_YellowTang</race>
 		<combatPower>75</combatPower>
-		<ecoSystemWeight>1.1</ecoSystemWeight>
-		<wildGroupSize>3~7</wildGroupSize>
+		<ecoSystemWeight>0.5</ecoSystemWeight>
+		<wildGroupSize>2~5</wildGroupSize>
 		<lifeStages>
 			<li>
 				<label>yellow tang fry</label>
