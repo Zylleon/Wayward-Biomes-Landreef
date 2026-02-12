@@ -257,7 +257,37 @@
 
 
 
-
+	<ThingDef ParentName="PlantBase">
+		<defName>ZWB_OrangeTube</defName>
+		<label>orange tube</label>
+		<description>A small orange tube coral that grows in clusters. It is very common, but nice to look at.</description>
+		<statBases>
+			<MaxHitPoints>75</MaxHitPoints>
+			<Beauty>9</Beauty>
+			<BeautyOutdoors>9</BeautyOutdoors>
+			<Nutrition>0.15</Nutrition>
+		</statBases>
+		<graphicData>
+			<texPath>ZWB_Textures/Plants/OrangeTube</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<hideAtSnowOrSandDepth>0.5</hideAtSnowOrSandDepth>
+		<ingestible/>
+		<plant>
+			<fertilitySensitivity>0.0</fertilitySensitivity>
+			<growDays>2.0</growDays>
+			<sowTags>
+				<li>Ground</li>
+			</sowTags>
+			<fertilityMin>0.05</fertilityMin>
+			<maxMeshCount>9</maxMeshCount>
+			<visualSizeRange>0.2~0.55</visualSizeRange>
+			<topWindExposure>0.2</topWindExposure>
+			<wildClusterRadius>4</wildClusterRadius>
+			<wildClusterWeight>150</wildClusterWeight>
+			<wildOrder>1</wildOrder>
+		</plant>
+	</ThingDef>
 
 </Defs>
 
