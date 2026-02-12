@@ -4,19 +4,19 @@
 
 
 	<ThingDef ParentName="AnimalThingBase">
-		<defName>ZWB_YellowTang</defName>
-		<label>yellow tang</label>
+		<defName>ZWB_SunriseTang</defName>
+		<label>sunrise tang</label>
 		<description>PLACEHOLDER</description>
 		<statBases>
 			<MoveSpeed>3.8</MoveSpeed>
 			<ComfyTemperatureMin>-10</ComfyTemperatureMin>
-			<MarketValue>300</MarketValue>
+			<MarketValue>150</MarketValue>
 			<Wildness>0.35</Wildness>
 		</statBases>
 		<comps>
 			<li Class="CompProperties_EggLayer">
-				<eggUnfertilizedDef>ZWB_EggYellowTangUnfertilized</eggUnfertilizedDef>
-				<eggFertilizedDef>ZWB_EggYellowTangFertilized</eggFertilizedDef>
+				<eggUnfertilizedDef>ZWB_EggSunriseTangUnfertilized</eggUnfertilizedDef>
+				<eggFertilizedDef>ZWB_EggSunriseTangFertilized</eggFertilizedDef>
 				<eggFertilizationCountMax>1</eggFertilizationCountMax>
 				<eggLayIntervalDays>3.7</eggLayIntervalDays>
 				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
@@ -115,28 +115,28 @@
 
 
 	<PawnKindDef ParentName="AnimalKindBase">
-		<defName>ZWB_YellowTang</defName>
-		<label>yellow tang</label>
-		<race>ZWB_YellowTang</race>
+		<defName>ZWB_SunriseTang</defName>
+		<label>sunrise tang</label>
+		<race>ZWB_SunriseTang</race>
 		<combatPower>50</combatPower>
 		<ecoSystemWeight>0.5</ecoSystemWeight>
-		<wildGroupSize>2~5</wildGroupSize>
+		<wildGroupSize>3~7</wildGroupSize>
 		<lifeStages>
 			<li>
-				<label>yellow tang fry</label>
-				<labelPlural>yellow tang fry</labelPlural>
+				<label>sunrise tang fry</label>
+				<labelPlural>sunrise tang fry</labelPlural>
 				<bodyGraphicData>
-					<texPath>ZWB_Textures/Animals/YellowTang/YellowTang</texPath>
+					<texPath>ZWB_Textures/Animals/SunriseTang/SunriseTang</texPath>
 					<drawSize>0.75</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>ZWB_Textures/Animals/YellowTang/Dessicated_YellowTang</texPath>
+					<texPath>ZWB_Textures/Animals/SunriseTang/Dessicated_SunriseTang</texPath>
 					<drawSize>0.75</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>ZWB_Textures/Animals/YellowTang/YellowTang</texPath>
+					<texPath>ZWB_Textures/Animals/SunriseTang/SunriseTang</texPath>
 					<drawSize>1.0</drawSize>
 					<shadowData>
 						<volume>(0.25, 0.3, 0.25)</volume>
@@ -144,13 +144,13 @@
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>ZWB_Textures/Animals/YellowTang/Dessicated_YellowTang</texPath>
+					<texPath>ZWB_Textures/Animals/SunriseTang/Dessicated_SunriseTang</texPath>
 					<drawSize>1.0</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>ZWB_Textures/Animals/YellowTang/YellowTang</texPath>
+					<texPath>ZWB_Textures/Animals/SunriseTang/SunriseTang</texPath>
 					<drawSize>1.5</drawSize>
 					<shadowData>
 						<volume>(0.3, 0.4, 0.3)</volume>
@@ -158,7 +158,7 @@
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>ZWB_Textures/Animals/YellowTang/Dessicated_YellowTang</texPath>
+					<texPath>ZWB_Textures/Animals/SunriseTang/Dessicated_SunriseTang</texPath>
 					<drawSize>1.5</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
@@ -168,9 +168,9 @@
 
 
 	<ThingDef ParentName="EggFertBase">
-		<defName>ZWB_EggYellowTangFertilized</defName>
-		<label>yellow tang egg (fert.)</label>
-		<description>A fertilized yellow tang egg. If all goes well, it should hatch into a baby yellow tang. It can be eaten raw, but it's much better cooked.</description>
+		<defName>ZWB_EggSunriseTangFertilized</defName>
+		<label>sunrise tang egg (fert.)</label>
+		<description>A fertilized sunrise tang egg. If all goes well, it should hatch into a baby sunrise tang. It can be eaten raw, but it's much better cooked.</description>
 		<graphicData>
 			<texPath>Things/Item/Resource/AnimalProductRaw/EggRound</texPath>
 			<color>(237,190,98)</color>
@@ -183,7 +183,7 @@
 		<comps>
 			<li Class="CompProperties_Hatcher">
 				<hatcherDaystoHatch>7</hatcherDaystoHatch>
-				<hatcherPawn>ZWB_YellowTang</hatcherPawn>
+				<hatcherPawn>ZWB_SunriseTang</hatcherPawn>
 			</li>
 		</comps>
 	</ThingDef>
@@ -191,9 +191,9 @@
 
 
 	<ThingDef ParentName="EggUnfertBase">
-		<defName>ZWB_EggYellowTangUnfertilized</defName>
-		<label>yellow tang egg (unfert.)</label>
-		<description>An unfertilized yellow tang egg. It can be eaten raw, but it's much better cooked.</description>
+		<defName>ZWB_EggSunriseTangUnfertilized</defName>
+		<label>sunrise tang egg (unfert.)</label>
+		<description>An unfertilized sunrise tang egg. It can be eaten raw, but it's much better cooked.</description>
 		<graphicData>
 			<texPath>Things/Item/Resource/AnimalProductRaw/EggRound</texPath>
 			<color>(176,153,108)</color>

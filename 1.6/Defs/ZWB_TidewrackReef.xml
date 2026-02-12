@@ -150,8 +150,9 @@
 
 		</wildPlants>
 		<wildAnimals>
-			<ZWB_YellowTang>1.0</ZWB_YellowTang>
+			<ZWB_SunriseTang>1.0</ZWB_SunriseTang>
 			<ZWB_Jesterfish>1.0</ZWB_Jesterfish>
+			<ZWB_MidnightTang>1.0</ZWB_MidnightTang>
 		</wildAnimals>
 		<allowedPackAnimals>
 			<li>Muffalo</li>

@@ -122,7 +122,7 @@
 		<race>ZWB_Jesterfish</race>
 		<combatPower>75</combatPower>
 		<ecoSystemWeight>1.05</ecoSystemWeight>
-		<wildGroupSize>3~7</wildGroupSize>
+		<wildGroupSize>2~5</wildGroupSize>
 		<lifeStages>
 			<li>
 				<label>jesterfish fry</label>
