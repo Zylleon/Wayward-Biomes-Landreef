@@ -118,7 +118,7 @@
 		<defName>ZWB_YellowTang</defName>
 		<label>yellow tang</label>
 		<race>ZWB_YellowTang</race>
-		<combatPower>75</combatPower>
+		<combatPower>50</combatPower>
 		<ecoSystemWeight>0.5</ecoSystemWeight>
 		<wildGroupSize>2~5</wildGroupSize>
 		<lifeStages>

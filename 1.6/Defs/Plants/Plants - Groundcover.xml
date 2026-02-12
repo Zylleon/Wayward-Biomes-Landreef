@@ -199,7 +199,7 @@
 	<ThingDef ParentName="PlantBase">
 		<defName>ZWB_SaltPot</defName>
 		<label>saltpot</label>
-		<description>A small, fast growing, terrestiral coral.</description>
+		<description>A small, fast growing, terrestrial coral.</description>
 		<statBases>
 			<MaxHitPoints>150</MaxHitPoints>
 			<Beauty>6</Beauty>
@@ -238,6 +238,7 @@
 			<MaxHitPoints>90</MaxHitPoints>
 			<Nutrition>0.25</Nutrition>
 		</statBases>
+		<selectable>true</selectable>
 		<graphicData>
 			<texPath>ZWB_Textures/Plants/CobaltScrunge</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
