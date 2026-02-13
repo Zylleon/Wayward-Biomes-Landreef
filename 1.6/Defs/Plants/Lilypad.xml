@@ -1,11 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-
-	<ThingDef ParentName="PlantBase" >
-		<defName>ZWB_Lilypad</defName>
-		<label>lilypad</label>
-		<description>A bushy wild plant which yields delicious berries. Berries can be cooked, but they're also good to eat even when raw.</description>
+	<ThingDef ParentName="PlantBase" Name="ZWB_LilypadBase" Abstract="True">
+		<description>A squat coral-like lilypad imitator with a broad basal structure that produces gelatinous fruiting bodies. These nutrient-rich masses are edible, however, they are highly perishable.</description>
 		<statBases>
 			<MaxHitPoints>120</MaxHitPoints>
 			<Nutrition>0.50</Nutrition>
@@ -19,9 +16,8 @@
 			</shadowData>
 		</graphicData>
 		<selectable>true</selectable>
-		<neverMultiSelect>false</neverMultiSelect>
-		<fillPercent>0.20</fillPercent>
 		<pathCost>30</pathCost>
+		<ingestible/>
 		<plant>
 			<fertilityMin>0.5</fertilityMin>
 			<fertilitySensitivity>0.5</fertilitySensitivity>
@@ -42,7 +38,36 @@
 	</ThingDef>
 
 
-<!--
+
+	<ThingDef ParentName="ZWB_LilypadBase">
+		<defName>ZWB_LilypadWild</defName>
+		<label>wild lilypad</label>
+		<neverMultiSelect>false</neverMultiSelect>
+	</ThingDef>
+	
+	
+	
+
+	<ThingDef ParentName="ZWB_LilypadBase">
+		<defName>ZWB_Lilypad</defName>
+		<label>lilypad</label>
+		<plant>
+			<mustBeWildToSow>true</mustBeWildToSow>
+			<sowWork>800</sowWork>
+			<sowMinSkill>0</sowMinSkill>
+			<sowTags>
+				<li>Ground</li>
+				<li>Hydroponic</li>
+			</sowTags>
+			<!-- <sowResearchPrerequisites> -->
+				<!-- <li>Devilstrand</li> -->
+			<!-- </sowResearchPrerequisites> -->
+		</plant>
+	</ThingDef>
+
+
+	
+<!--  TODO
   <ThingDef ParentName="PlantFoodRawBase">
     <defName>ZWB_AlgfruitFruit</defName>
     <label>algfruit fruit</label>

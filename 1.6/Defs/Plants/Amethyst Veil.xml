@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-	<ThingDef ParentName="PlantBase" Name="ZWB_TyrianVeilBase" Abstract="True">
+	<ThingDef ParentName="PlantBase" Name="ZWB_AmethystVeilBase" Abstract="True">
 		<statBases>
 			<MaxHitPoints>60</MaxHitPoints>
 			<Nutrition>0.2</Nutrition>
 		</statBases>
 		<graphicData>
-			<texPath>ZWB_Textures/Plants/TyrianVeil</texPath>
+			<texPath>ZWB_Textures/Plants/AmethystVeil</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 			<shadowData>
 				<volume>(0.15, 0.18, 0.15)</volume>
@@ -18,13 +18,13 @@
 		<pathCost>14</pathCost>
 		<ingestible/>
 		<plant>
-			<immatureGraphicPath>ZWB_Textures/Plants/TyrianVeil_Immature</immatureGraphicPath>
+			<immatureGraphicPath>ZWB_Textures/Plants/AmethystVeil_Immature</immatureGraphicPath>
 			<growDays>7.5</growDays>
 			<dieIfLeafless>false</dieIfLeafless>
 			<harvestWork>400</harvestWork>
 			<harvestTag>Standard</harvestTag>
 
-			<harvestedThingDef>ZWB_TyrianVeilCloth</harvestedThingDef>
+			<harvestedThingDef>ZWB_AmethystVeilCloth</harvestedThingDef>
 
 			<harvestYield>9</harvestYield>
 			<topWindExposure>0.2</topWindExposure>
@@ -39,9 +39,9 @@
 
 
 
-	<ThingDef ParentName="ZWB_TyrianVeilBase">
-		<defName>ZWB_TyrianVeilWild</defName>
-		<label>wild tyrian veil</label>
+	<ThingDef ParentName="ZWB_AmethystVeilBase">
+		<defName>ZWB_AmethystVeilWild</defName>
+		<label>wild amethyst veil</label>
 		<description>A purple foliose coral, which can be harvested and used as a textile.</description>
 		<neverMultiSelect>false</neverMultiSelect>
 
@@ -50,14 +50,14 @@
 
 
 
-	<ThingDef ParentName="ZWB_TyrianVeilBase">
-		<defName>ZWB_TyrianVeil</defName>
-		<label>tyrian veil</label>
+	<ThingDef ParentName="ZWB_AmethystVeilBase">
+		<defName>ZWB_AmethystVeil</defName>
+		<label>amethyst veil</label>
 		<description>A purple foliose coral, which can be harvested and used as a textile.</description>
 		<plant>
+			<mustBeWildToSow>true</mustBeWildToSow>
 			<growDays>7</growDays>
 			<sowWork>800</sowWork>
-			<sowMinSkill>8</sowMinSkill>
 			<sowTags>
 				<li>Ground</li>
 				<li>Hydroponic</li>
@@ -74,11 +74,11 @@
 
 
 	<ThingDef ParentName="ResourceBase">
-		<defName>ZWB_TyrianVeilCloth</defName>
-		<label>tyrian veil</label>
+		<defName>ZWB_AmethystVeilCloth</defName>
+		<label>amethyst veil</label>
 		<description>Fabric harvested from a foliose coral. The interlocking fibers make it especially protective against sharp weapons, and it is difficult to burn.</description>
 		<graphicData>
-			<texPath>ZWB_Textures/Things/TyrianVeilCloth</texPath>
+			<texPath>ZWB_Textures/Things/AmethystVeilCloth</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<statBases>

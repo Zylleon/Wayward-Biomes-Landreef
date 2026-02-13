@@ -38,7 +38,7 @@
 	<ThingDef ParentName="BushBase">
 		<defName>ZWB_LilacFrill</defName>
 		<label>lilac frill</label>
-		<description>A kind of sea fan adapted for life on land. It’s nice to look at, and commonly found in tidewrack reefs.</description>
+		<description>A kind of sea fan adapted for life on land. It’s nice to look at, and commonly found in tidewrack reefs. Its flexible structure allows it to survive wind and shifting sand.</description>
 		<statBases>
 			<Beauty>8</Beauty>
 			<BeautyOutdoors>8</BeautyOutdoors>
@@ -102,8 +102,8 @@
 
 	<ThingDef ParentName="PlantBase">
 		<defName>ZWB_Kelp</defName>
-		<label>kelp</label>
-		<description>A dull green vine-like plant that can be found covering the floors of tidewrack reefs.</description>
+		<label>land-kelp</label>
+		<description>A dull, leathery plant that can be found covering the floors of tidewrack reefs. It retains many of its aquatic traits.</description>
 		<statBases>
 			<MaxHitPoints>85</MaxHitPoints>
 			<Beauty>4</Beauty>
@@ -167,7 +167,7 @@
 	<ThingDef ParentName="PlantBase">
 		<defName>ZWB_Firegrass</defName>
 		<label>firegrass</label>
-		<description>A sparse grass with a distinctive short and stubby look to its blades.</description>
+		<description>A sparse grass with a distinctive short and stubby look to its blades. Despite its appearance, it has no combustible properties.</description>
 		<statBases>
 			<MaxHitPoints>90</MaxHitPoints>
 			<Flammability>1.3</Flammability>
@@ -199,7 +199,7 @@
 	<ThingDef ParentName="PlantBase">
 		<defName>ZWB_SaltPot</defName>
 		<label>saltpot</label>
-		<description>A small, fast growing, terrestrial coral.</description>
+		<description>A small, cup-shaped coral that crystallizes salt on its surface. Mostly decorative and typically found in clustered growths.</description>
 		<statBases>
 			<MaxHitPoints>150</MaxHitPoints>
 			<Beauty>6</Beauty>
@@ -233,7 +233,7 @@
 	<ThingDef ParentName="PlantBase">
 		<defName>ZWB_CobaltScrunge</defName>
 		<label>cobalt scrunge</label>
-		<description>A blue sponge-like organism found throughout tidewrack reefs.</description>
+		<description>A blue sponge-like organism that filters minerals from the soil, found throughout tidewrack reefs.</description>
 		<statBases>
 			<MaxHitPoints>90</MaxHitPoints>
 			<Nutrition>0.25</Nutrition>
@@ -260,7 +260,7 @@
 	<ThingDef ParentName="PlantBase">
 		<defName>ZWB_AmberTube</defName>
 		<label>amber tube</label>
-		<description>A small orange tube coral that grows in clusters. It is very common, but nice to look at.</description>
+		<description>A small orange tube coral that grows in clusters. It's nice to look at.</description>
 		<statBases>
 			<MaxHitPoints>75</MaxHitPoints>
 			<Beauty>9</Beauty>

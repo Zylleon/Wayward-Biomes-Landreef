@@ -137,16 +137,16 @@
 
 			<ZWB_LauBranch>0.08</ZWB_LauBranch>
 
-			<ZWB_SeaRod>0.2</ZWB_SeaRod>
-			<ZWB_SeaWhip>0.35</ZWB_SeaWhip>
+			<ZWB_Heliopora>0.2</ZWB_Heliopora>
+			<ZWB_AzureFanwood>0.35</ZWB_AzureFanwood>
 
 			<!-- harvestable food -->
-			<ZWB_AlgfruitCoral>0.05</ZWB_AlgfruitCoral>
-			<ZWB_Redstalk>0.05</ZWB_Redstalk>
-			<ZWB_Lilypad>0.2</ZWB_Lilypad>
+			<ZWB_AlgfruitCoralWild>0.05</ZWB_AlgfruitCoralWild>
+			<ZWB_BerryGrassWild>0.05</ZWB_BerryGrassWild>
+			<ZWB_LilypadWild>0.2</ZWB_LilypadWild>
 
 			<!-- harvestable other -->
-			<ZWB_TyrianVeilWild>0.03</ZWB_TyrianVeilWild>
+			<ZWB_AmethystVeilWild>0.03</ZWB_AmethystVeilWild>
 			<ZWB_FireCoral>0.01</ZWB_FireCoral>
 
 		</wildPlants>

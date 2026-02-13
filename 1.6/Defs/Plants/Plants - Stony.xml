@@ -22,7 +22,7 @@
 	<ThingDef ParentName="ZWB_StonyCoralBase">
 		<defName>ZWB_Brainstone</defName>
 		<label>brainstone</label>
-		<description>Not a stone at all but a slow-growing coral, adapted for life on dry land.</description>
+		<description>Descended from ancient brain coral, brainstone is a massive, slow-growing organism that deposits thick layers of calcified material over many decades. Its folded surface maximizes mineral uptake from salty soils. While difficult to cultivate, it yields large quantities of coralite when harvested.</description>
 		<graphicData>
 			<texPath>ZWB_Textures/Plants/Brainstone</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
@@ -48,7 +48,7 @@
 	<ThingDef ParentName="ZWB_StonyCoralBase">
 		<defName>ZWB_StarCoral</defName>
 		<label>star coral</label>
-		<description>A slow-growing coral.</description>
+		<description>A small, aggressive coral cultivar that grows in dense, spined clusters. Its dark pigmentation improves tolerance to sunlight and desiccation. It matures faster than brainstone but produces less coralite per harvest.</description>
 		<graphicData>
 			<texPath>ZWB_Textures/Plants/StarCoral</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
