@@ -4,8 +4,8 @@
 
 
 	<ThingDef ParentName="AnimalThingBase">
-		<defName>ZWB_AmethystScrounger</defName>
-		<label>amethyst scrounger</label>
+		<defName>ZWB_AmethystSkrunt</defName>
+		<label>amethyst skrunt</label>
 		<description>A small creature that often makes its nests within amethyst veils. Many consider it a nuisance and see it as a bad omen.</description>
 		<statBases>
 			<MoveSpeed>4.0</MoveSpeed>
@@ -15,8 +15,8 @@
 		</statBases>
 		<comps>
 			<li Class="CompProperties_EggLayer">
-				<eggUnfertilizedDef>ZWB_EggAmethystScroungerUnfertilized</eggUnfertilizedDef>
-				<eggFertilizedDef>ZWB_EggAmethystScroungerFertilized</eggFertilizedDef>
+				<eggUnfertilizedDef>ZWB_EggAmethystSkruntUnfertilized</eggUnfertilizedDef>
+				<eggFertilizedDef>ZWB_EggAmethystSkruntFertilized</eggFertilizedDef>
 				<eggFertilizationCountMax>1</eggFertilizationCountMax>
 				<eggLayIntervalDays>3.0</eggLayIntervalDays>
 				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
@@ -114,28 +114,28 @@
 
 
 	<PawnKindDef ParentName="AnimalKindBase">
-		<defName>ZWB_AmethystScrounger</defName>
-		<label>amethyst scrounger</label>
-		<race>ZWB_AmethystScrounger</race>
+		<defName>ZWB_AmethystSkrunt</defName>
+		<label>amethyst skrunt</label>
+		<race>ZWB_AmethystSkrunt</race>
 		<combatPower>30</combatPower>
 		<ecoSystemWeight>0.20</ecoSystemWeight>
 		<wildGroupSize>1~3</wildGroupSize>
 		<lifeStages>
 			<li>
-				<label>amethyst scrounger fry</label>
-				<labelPlural>amethyst scrounger fry</labelPlural>
+				<label>amethyst skrunt fry</label>
+				<labelPlural>amethyst skrunt fry</labelPlural>
 				<bodyGraphicData>
-					<texPath>ZWB_Textures/Animals/AmethystScrounger/AmethystScrounger</texPath>
+					<texPath>ZWB_Textures/Animals/AmethystSkrunt/AmethystSkrunt</texPath>
 					<drawSize>0.5</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>ZWB_Textures/Animals/AmethystScrounger/Dessicated_AmethystScrounger</texPath>
+					<texPath>ZWB_Textures/Animals/AmethystSkrunt/Dessicated_AmethystSkrunt</texPath>
 					<drawSize>0.5</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>ZWB_Textures/Animals/AmethystScrounger/AmethystScrounger</texPath>
+					<texPath>ZWB_Textures/Animals/AmethystSkrunt/AmethystSkrunt</texPath>
 					<drawSize>0.8</drawSize>
 					<shadowData>
 						<volume>(0.25, 0.3, 0.25)</volume>
@@ -143,13 +143,13 @@
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>ZWB_Textures/Animals/AmethystScrounger/Dessicated_AmethystScrounger</texPath>
+					<texPath>ZWB_Textures/Animals/AmethystSkrunt/Dessicated_AmethystSkrunt</texPath>
 					<drawSize>0.8</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>ZWB_Textures/Animals/AmethystScrounger/AmethystScrounger</texPath>
+					<texPath>ZWB_Textures/Animals/AmethystSkrunt/AmethystSkrunt</texPath>
 					<drawSize>1.0</drawSize>
 					<shadowData>
 						<volume>(0.3, 0.4, 0.3)</volume>
@@ -157,7 +157,7 @@
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>ZWB_Textures/Animals/AmethystScrounger/Dessicated_AmethystScrounger</texPath>
+					<texPath>ZWB_Textures/Animals/AmethystSkrunt/Dessicated_AmethystSkrunt</texPath>
 					<drawSize>1.0</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
@@ -167,9 +167,9 @@
 
 
 	<ThingDef ParentName="EggFertBase">
-		<defName>ZWB_EggAmethystScroungerFertilized</defName>
-		<label>amethyst scrounger egg (fert.)</label>
-		<description>A fertilized amethyst scrounger egg. If all goes well, it should hatch into a baby amethyst scrounger. It can be eaten raw, but it's much better cooked.</description>
+		<defName>ZWB_EggAmethystSkruntFertilized</defName>
+		<label>amethyst skrunt egg (fert.)</label>
+		<description>A fertilized amethyst skrunt egg. If all goes well, it should hatch into a baby amethyst skrunt. It can be eaten raw, but it's much better cooked.</description>
 		<graphicData>
 			<texPath>Things/Item/Resource/AnimalProductRaw/EggRound</texPath>
 			<color>(83,27,111)</color>
@@ -182,7 +182,7 @@
 		<comps>
 			<li Class="CompProperties_Hatcher">
 				<hatcherDaystoHatch>5</hatcherDaystoHatch>
-				<hatcherPawn>ZWB_AmethystScrounger</hatcherPawn>
+				<hatcherPawn>ZWB_AmethystSkrunt</hatcherPawn>
 			</li>
 		</comps>
 	</ThingDef>
@@ -192,7 +192,7 @@
 	<ThingDef ParentName="EggUnfertBase">
 		<defName>ZWB_EggMidnightTangUnfertilized</defName>
 		<label>midnight tang egg (unfert.)</label>
-		<description>An unfertilized amethyst scrounger egg. It can be eaten raw, but it's much better cooked.</description>
+		<description>An unfertilized amethyst skrunt egg. It can be eaten raw, but it's much better cooked.</description>
 		<graphicData>
 			<texPath>Things/Item/Resource/AnimalProductRaw/EggRound</texPath>
 			<color>(83,27,111)</color>
