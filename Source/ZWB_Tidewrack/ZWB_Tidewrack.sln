@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.1000
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36401.2 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RWTestMod", "RWTestMod.csproj", "{254C562C-93BB-43BD-869E-B6EB97874613}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZWB_Tidewrack", "ZWB_Tidewrack.csproj", "{254C562C-93BB-43BD-869E-B6EB97874613}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

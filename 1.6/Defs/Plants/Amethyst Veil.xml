@@ -2,6 +2,7 @@
 <Defs>
 
 	<ThingDef ParentName="PlantBase" Name="ZWB_AmethystVeilBase" Abstract="True">
+		<description>A foliose coral, which can be harvested and refined into a textile. This soft, luxurious fabric is highly prized.</description>
 		<statBases>
 			<MaxHitPoints>60</MaxHitPoints>
 			<Nutrition>0.2</Nutrition>
@@ -42,7 +43,6 @@
 	<ThingDef ParentName="ZWB_AmethystVeilBase">
 		<defName>ZWB_AmethystVeilWild</defName>
 		<label>wild amethyst veil</label>
-		<description>A purple foliose coral, which can be harvested and used as a textile.</description>
 		<neverMultiSelect>false</neverMultiSelect>
 
 	</ThingDef>
@@ -53,7 +53,6 @@
 	<ThingDef ParentName="ZWB_AmethystVeilBase">
 		<defName>ZWB_AmethystVeil</defName>
 		<label>amethyst veil</label>
-		<description>A purple foliose coral, which can be harvested and used as a textile.</description>
 		<plant>
 			<mustBeWildToSow>true</mustBeWildToSow>
 			<growDays>7</growDays>
@@ -76,7 +75,7 @@
 	<ThingDef ParentName="ResourceBase">
 		<defName>ZWB_AmethystVeilCloth</defName>
 		<label>amethyst veil</label>
-		<description>Fabric harvested from a foliose coral. The interlocking fibers make it especially protective against sharp weapons, and it is difficult to burn.</description>
+		<description>Fabric harvested from a foliose coral. The interlocking fibers make it especially protective against sharp weapons, and it is difficult to burn. This soft, luxurious fabric is highly prized.</description>
 		<graphicData>
 			<texPath>ZWB_Textures/Things/AmethystVeilCloth</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>

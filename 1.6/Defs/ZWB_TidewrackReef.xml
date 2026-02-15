@@ -5,9 +5,9 @@
 	<BiomeDef>
 		<defName>ZWB_TidewrackReef</defName>
 		<label>Tidewrack reef</label>
-		<description>Test dsnd biome</description>
+		<description>Test biome</description>
 		<texture>World/Biomes/Desert</texture>
-		<workerClass>RWTestMod.BiomeWorker_Test</workerClass>
+		<workerClass>Tidewrack.BiomeWorker_Test</workerClass>
 		<settlementSelectionWeight>0.5</settlementSelectionWeight>
 		<movementDifficulty>1.5</movementDifficulty>
 		<animalDensity>5.0</animalDensity>

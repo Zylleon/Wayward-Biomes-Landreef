@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using RimWorld.Planet;
 
-namespace RWTestMod
+namespace Tidewrack
 {
     public class BiomeWorker_Test : BiomeWorker
     {
