@@ -25,7 +25,7 @@
 		</comps>
 		<race>
 			<body>ZWB_QuadrupedLandFish</body>
-			<herdAnimal>true</herdAnimal>
+			<herdAnimal>false</herdAnimal>
 			<baseBodySize>0.2</baseBodySize>
 			<baseHungerRate>0.1</baseHungerRate>
 			<baseHealthScale>0.30</baseHealthScale>
@@ -119,7 +119,6 @@
 		<race>ZWB_AmethystSkrunt</race>
 		<combatPower>30</combatPower>
 		<ecoSystemWeight>0.20</ecoSystemWeight>
-		<wildGroupSize>1~3</wildGroupSize>
 		<lifeStages>
 			<li>
 				<label>amethyst skrunt fry</label>
@@ -164,7 +163,7 @@
 		<description>A fertilized amethyst skrunt egg. If all goes well, it should hatch into a baby amethyst skrunt. It can be eaten raw, but it's much better cooked.</description>
 		<graphicData>
 			<texPath>Things/Item/Resource/AnimalProductRaw/EggRound</texPath>
-			<color>(83,27,111)</color>
+			<color>(135,81,150)</color>
 			<drawSize>0.7</drawSize>
 		</graphicData>
 		<statBases>
@@ -187,7 +186,7 @@
 		<description>An unfertilized amethyst skrunt egg. It can be eaten raw, but it's much better cooked.</description>
 		<graphicData>
 			<texPath>Things/Item/Resource/AnimalProductRaw/EggRound</texPath>
-			<color>(83,27,111)</color>
+			<color>(90,49,111)</color>
 			<drawSize>0.7</drawSize>
 		</graphicData>
 		<statBases>

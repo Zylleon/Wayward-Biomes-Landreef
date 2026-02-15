@@ -151,9 +151,17 @@
 
 		</wildPlants>
 		<wildAnimals>
+			<!-- Large grazers -->
 			<ZWB_SunriseTang>1.0</ZWB_SunriseTang>
 			<ZWB_Jesterfish>1.0</ZWB_Jesterfish>
+			
+			<!-- Small Grazers --> 	
 			<ZWB_MidnightTang>1.0</ZWB_MidnightTang>
+			<ZWB_AmethystSkrunt>1.0</ZWB_AmethystSkrunt>
+		
+			<!-- Predators -->
+			<ZWB_RainbowZiggler>0.5</ZWB_RainbowZiggler>
+	
 		</wildAnimals>
 		<allowedPackAnimals>
 			<li>Muffalo</li>
