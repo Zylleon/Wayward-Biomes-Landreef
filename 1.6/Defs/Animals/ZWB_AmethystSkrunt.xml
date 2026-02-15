@@ -24,7 +24,7 @@
 			</li>
 		</comps>
 		<race>
-			<body>ZWB_QuadrupedLandFish</body>
+			<body>ZWB_BipedLandFish</body>
 			<herdAnimal>false</herdAnimal>
 			<baseBodySize>0.2</baseBodySize>
 			<baseHungerRate>0.1</baseHungerRate>
