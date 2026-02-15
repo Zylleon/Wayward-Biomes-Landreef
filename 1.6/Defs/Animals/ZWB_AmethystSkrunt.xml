@@ -190,8 +190,8 @@
 
 
 	<ThingDef ParentName="EggUnfertBase">
-		<defName>ZWB_EggMidnightTangUnfertilized</defName>
-		<label>midnight tang egg (unfert.)</label>
+		<defName>ZWB_EggAmethystSkruntUnfertilized</defName>
+		<label>amethyst skrunt egg (unfert.)</label>
 		<description>An unfertilized amethyst skrunt egg. It can be eaten raw, but it's much better cooked.</description>
 		<graphicData>
 			<texPath>Things/Item/Resource/AnimalProductRaw/EggRound</texPath>
