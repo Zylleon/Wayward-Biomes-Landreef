@@ -8,10 +8,10 @@
 			<wildClusterWeight>500</wildClusterWeight>
 			<visualSizeRange>0.4~1.6</visualSizeRange>
 			<topWindExposure>0</topWindExposure>
-			<wildOrder>2</wildOrder>
+			<wildOrder>3</wildOrder>
 			<harvestedThingDef>ZWB_CoralithChunk</harvestedThingDef>
-			<harvestYield>5</harvestYield>
-			<harvestTag>Standard</harvestTag>
+			<harvestYield>3</harvestYield>
+			<harvestTag>Wood</harvestTag>
 			<harvestMinGrowth>0.85</harvestMinGrowth>
 			<soundHarvesting>Harvest_Tree</soundHarvesting>
 			<soundHarvestFinish>Harvest_Standard_Finish</soundHarvestFinish>
@@ -37,8 +37,8 @@
 			<wildClusterRadius>4</wildClusterRadius>
 			<wildClusterWeight>500</wildClusterWeight>
 			<visualSizeRange>0.4~1.6</visualSizeRange>
-			<wildOrder>2</wildOrder>
-			<harvestYield>15</harvestYield>
+			<wildOrder>3</wildOrder>
+			<harvestYield>7</harvestYield>
 		</plant>
 	</ThingDef>
 	
@@ -63,8 +63,8 @@
 			<wildClusterRadius>4</wildClusterRadius>
 			<wildClusterWeight>90</wildClusterWeight>
 			<visualSizeRange>0.4~0.9</visualSizeRange>
-			<wildOrder>2</wildOrder>
-			<harvestYield>4</harvestYield>
+			<wildOrder>3</wildOrder>
+			<harvestYield>2</harvestYield>
 		</plant>
 	</ThingDef>
 	

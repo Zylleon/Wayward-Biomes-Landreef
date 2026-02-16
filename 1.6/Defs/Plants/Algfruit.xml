@@ -36,6 +36,7 @@
 			<topWindExposure>0.3</topWindExposure>
 			<wildOrder>2</wildOrder>
 			<purpose>Food</purpose>
+			<humanFoodPlant>true</humanFoodPlant>
 		</plant>
 	</ThingDef>
 

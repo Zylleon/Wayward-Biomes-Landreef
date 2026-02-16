@@ -215,9 +215,6 @@
 		<plant>
 			<fertilitySensitivity>0.0</fertilitySensitivity>
 			<growDays>3.5</growDays>
-			<sowTags>
-				<li>Ground</li>
-			</sowTags>
 			<fertilityMin>0.05</fertilityMin>
 			<maxMeshCount>4</maxMeshCount>
 			<visualSizeRange>0.35~0.55</visualSizeRange>
@@ -276,10 +273,7 @@
 		<selectable>true</selectable>
 		<plant>
 			<fertilitySensitivity>0.0</fertilitySensitivity>
-			<growDays>2.0</growDays>
-			<sowTags>
-				<li>Ground</li>
-			</sowTags>
+			<growDays>3.0</growDays>
 			<fertilityMin>0.05</fertilityMin>
 			<maxMeshCount>9</maxMeshCount>
 			<visualSizeRange>0.35~0.8</visualSizeRange>

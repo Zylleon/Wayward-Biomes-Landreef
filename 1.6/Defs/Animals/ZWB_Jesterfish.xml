@@ -35,6 +35,7 @@
 			<roamMtbDays>2</roamMtbDays>
 			<trainability>None</trainability>
 			<lifeExpectancy>22</lifeExpectancy>
+			<manhunterOnDamageChance>0.1</manhunterOnDamageChance>
 			<lifeStageAges>
 				<li>
 					<def>AnimalBaby</def>

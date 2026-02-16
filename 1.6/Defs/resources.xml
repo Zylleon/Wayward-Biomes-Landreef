@@ -93,7 +93,7 @@
 		<soundDrop>ChunkRock_Drop</soundDrop>
 		<graphicData>
 			<texPath>ZWB_Textures/Things/Coralith</texPath>
-			<graphicClass>Graphic_Random</graphicClass>
+			<graphicClass>Graphic_StackCount</graphicClass>
 			<flipExtraRotation>80</flipExtraRotation>
 			<!-- <color>(128,86,98)</color> -->
 		</graphicData>

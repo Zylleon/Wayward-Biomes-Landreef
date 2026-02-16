@@ -143,11 +143,11 @@
 			<!-- harvestable food -->
 			<ZWB_AlgfruitCoralWild>0.05</ZWB_AlgfruitCoralWild>
 			<ZWB_BerryGrassWild>0.05</ZWB_BerryGrassWild>
-			<ZWB_LilypadWild>0.2</ZWB_LilypadWild>
+			<ZWB_LilypadWild>0.1</ZWB_LilypadWild>
 
 			<!-- harvestable other -->
 			<ZWB_AmethystVeilWild>0.03</ZWB_AmethystVeilWild>
-			<ZWB_FireCoral>0.01</ZWB_FireCoral>
+			<ZWB_FireCoral>0.003</ZWB_FireCoral>
 
 		</wildPlants>
 		<wildAnimals>
@@ -160,8 +160,8 @@
 			<ZWB_AmethystSkrunt>1.0</ZWB_AmethystSkrunt>
 		
 			<!-- Predators -->
-			<ZWB_RainbowZiggler>0.5</ZWB_RainbowZiggler>
-			<ZWB_RosyZiggler>0.5</ZWB_RosyZiggler>
+			<ZWB_RainbowZiggler>0.1</ZWB_RainbowZiggler>
+			<ZWB_RosyZiggler>0.1</ZWB_RosyZiggler>
 	
 		</wildAnimals>
 		<allowedPackAnimals>

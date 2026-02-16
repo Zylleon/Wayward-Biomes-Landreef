@@ -120,7 +120,7 @@
 	</ThingDef>
 
 
-	<ThingDef ParentName="BushBase">
+	<ThingDef ParentName="TreeBase">
 		<defName>ZWB_LauBranch</defName>
 		<label>lau branch</label>
 		<description>A type of woody coral that has long ago moved to land. While rather rare, it has existed on land for so long that its structure is nearly identical to the wood of trees, and it can be harvested for normal wood.</description>
