@@ -33,6 +33,8 @@
 			<leatherDef>Leather_Plain</leatherDef>
 			<trainability>None</trainability>
 			<lifeExpectancy>16</lifeExpectancy>
+			<manhunterOnTameFailChance>0.05</manhunterOnTameFailChance>
+			<manhunterOnDamageChance>0.05</manhunterOnDamageChance>
 			<lifeStageAges>
 				<li>
 					<def>AnimalBaby</def>
