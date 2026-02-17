@@ -26,13 +26,13 @@
 		<race>
 			<body>ZWB_QuadrupedLandFish</body>
 			<herdAnimal>true</herdAnimal>
-			<baseBodySize>0.7</baseBodySize>
+			<baseBodySize>0.85</baseBodySize>
 			<baseHungerRate>0.30</baseHungerRate>
 			<baseHealthScale>0.85</baseHealthScale>
 			<foodType>OmnivoreRoughAnimal</foodType>
 			<leatherDef>Leather_Plain</leatherDef>
 			<trainability>None</trainability>
-			<lifeExpectancy>14</lifeExpectancy>
+			<lifeExpectancy>12</lifeExpectancy>
 			<lifeStageAges>
 				<li>
 					<def>AnimalBaby</def>
