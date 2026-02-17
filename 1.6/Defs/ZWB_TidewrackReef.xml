@@ -158,6 +158,9 @@
 			<!-- Small Grazers --> 	
 			<ZWB_MidnightTang>1.0</ZWB_MidnightTang>
 			<ZWB_AmethystSkrunt>1.0</ZWB_AmethystSkrunt>
+			
+			<!-- scavengers -->
+			<ZWB_Flumbie>1.0</ZWB_Flumbie>
 		
 			<!-- Predators -->
 			<ZWB_RainbowZiggler>0.1</ZWB_RainbowZiggler>

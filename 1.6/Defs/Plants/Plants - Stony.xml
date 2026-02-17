@@ -16,6 +16,9 @@
 			<soundHarvesting>Harvest_Tree</soundHarvesting>
 			<soundHarvestFinish>Harvest_Standard_Finish</soundHarvestFinish>
 		</plant>
+		<statBases>
+			<Flammability>0.1</Flammability>
+		</statBases>
 	</ThingDef>
 
 
@@ -59,7 +62,7 @@
 		<uiIconScale>0.85</uiIconScale>
 		<plant>
 			<fertilitySensitivity>0.2</fertilitySensitivity>
-			<growDays>11</growDays>
+			<growDays>12</growDays>
 			<wildClusterRadius>4</wildClusterRadius>
 			<wildClusterWeight>90</wildClusterWeight>
 			<visualSizeRange>0.4~0.9</visualSizeRange>

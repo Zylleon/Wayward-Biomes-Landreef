@@ -5,7 +5,7 @@
 	<ThingDef ParentName="PlantBase" Name="ZWB_DredgewoodTreeBase" Abstract="True">
 		<statBases>
 			<MaxHitPoints>200</MaxHitPoints>
-			<Flammability>0.8</Flammability>
+			<Flammability>0.6</Flammability>
 			<Nutrition>2.0</Nutrition>
 			<Mass>150</Mass>
 		</statBases>

@@ -43,6 +43,7 @@
 			<Beauty>8</Beauty>
 			<BeautyOutdoors>8</BeautyOutdoors>
 			<Nutrition>0.25</Nutrition>
+			<Flammability>0.8</Flammability>
 		</statBases>
 		<graphicData>
 			<texPath>ZWB_Textures/Plants/LilacFrill</texPath>
@@ -172,6 +173,7 @@
 			<MaxHitPoints>90</MaxHitPoints>
 			<Flammability>1.3</Flammability>
 			<Nutrition>0.50</Nutrition>
+			<Flammability>0.5</Flammability>
 		</statBases>
 		<pathCost>14</pathCost>
 		<graphicData>
@@ -205,6 +207,7 @@
 			<Beauty>6</Beauty>
 			<BeautyOutdoors>6</BeautyOutdoors>
 			<Nutrition>0.25</Nutrition>
+			<Flammability>0.3</Flammability>
 		</statBases>
 		<graphicData>
 			<texPath>ZWB_Textures/Plants/SaltPot</texPath>

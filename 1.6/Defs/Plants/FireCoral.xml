@@ -7,8 +7,9 @@
 		<label>fire coral</label>
 		<description>A bright orange branching coral that can leave a slight tingling sensation on the skin when lightly touched. Some tribes use its branches as weapons, the hard impact causes the coral to shatter and pierce the skin, leaving the victim with a much worse reaction.</description>
 		<statBases>
-		  <MaxHitPoints>90</MaxHitPoints>
-		  <Nutrition>0.25</Nutrition>
+			<MaxHitPoints>90</MaxHitPoints>
+			<Nutrition>0.25</Nutrition>
+			<Flammability>0.5</Flammability>
 		</statBases>
 		<graphicData>
 			<texPath>ZWB_Textures/Plants/FireCoral</texPath>
