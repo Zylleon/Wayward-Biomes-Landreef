@@ -11,15 +11,14 @@
 			<MoveSpeed>3.8</MoveSpeed>
 			<ComfyTemperatureMin>-10</ComfyTemperatureMin>
 			<MarketValue>150</MarketValue>
-			<Wildness>0.35</Wildness>
+			<Wildness>0.0</Wildness>
 		</statBases>
 		<comps>
 			<li Class="CompProperties_EggLayer">
-				<eggUnfertilizedDef>ZWB_EggSpottedShooblerUnfertilized</eggUnfertilizedDef>
+				<eggUnfertilizedDef>ZWB_EggSpottedShooblerUnfertilized</eggUnfertilizedDef>	
 				<eggFertilizedDef>ZWB_EggSpottedShooblerFertilized</eggFertilizedDef>
 				<eggFertilizationCountMax>1</eggFertilizationCountMax>
 				<eggLayIntervalDays>3.7</eggLayIntervalDays>
-				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
 				<eggCountRange>1~2</eggCountRange>
 			</li>
 		</comps>
@@ -120,7 +119,7 @@
 		<race>ZWB_SpottedShoobler</race>
 		<combatPower>50</combatPower>
 		<ecoSystemWeight>0.5</ecoSystemWeight>
-		<wildGroupSize>3~7</wildGroupSize>
+		<wildGroupSize>2~5</wildGroupSize>
 		<lifeStages>
 			<li>
 				<label>spotted shoobler fry</label>
