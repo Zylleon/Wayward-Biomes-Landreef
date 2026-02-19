@@ -116,6 +116,10 @@
 				<bodyGraphicData>
 					<texPath>ZWB_Textures/Animals/Snurble/Snurble</texPath>
 					<drawSize>0.95</drawSize>
+					<shadowData>
+						<volume>(0.3, 0.3, 0.3)</volume>
+						<offset>(0,0,-0.3)</offset>
+					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>ZWB_Textures/Animals/Snurble/Dessicated_Snurble</texPath>
@@ -126,6 +130,10 @@
 				<bodyGraphicData>
 					<texPath>ZWB_Textures/Animals/Snurble/Snurble</texPath>
 					<drawSize>1.2</drawSize>
+					<shadowData>
+						<volume>(0.4, 0.4, 0.4)</volume>
+						<offset>(0,0,-0.2)</offset>
+					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>ZWB_Textures/Animals/Snurble/Dessicated_Snurble</texPath>
