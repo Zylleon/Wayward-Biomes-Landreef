@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+
+
+
+	<BodyDef>
+		<defName>ZWB_Snail</defName>
+		<label>snail</label>
+		<corePart>
+			<def>ZWB_Shell</def>
+			<height>Middle</height>
+			<depth>Outside</depth>
+			
+			<parts>
+				<li>
+					<def>Stomach</def>
+					<coverage>0.05</coverage>
+					<depth>Inside</depth>
+				</li>
+				<li>
+					<def>Heart</def>
+					<coverage>0.07</coverage>
+					<depth>Inside</depth>
+				</li>
+				<li>
+					<def>Lung</def>
+					<customLabel>lung</customLabel>
+					<coverage>0.07</coverage>
+					<depth>Inside</depth>
+				</li>
+				<li>
+					<def>Kidney</def>
+					<customLabel>left kidney</customLabel>
+					<coverage>0.05</coverage>
+					<depth>Inside</depth>
+				</li>
+				<li>
+					<def>Liver</def>
+					<coverage>0.05</coverage>
+					<depth>Inside</depth>
+				</li>
+
+				<li>
+					<def>Head</def>
+					<coverage>0.25</coverage>
+					<groups>
+						<li>HeadAttackTool</li>
+					</groups>
+					<parts>
+						
+						<li>
+							<def>Brain</def>
+							<coverage>0.2</coverage>
+							<depth>Inside</depth>
+						</li>
+						<li>
+							<def>Eye</def>
+							<customLabel>left eyestalk</customLabel>
+							<coverage>0.15</coverage>
+						</li>
+						<li>
+							<def>Eye</def>
+							<customLabel>right eyestalk</customLabel>
+							<coverage>0.15</coverage>
+						</li>
+
+						<li>
+							<def>ZWB_Nares</def>
+							<customLabel>chemoreceptors</customLabel>
+							<coverage>0.1</coverage>
+						</li>
+						<li>
+							<def>AnimalJaw</def>
+							<coverage>0.15</coverage>
+							<groups>
+								<li>Teeth</li>
+							</groups>
+						</li>
+					</parts>
+				</li>
+				<li>
+					<def>ZWB_SnailFoot</def>
+					<customLabel>snail foot</customLabel>
+					<coverage>0.25</coverage>
+					<height>Bottom</height>
+					<!-- <groups> -->
+						<!-- <li>ZWB_FrontLeftFlipper</li> -->
+					<!-- </groups> -->
+				</li>
+				
+			</parts>
+		</corePart>
+	</BodyDef>
+
+
+
+
+</Defs>
+
