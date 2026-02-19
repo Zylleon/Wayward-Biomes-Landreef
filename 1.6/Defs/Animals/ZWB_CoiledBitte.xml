@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+
+
+	<ThingDef ParentName="AnimalThingBase">
+		<defName>ZWB_CoiledBitte</defName>
+		<label>coiled bitte</label>
+		<description>A tiny, hardy snail, commonly found on tidewrack reefs. Though slow, it's shell provides good protection.</description>
+		<statBases>
+			<MoveSpeed>2.2</MoveSpeed>
+			<ComfyTemperatureMin>-25</ComfyTemperatureMin>
+			<MarketValue>30</MarketValue>
+			<Wildness>0.2</Wildness>
+			<LeatherAmount>0</LeatherAmount>
+			<ArmorRating_Blunt>0.2</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.4</ArmorRating_Sharp>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_EggLayer">
+				<eggUnfertilizedDef>ZWB_EggCoiledBitteUnfertilized</eggUnfertilizedDef>
+				<eggFertilizedDef>ZWB_EggCoiledBitteFertilized</eggFertilizedDef>
+				<eggFertilizationCountMax>1</eggFertilizationCountMax>
+				<eggLayIntervalDays>2.3</eggLayIntervalDays>
+				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
+				<eggCountRange>1~2</eggCountRange>
+			</li>
+		</comps>
+		<race>
+			<body>ZWB_Snail</body>
+			<herdAnimal>false</herdAnimal>
+			<baseBodySize>0.18</baseBodySize>
+			<baseHungerRate>0.1</baseHungerRate>
+			<baseHealthScale>0.4</baseHealthScale>		<!-- slightly higher than the average animal this size -->
+			<foodType>OmnivoreRoughAnimal</foodType>
+			<trainability>Intermediate</trainability>
+			<lifeExpectancy>9</lifeExpectancy>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.09</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.18</minAge>
+					<soundWounded>Pawn_Boomrat_Wounded</soundWounded>
+					<soundDeath>Pawn_Boomrat_Death</soundDeath>
+					<soundCall>Pawn_Boomrat_Call</soundCall>
+					<soundAngry>Pawn_Boomrat_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+			<soundEating>Rodent_Eat</soundEating>
+			<packAnimal>false</packAnimal>
+			<!-- <headPosPerRotation> -->
+			<!-- <li>(0.0, 0, 0.09)</li> -->
+			<!-- <li>(0.28, 0, 0)</li> -->
+			<!-- <li>(0.0, 0, -0.04)</li> -->
+			<!-- <li>(-0.28, 0, 0)</li> -->
+			<!-- </headPosPerRotation> -->
+		</race>
+		<tradeTags>
+			<li>AnimalUncommon</li>
+			<li>AnimalFighter</li>
+		</tradeTags>
+		<tools>
+			<li>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>5.5</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<chanceFactor>0.7</chanceFactor>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>6</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+		</tools>
+	</ThingDef>
+
+
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>ZWB_CoiledBitte</defName>
+		<label>coiled bitte</label>
+		<race>ZWB_CoiledBitte</race>
+		<combatPower>50</combatPower>
+		<ecoSystemWeight>0.20</ecoSystemWeight>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>ZWB_Textures/Animals/CoiledBitte/CoiledBitte</texPath>
+					<drawSize>0.4</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>ZWB_Textures/Animals/CoiledBitte/Dessicated_CoiledBitte</texPath>
+					<drawSize>0.4</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>ZWB_Textures/Animals/CoiledBitte/CoiledBitte</texPath>
+					<drawSize>0.55</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>ZWB_Textures/Animals/CoiledBitte/Dessicated_CoiledBitte</texPath>
+					<drawSize>0.55</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>ZWB_Textures/Animals/CoiledBitte/CoiledBitte</texPath>
+					<drawSize>0.7</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>ZWB_Textures/Animals/CoiledBitte/Dessicated_CoiledBitte</texPath>
+					<drawSize>0.7</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+
+
+	<ThingDef ParentName="EggFertBase">
+		<defName>ZWB_EggCoiledBitteFertilized</defName>
+		<label>coiled bitte egg (fert.)</label>
+		<description>A fertilized coiled bitte egg. If all goes well, it should hatch into a baby coiled bitte. It can be eaten raw, but it's much better cooked.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/AnimalProductRaw/EggRound</texPath>
+			<color>(163,85,98)</color>
+			<drawSize>0.6</drawSize>
+		</graphicData>
+		<statBases>
+			<Nutrition>0.5</Nutrition>
+			<MarketValue>16.0</MarketValue>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Hatcher">
+				<hatcherDaystoHatch>3.5</hatcherDaystoHatch>
+				<hatcherPawn>ZWB_CoiledBitte</hatcherPawn>
+			</li>
+		</comps>
+	</ThingDef>
+
+
+
+	<ThingDef ParentName="EggUnfertBase">
+		<defName>ZWB_EggCoiledBitteUnfertilized</defName>
+		<label>coiled bitte egg (unfert.)</label>
+		<description>An unfertilized coiled bitte egg. It can be eaten raw, but it's much better cooked.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/AnimalProductRaw/EggRound</texPath>
+			<color>(138,98,105)</color>
+			<drawSize>0.6</drawSize>
+		</graphicData>
+		<statBases>
+			<MarketValue>8.0</MarketValue>
+			<Nutrition>0.5</Nutrition>
+		</statBases>
+	</ThingDef>
+
+
+</Defs>
