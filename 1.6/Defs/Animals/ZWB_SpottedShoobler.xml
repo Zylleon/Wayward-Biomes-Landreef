@@ -29,7 +29,7 @@
 			<baseHungerRate>0.30</baseHungerRate>
 			<baseHealthScale>0.85</baseHealthScale>
 			<foodType>OmnivoreRoughAnimal</foodType>
-			<leatherDef>Leather_Plain</leatherDef>
+			<leatherDef>ZWB_Leather_FishHide</leatherDef>
 			<trainability>None</trainability>
 			<lifeExpectancy>12</lifeExpectancy>
 			<lifeStageAges>

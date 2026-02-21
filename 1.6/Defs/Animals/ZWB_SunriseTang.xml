@@ -30,7 +30,7 @@
 			<baseHungerRate>0.30</baseHungerRate>
 			<baseHealthScale>0.85</baseHealthScale>
 			<foodType>VegetarianRoughAnimal</foodType>
-			<leatherDef>Leather_Plain</leatherDef>
+			<leatherDef>ZWB_Leather_Fishskin</leatherDef>
 			<trainability>Intermediate</trainability>
 			<lifeExpectancy>14</lifeExpectancy>
 			<lifeStageAges>
@@ -182,7 +182,7 @@
 		</statBases>
 		<comps>
 			<li Class="CompProperties_Hatcher">
-				<hatcherDaystoHatch>7</hatcherDaystoHatch>
+				<hatcherDaystoHatch>6</hatcherDaystoHatch>
 				<hatcherPawn>ZWB_SunriseTang</hatcherPawn>
 			</li>
 		</comps>

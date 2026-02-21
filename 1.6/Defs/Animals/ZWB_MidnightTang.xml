@@ -30,7 +30,7 @@
 			<baseHungerRate>0.22</baseHungerRate>
 			<baseHealthScale>0.7</baseHealthScale>
 			<foodType>OmnivoreRoughAnimal</foodType>
-			<leatherDef>Leather_Plain</leatherDef>
+			<leatherDef>ZWB_Leather_Fishskin</leatherDef>
 			<trainability>None</trainability>
 			<lifeExpectancy>16</lifeExpectancy>
 			<manhunterOnTameFailChance>0.05</manhunterOnTameFailChance>

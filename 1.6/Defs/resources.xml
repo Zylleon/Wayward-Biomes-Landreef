@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-<!-- Dredgewood -->
+	<!-- Dredgewood -->
 
 	<ThingDef ParentName="ResourceVerbBase">
 		<defName>ZWB_Dredgewood</defName>
@@ -80,7 +80,7 @@
 		<allowedArchonexusCount>150</allowedArchonexusCount>
 	</ThingDef>
 
-
+	<!-- coralith -->
 	<ThingDef ParentName="StoneBlocksBase">
 		<defName>ZWB_CoralithChunk</defName>
 		<label>coralith</label>
@@ -114,6 +114,58 @@
 		</stuffProps>
 	</ThingDef>
 
+
+	<!-- leathers -->
+
+	<ThingDef ParentName="LeatherBase">
+		<defName>ZWB_Leather_Fishskin</defName>
+		<label>fishskin</label>
+		<description>Lightweight, thin fish skin. Probably harvested from a small animal. Less protective than other leathers.</description>
+		<graphicData>
+			<color>(230,206,118)</color>
+		</graphicData>
+		<statBases>
+			<MarketValue>1.7</MarketValue>
+			<Flammability>0.8</Flammability>
+			<StuffPower_Armor_Sharp>0.49</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.18</StuffPower_Armor_Blunt>
+			<StuffPower_Insulation_Cold>8</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>16</StuffPower_Insulation_Heat>
+		</statBases>
+		<stuffProps>
+			<color>(230,206,118)</color>
+			<commonality>0.15</commonality>
+			<statFactors>
+				<MaxHitPoints>1.0</MaxHitPoints>
+			</statFactors>
+		</stuffProps>
+	</ThingDef>
+
+
+	<ThingDef ParentName="LeatherBase">
+		<defName>ZWB_Leather_FishHide</defName>
+		<label>fish hide</label>
+		<description>Tanned, dried, scraped fish skin. A good traditional material for making clothes and bags.</description>
+		<graphicData>
+			<color>(199,92,73)</color>
+		</graphicData>
+		<statBases>
+			<MarketValue>2.4</MarketValue>
+			<Flammability>0.8</Flammability>
+			<StuffPower_Armor_Sharp>0.72</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.29</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>1.6</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>16</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>20</StuffPower_Insulation_Heat>
+		</statBases>
+		<stuffProps>
+			<color>(199,92,73)</color>
+			<commonality>0.1</commonality>
+			<statFactors>
+				<Flammability>0.8</Flammability>
+			</statFactors>
+		</stuffProps>
+	</ThingDef>
 
 </Defs>
 
