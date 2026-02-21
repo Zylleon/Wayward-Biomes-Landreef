@@ -1,7 +1,8 @@
 seafoam ziggler
 
-predator
-spawns in groups of 1-2
-intermediate or advanced trainability
-not a pen animal
-similar in size to a timber wolf
+- predator
+- spawns in groups of 1-2
+- intermediate or advanced trainability
+- not a pen animal
+- similar in size to a timber wolf
+- gives live birth, doesn't lay eggs
