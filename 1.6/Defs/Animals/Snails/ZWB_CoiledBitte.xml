@@ -29,7 +29,8 @@
 				<itemDef>ZWB_SnailSilk</itemDef>
 				<growthLabel>Silk production</growthLabel>
 				<gatherIntervalDays>10</gatherIntervalDays>
-				<itemAmount>12</itemAmount>
+				<itemAmount>8</itemAmount>
+				<workAmount>600</workAmount>
 			</li>
 		</comps>
 		<race>

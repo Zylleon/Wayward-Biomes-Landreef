@@ -12,6 +12,7 @@
 			<ComfyTemperatureMin>-10</ComfyTemperatureMin>
 			<MarketValue>40</MarketValue>
 			<Wildness>0.5</Wildness>
+			<ToxicEnvironmentResistance>0.9</ToxicEnvironmentResistance>
 		</statBases>
 		<comps>
 			<li Class="CompProperties_EggLayer">

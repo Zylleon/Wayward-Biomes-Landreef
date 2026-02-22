@@ -13,6 +13,7 @@ namespace Tidewrack
     internal class TidewrackDefOf
     {
         public static ThingDef ZWB_AmethystVeilCloth;
+        public static JobDef ZWB_GatherAnimalResource;
 
     }
 }

@@ -17,7 +17,7 @@ namespace Tidewrack
 
         protected override ThingDef ResourceDef => Props.itemDef;
 
-        protected override string SaveKey => "woolGrowth";
+        protected override string SaveKey => "gatherableProduction";
 
         public CompProperties_Gatherable Props => (CompProperties_Gatherable)props;
 
@@ -55,12 +55,10 @@ namespace Tidewrack
     public class CompProperties_Gatherable : CompProperties
     {
         public int gatherIntervalDays;
-
         public int itemAmount = 1;
-
         public ThingDef itemDef;
-
         public string growthLabel;
+        public float workAmount = 1700f;
 
         public CompProperties_Gatherable()
         {

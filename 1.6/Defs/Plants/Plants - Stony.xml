@@ -36,7 +36,7 @@
 		<uiIconScale>0.85</uiIconScale>
 		<plant>
 			<fertilitySensitivity>0.5</fertilitySensitivity>
-			<growDays>32</growDays>
+			<growDays>45</growDays>
 			<wildClusterRadius>4</wildClusterRadius>
 			<wildClusterWeight>500</wildClusterWeight>
 			<visualSizeRange>0.4~1.6</visualSizeRange>
@@ -62,7 +62,7 @@
 		<uiIconScale>0.85</uiIconScale>
 		<plant>
 			<fertilitySensitivity>0.2</fertilitySensitivity>
-			<growDays>12</growDays>
+			<growDays>18</growDays>
 			<wildClusterRadius>4</wildClusterRadius>
 			<wildClusterWeight>90</wildClusterWeight>
 			<visualSizeRange>0.4~0.9</visualSizeRange>

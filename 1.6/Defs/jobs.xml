@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+
+
+
+  
+  <JobDef>
+    <defName>ZWB_GatherAnimalResource</defName>
+    <driverClass>Tidewrack.JobDriver_GatherAnimalResource</driverClass>
+    <reportString>gathering from TargetA.</reportString>
+    <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+  </JobDef>
+
+  <WorkGiverDef>
+    <defName>ZWB_GatherAnimalResource</defName>
+    <label>gather from animals</label>
+    <giverClass>Tidewrack.WorkGiver_GatherAnimalResource</giverClass>
+    <workType>Handling</workType>
+    <verb>gather</verb>
+    <gerund>gathering</gerund>
+    <priorityInType>85</priorityInType>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </WorkGiverDef>
+
+</Defs>
+
