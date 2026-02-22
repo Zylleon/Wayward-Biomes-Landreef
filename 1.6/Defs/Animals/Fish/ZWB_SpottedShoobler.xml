@@ -18,7 +18,7 @@
 				<eggUnfertilizedDef>ZWB_EggSpottedShooblerUnfertilized</eggUnfertilizedDef>	
 				<eggFertilizedDef>ZWB_EggSpottedShooblerFertilized</eggFertilizedDef>
 				<eggFertilizationCountMax>1</eggFertilizationCountMax>
-				<eggLayIntervalDays>3.7</eggLayIntervalDays>
+				<eggLayIntervalDays>7.7</eggLayIntervalDays>
 				<eggCountRange>1~2</eggCountRange>
 			</li>
 		</comps>

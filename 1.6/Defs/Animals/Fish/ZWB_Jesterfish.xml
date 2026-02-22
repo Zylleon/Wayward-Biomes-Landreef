@@ -19,7 +19,7 @@
 				<eggUnfertilizedDef>ZWB_EggJesterfishUnfertilized</eggUnfertilizedDef>
 				<eggFertilizedDef>ZWB_EggJesterfishFertilized</eggFertilizedDef>
 				<eggFertilizationCountMax>1</eggFertilizationCountMax>
-				<eggLayIntervalDays>6.33</eggLayIntervalDays>
+				<eggLayIntervalDays>8.33</eggLayIntervalDays>
 				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
 				<eggCountRange>1~2</eggCountRange>
 			</li>

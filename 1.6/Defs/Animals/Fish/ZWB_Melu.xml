@@ -19,7 +19,7 @@
 				<eggUnfertilizedDef>ZWB_EggMeluUnfertilized</eggUnfertilizedDef>
 				<eggFertilizedDef>ZWB_EggMeluFertilized</eggFertilizedDef>
 				<eggFertilizationCountMax>1</eggFertilizationCountMax>
-				<eggLayIntervalDays>11</eggLayIntervalDays>
+				<eggLayIntervalDays>12</eggLayIntervalDays>
 				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
 				<eggCountRange>1~1</eggCountRange>
 			</li>

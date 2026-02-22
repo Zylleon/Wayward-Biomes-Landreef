@@ -46,7 +46,7 @@
 			<harvestFailable>false</harvestFailable>
 			<blockAdjacentSow>true</blockAdjacentSow>
 			<treeLoversCareIfChopped>true</treeLoversCareIfChopped>
-			<burnedThingDef>BurnedTree</burnedThingDef>
+			<!-- <burnedThingDef>BurnedTree</burnedThingDef> -->
 			<!-- <choppedThingDef>ChoppedStump</choppedThingDef> -->
 			<!-- <smashedThingDef>SmashedStump</smashedThingDef> -->
 			<treeCategory>Full</treeCategory>

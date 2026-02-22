@@ -6,7 +6,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>ZWB_Snurble</defName>
 		<label>snurble</label>
-		<description>PLACEHOLDER</description>
+		<description>A medium sized sea snail, adapted for land. Widely considered to be adorable, these snails are prized as pets.</description>
 		<statBases>
 			<MoveSpeed>2.5</MoveSpeed>
 			<ComfyTemperatureMin>-10</ComfyTemperatureMin>
@@ -21,7 +21,7 @@
 				<eggUnfertilizedDef>ZWB_EggSnurbleUnfertilized</eggUnfertilizedDef>
 				<eggFertilizedDef>ZWB_EggSnurbleFertilized</eggFertilizedDef>
 				<eggFertilizationCountMax>1</eggFertilizationCountMax>
-				<eggLayIntervalDays>4.3</eggLayIntervalDays>
+				<eggLayIntervalDays>6.3</eggLayIntervalDays>
 				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
 				<eggCountRange>1~1</eggCountRange>
 			</li>
@@ -61,12 +61,6 @@
 			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
 			<soundEating>Rodent_Eat</soundEating>
 			<packAnimal>false</packAnimal>
-			<!-- <headPosPerRotation> -->
-			<!-- <li>(0.0, 0, 0.09)</li> -->
-			<!-- <li>(0.28, 0, 0)</li> -->
-			<!-- <li>(0.0, 0, -0.04)</li> -->
-			<!-- <li>(-0.28, 0, 0)</li> -->
-			<!-- </headPosPerRotation> -->
 		</race>
 		<tradeTags>
 			<li>AnimalCommon</li>
@@ -107,6 +101,8 @@
 				<bodyGraphicData>
 					<texPath>ZWB_Textures/Animals/Snurble/Snurble</texPath>
 					<drawSize>0.7</drawSize>
+					<color>(152,129,201)</color>
+					<shaderType>CutoutComplex</shaderType>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>ZWB_Textures/Animals/Snurble/Dessicated_Snurble</texPath>
@@ -117,11 +113,13 @@
 				<bodyGraphicData>
 					<texPath>ZWB_Textures/Animals/Snurble/Snurble</texPath>
 					<drawSize>0.95</drawSize>
+					<color>(152,129,201)</color>
+					<shaderType>CutoutComplex</shaderType>
 					<shadowData>
 						<volume>(0.3, 0.3, 0.3)</volume>
 						<offset>(0,0,-0.3)</offset>
 					</shadowData>
-				</bodyGraphicData>
+					</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>ZWB_Textures/Animals/Snurble/Dessicated_Snurble</texPath>
 					<drawSize>0.95</drawSize>
@@ -131,6 +129,8 @@
 				<bodyGraphicData>
 					<texPath>ZWB_Textures/Animals/Snurble/Snurble</texPath>
 					<drawSize>1.2</drawSize>
+					<color>(152,129,201)</color>
+					<shaderType>CutoutComplex</shaderType>
 					<shadowData>
 						<volume>(0.4, 0.4, 0.4)</volume>
 						<offset>(0,0,-0.2)</offset>
@@ -142,6 +142,112 @@
 				</dessicatedBodyGraphicData>
 			</li>
 		</lifeStages>
+		<alternateGraphicChance>0.9</alternateGraphicChance>
+		<alternateGraphics>
+	<!-- plain -->
+			<li>		<!-- purple: darker -->
+				<texPath>ZWB_Textures/Animals/Snurble/Snurble</texPath>
+				<color>(136,114,181)</color>
+				<weight>4</weight>
+			</li>
+			<li>		<!-- blue -->
+				<texPath>ZWB_Textures/Animals/Snurble/Snurble</texPath>
+				<color>(105,140,199)</color>
+				<weight>2</weight>
+			</li>
+			<li>		<!-- blue: darker -->
+				<texPath>ZWB_Textures/Animals/Snurble/Snurble</texPath>
+				<color>(93,124,176)</color>
+				<weight>2</weight>
+			</li>
+			<li>	<!-- blue purple -->
+				<texPath>ZWB_Textures/Animals/Snurble/Snurble</texPath>
+				<color>(129,134,200)</color>
+				<weight>3</weight>
+			</li>
+			<li>	<!-- blue purple: darker -->
+				<texPath>ZWB_Textures/Animals/Snurble/Snurble</texPath>
+				<color>(107,113,184)</color>
+				<weight>3</weight>
+			</li>
+			<li>		<!-- pink -->
+				<texPath>ZWB_Textures/Animals/Snurble/Snurble</texPath>
+				<color>(177,129,201)</color>
+				<weight>1</weight>
+			</li>
+			<li>		<!-- pink: darker -->
+				<texPath>ZWB_Textures/Animals/Snurble/Snurble</texPath>
+				<color>(160,114,181)</color>
+				<weight>1</weight>
+			</li>
+			
+			
+	<!-- striped -->	
+			<li>		<!-- purple -->
+				<texPath>ZWB_Textures/Animals/Snurble/SnurbleStriped</texPath>
+				<color>(152,129,201)</color>
+				<weight>2</weight>
+			</li>	
+			<li>		<!-- purple: darker -->
+				<texPath>ZWB_Textures/Animals/Snurble/SnurbleStriped</texPath>
+				<color>(136,114,181)</color>
+				<weight>2</weight>
+			</li>
+			<li>		<!-- blue -->
+				<texPath>ZWB_Textures/Animals/Snurble/SnurbleStriped</texPath>
+				<color>(105,140,199)</color>
+				<weight>1</weight>
+			</li>
+			<li>		<!-- blue: darker -->
+				<texPath>ZWB_Textures/Animals/Snurble/SnurbleStriped</texPath>
+				<color>(93,124,176)</color>
+				<weight>1</weight>
+			</li>
+			<li>	<!-- blue purple -->
+				<texPath>ZWB_Textures/Animals/Snurble/SnurbleStriped</texPath>
+				<color>(129,134,200)</color>
+				<weight>4</weight>
+			</li>
+			<li>	<!-- blue purple: darker -->
+				<texPath>ZWB_Textures/Animals/Snurble/SnurbleStriped</texPath>
+				<color>(107,113,184)</color>
+				<weight>4</weight>
+			</li>
+			<li>		<!-- pink -->
+				<texPath>ZWB_Textures/Animals/Snurble/SnurbleStriped</texPath>
+				<color>(177,129,201)</color>
+				<weight>1</weight>
+			</li>
+			<li>		<!-- pink: darker -->
+				<texPath>ZWB_Textures/Animals/Snurble/SnurbleStriped</texPath>
+				<color>(160,114,181)</color>
+				<weight>1</weight>
+			</li>
+			
+	<!-- vertical strikes -->	
+
+			<li>		<!-- purple: darker -->
+				<texPath>ZWB_Textures/Animals/Snurble/SnurbleStripedB</texPath>
+				<color>(136,114,181)</color>
+				<weight>3</weight>
+			</li>
+			<li>		<!-- blue: darker -->
+				<texPath>ZWB_Textures/Animals/Snurble/SnurbleStripedB</texPath>
+				<color>(93,124,176)</color>
+				<weight>2</weight>
+			</li>
+			<li>	<!-- blue purple -->
+				<texPath>ZWB_Textures/Animals/Snurble/SnurbleStripedB</texPath>
+				<color>(129,134,200)</color>
+				<weight>5</weight>
+			</li>
+			<li>	<!-- blue purple: darker -->
+				<texPath>ZWB_Textures/Animals/Snurble/SnurbleStripedB</texPath>
+				<color>(107,113,184)</color>
+				<weight>3</weight>
+			</li>
+
+		</alternateGraphics>
 	</PawnKindDef>
 
 

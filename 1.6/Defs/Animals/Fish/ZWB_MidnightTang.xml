@@ -18,7 +18,7 @@
 				<eggUnfertilizedDef>ZWB_EggMidnightTangUnfertilized</eggUnfertilizedDef>
 				<eggFertilizedDef>ZWB_EggMidnightTangFertilized</eggFertilizedDef>
 				<eggFertilizationCountMax>1</eggFertilizationCountMax>
-				<eggLayIntervalDays>3.0</eggLayIntervalDays>
+				<eggLayIntervalDays>5.5</eggLayIntervalDays>
 				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
 				<eggCountRange>1~1</eggCountRange>
 			</li>
