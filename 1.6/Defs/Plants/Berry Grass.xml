@@ -19,6 +19,7 @@
 		<ingestible/>
 		<plant>
 			<sowMinSkill>3</sowMinSkill>
+			<dieIfLeafless>true</dieIfLeafless>
 			<sowTags>
 				<li>Ground</li>
 				<li>Hydroponic</li>

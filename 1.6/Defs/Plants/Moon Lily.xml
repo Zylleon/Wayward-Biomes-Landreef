@@ -23,6 +23,7 @@
 		<ingestible/>
 		<plant>
 			<fertilityMin>0.5</fertilityMin>
+			<dieIfLeafless>true</dieIfLeafless>
 			<fertilitySensitivity>0.5</fertilitySensitivity>
 			<growDays>9.5</growDays>
 			<immatureGraphicPath>ZWB_Textures/Plants/MoonLily_Immature</immatureGraphicPath>

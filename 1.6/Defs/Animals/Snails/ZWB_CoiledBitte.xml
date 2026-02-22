@@ -21,7 +21,7 @@
 				<eggUnfertilizedDef>ZWB_EggCoiledBitteUnfertilized</eggUnfertilizedDef>
 				<eggFertilizedDef>ZWB_EggCoiledBitteFertilized</eggFertilizedDef>
 				<eggFertilizationCountMax>1</eggFertilizationCountMax>
-				<eggLayIntervalDays>2.3</eggLayIntervalDays>
+				<eggLayIntervalDays>3.9</eggLayIntervalDays>
 				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
 				<eggCountRange>1~2</eggCountRange>
 			</li>

@@ -13,16 +13,6 @@
 			<MarketValue>400</MarketValue>
 			<Wildness>0.8</Wildness>
 		</statBases>
-		<comps>
-			<li Class="CompProperties_EggLayer">
-				<eggUnfertilizedDef>ZWB_EggRainbowZigglerUnfertilized</eggUnfertilizedDef>
-				<eggFertilizedDef>ZWB_EggRainbowZigglerFertilized</eggFertilizedDef>
-				<eggFertilizationCountMax>1</eggFertilizationCountMax>
-				<eggLayIntervalDays>8.0</eggLayIntervalDays>
-				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
-				<eggCountRange>1~2</eggCountRange>
-			</li>
-		</comps>
 		<race>
 			<body>ZWB_QuadrupedLandFish</body>
 			<herdAnimal>false</herdAnimal>
@@ -37,6 +27,16 @@
 			<lifeExpectancy>22</lifeExpectancy>
 			<manhunterOnTameFailChance>0.40</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>1.00</manhunterOnDamageChance>
+			<gestationPeriodDays>12</gestationPeriodDays>
+			<litterSizeCurve>
+				<points>
+					<li>(0.5, 0)</li>
+					<li>(1, 1)</li>
+					<li>(2, 1.7)</li>
+					<li>(2.5, 0.7)</li>
+					<li>(3, 0)</li>
+				</points>
+			</litterSizeCurve>
 			<lifeStageAges>
 				<li>
 					<def>AnimalBaby</def>
@@ -203,45 +203,6 @@
 		</alternateGraphics>
 	</PawnKindDef>
 
-
-
-	<ThingDef ParentName="EggFertBase">
-		<defName>ZWB_EggRainbowZigglerFertilized</defName>
-		<label>rainbow ziggler egg (fert.)</label>
-		<description>A fertilized rainbow ziggler egg. If all goes well, it should hatch into a baby rainbow ziggler. It can be eaten raw, but it's much better cooked.</description>
-		<graphicData>
-			<texPath>Things/Item/Resource/AnimalProductRaw/EggOval</texPath>
-			<color>(67,134,186)</color>
-			<drawSize>1.05</drawSize>
-		</graphicData>
-		<statBases>
-			<Nutrition>0.5</Nutrition>
-			<MarketValue>47.0</MarketValue>
-		</statBases>
-		<comps>
-			<li Class="CompProperties_Hatcher">
-				<hatcherDaystoHatch>5</hatcherDaystoHatch>
-				<hatcherPawn>ZWB_RainbowZiggler</hatcherPawn>
-			</li>
-		</comps>
-	</ThingDef>
-
-
-
-	<ThingDef ParentName="EggUnfertBase">
-		<defName>ZWB_EggRainbowZigglerUnfertilized</defName>
-		<label>rainbow ziggler egg (unfert.)</label>
-		<description>An unfertilized rainbow ziggler egg. It can be eaten raw, but it's much better cooked.</description>
-		<graphicData>
-			<texPath>Things/Item/Resource/AnimalProductRaw/EggOval</texPath>
-			<color>(90,132,166)</color>
-			<drawSize>1.05</drawSize>
-		</graphicData>
-		<statBases>
-			<MarketValue>20.0</MarketValue>
-			<Nutrition>0.5</Nutrition>
-		</statBases>
-	</ThingDef>
 
 
 </Defs>
