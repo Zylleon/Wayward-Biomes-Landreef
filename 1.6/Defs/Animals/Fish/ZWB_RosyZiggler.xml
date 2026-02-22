@@ -21,7 +21,7 @@
 			<baseHungerRate>0.22</baseHungerRate>
 			<baseHealthScale>0.75</baseHealthScale>
 			<foodType>CarnivoreAnimal</foodType>
-			<leatherDef>Leather_Plain</leatherDef>
+			<leatherDef>ZWB_Leather_Ziggler</leatherDef>
 			<trainability>Intermediate</trainability>
 			<useMeatFrom>ZWB_Jesterfish</useMeatFrom>
 			<lifeExpectancy>8</lifeExpectancy>

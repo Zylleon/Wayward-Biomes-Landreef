@@ -168,6 +168,33 @@
 	</ThingDef>
 
 
+
+	<ThingDef ParentName="LeatherBase">
+		<defName>ZWB_Leather_Ziggler</defName>
+		<label>ziggler leather</label>
+		<description>Tanned, dried, scraped ziggler skin. It is tough and difficult to pierce, and is considered quite pretty.</description>
+		<graphicData>
+			<color>(41,148,139)</color>
+		</graphicData>
+		<statBases>
+			<MarketValue>3.2</MarketValue>
+			<Flammability>0.7</Flammability>
+			<StuffPower_Armor_Sharp>1.05</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.29</StuffPower_Armor_Blunt>
+			<StuffPower_Insulation_Cold>18</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>18</StuffPower_Insulation_Heat>
+		</statBases>
+		<stuffProps>
+			<color>(41,148,139)</color>
+			<commonality>0.1</commonality>
+			<statFactors>
+				<Flammability>0.8</Flammability>
+				<Beauty>1.6</Beauty>
+			</statFactors>
+		</stuffProps>
+	</ThingDef>
+
+
 	<!-- Other textiles -->
 
 
