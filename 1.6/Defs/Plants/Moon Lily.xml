@@ -29,7 +29,7 @@
 			<harvestYield>21</harvestYield>
 			<harvestWork>250</harvestWork>
 			<harvestTag>Standard</harvestTag>
-			<harvestAfterGrowth>0.30</harvestAfterGrowth>
+			<!-- <harvestAfterGrowth>0.30</harvestAfterGrowth> -->
 			<harvestedThingDef>ZWB_MoonJelly</harvestedThingDef>
 			<wildClusterRadius>5</wildClusterRadius>
 			<wildClusterWeight>250</wildClusterWeight>
@@ -40,7 +40,7 @@
 			<humanFoodPlant>true</humanFoodPlant>
 			<mustBeWildToSow>true</mustBeWildToSow>
 			<sowWork>800</sowWork>
-			<sowMinSkill>0</sowMinSkill>
+			<sowMinSkill>5</sowMinSkill>
 			<sowTags>
 				<li>Ground</li>
 				<li>Hydroponic</li>
@@ -59,7 +59,7 @@
 			<texPath>ZWB_Textures/Things/MoonJelly</texPath>
 		</graphicData>
 		<statBases>
-			<MarketValue>2.2</MarketValue>
+			<MarketValue>1.9</MarketValue>
 			<Mass>0.031</Mass>
 		</statBases>
 		<comps>

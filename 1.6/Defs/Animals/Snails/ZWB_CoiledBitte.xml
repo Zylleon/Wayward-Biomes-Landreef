@@ -38,8 +38,10 @@
 			<baseHungerRate>0.1</baseHungerRate>
 			<baseHealthScale>0.4</baseHealthScale>		<!-- slightly higher than the average animal this size -->
 			<foodType>OmnivoreRoughAnimal</foodType>
-			<trainability>Intermediate</trainability>
+			<trainability>None</trainability>
+			<roamMtbDays>3</roamMtbDays>
 			<lifeExpectancy>9</lifeExpectancy>
+			<useMeatFrom>ZWB_Snurble</useMeatFrom>
 			<lifeStageAges>
 				<li>
 					<def>AnimalBaby</def>

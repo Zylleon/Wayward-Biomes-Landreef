@@ -34,6 +34,7 @@
 			<leatherDef>Leather_Plain</leatherDef>
 			<roamMtbDays>3</roamMtbDays>
 			<trainability>None</trainability>
+			<useMeatFrom>ZWB_Jesterfish</useMeatFrom>
 			<lifeExpectancy>28</lifeExpectancy>
 			<manhunterOnDamageChance>0.85</manhunterOnDamageChance>
 			<manhunterOnTameFailChance>0.35</manhunterOnTameFailChance>

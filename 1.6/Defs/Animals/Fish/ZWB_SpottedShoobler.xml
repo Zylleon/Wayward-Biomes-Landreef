@@ -30,6 +30,7 @@
 			<baseHealthScale>0.85</baseHealthScale>
 			<foodType>OmnivoreRoughAnimal</foodType>
 			<leatherDef>ZWB_Leather_FishHide</leatherDef>
+			<useMeatFrom>ZWB_Jesterfish</useMeatFrom>
 			<trainability>None</trainability>
 			<lifeExpectancy>12</lifeExpectancy>
 			<lifeStageAges>

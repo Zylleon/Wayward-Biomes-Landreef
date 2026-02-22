@@ -32,6 +32,7 @@
 			<baseHealthScale>1.5</baseHealthScale>
 			<foodType>VegetarianRoughAnimal</foodType>
 			<leatherDef>ZWB_Leather_FishHide</leatherDef>
+			<meatLabel>fish meat</meatLabel>
 			<roamMtbDays>2</roamMtbDays>
 			<trainability>None</trainability>
 			<lifeExpectancy>22</lifeExpectancy>

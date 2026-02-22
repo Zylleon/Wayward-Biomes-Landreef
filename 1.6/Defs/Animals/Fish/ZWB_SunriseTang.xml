@@ -32,6 +32,7 @@
 			<foodType>VegetarianRoughAnimal</foodType>
 			<leatherDef>ZWB_Leather_Fishskin</leatherDef>
 			<trainability>Intermediate</trainability>
+			<useMeatFrom>ZWB_Jesterfish</useMeatFrom>
 			<lifeExpectancy>14</lifeExpectancy>
 			<lifeStageAges>
 				<li>

@@ -18,7 +18,6 @@
 		<pathCost>14</pathCost>
 		<ingestible/>
 		<plant>
-			<sowWork>800</sowWork>
 			<sowMinSkill>3</sowMinSkill>
 			<sowTags>
 				<li>Ground</li>
@@ -31,9 +30,8 @@
 			<immatureGraphicPath>ZWB_Textures/Plants/BerryGrass_Immature</immatureGraphicPath>
 			<harvestYield>7</harvestYield>
 			<harvestWork>190</harvestWork>
-			<maxMeshCount>4</maxMeshCount>
+			<maxMeshCount>9</maxMeshCount>
 			<harvestTag>Standard</harvestTag>
-			<!-- <harvestAfterGrowth>0.30</harvestAfterGrowth> -->
 			<harvestedThingDef>ZWB_RawGrassBerries</harvestedThingDef>
 			<wildClusterRadius>5</wildClusterRadius>
 			<wildClusterWeight>250</wildClusterWeight>

@@ -32,6 +32,7 @@
 			<foodType>OmnivoreAnimal</foodType>
 			<leatherDef>ZWB_Leather_Fishskin</leatherDef>
 			<trainability>None</trainability>
+			<useMeatFrom>ZWB_Jesterfish</useMeatFrom>
 			<lifeExpectancy>6</lifeExpectancy>
 			<roamMtbDays>3.5</roamMtbDays>
 			<lifeStageAges>

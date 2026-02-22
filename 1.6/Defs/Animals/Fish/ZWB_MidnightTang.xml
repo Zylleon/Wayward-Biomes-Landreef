@@ -4,38 +4,38 @@
 
 
 	<ThingDef ParentName="AnimalThingBase">
-		<defName>ZWB_RosyZiggler</defName>
-		<label>rosy ziggler</label>
+		<defName>ZWB_MidnightTang</defName>
+		<label>midnight tang</label>
 		<description>PLACEHOLDER</description>
 		<statBases>
-			<MoveSpeed>4.7</MoveSpeed>
-			<ComfyTemperatureMin>5</ComfyTemperatureMin>
-			<MarketValue>210</MarketValue>
-			<Wildness>0.5</Wildness>
+			<MoveSpeed>3.3</MoveSpeed>
+			<ComfyTemperatureMin>-10</ComfyTemperatureMin>
+			<MarketValue>110</MarketValue>
+			<Wildness>0.2</Wildness>
 		</statBases>
 		<comps>
 			<li Class="CompProperties_EggLayer">
-				<eggUnfertilizedDef>ZWB_EggRosyZigglerUnfertilized</eggUnfertilizedDef>
-				<eggFertilizedDef>ZWB_EggRosyZigglerFertilized</eggFertilizedDef>
+				<eggUnfertilizedDef>ZWB_EggMidnightTangUnfertilized</eggUnfertilizedDef>
+				<eggFertilizedDef>ZWB_EggMidnightTangFertilized</eggFertilizedDef>
 				<eggFertilizationCountMax>1</eggFertilizationCountMax>
-				<eggLayIntervalDays>8.0</eggLayIntervalDays>
+				<eggLayIntervalDays>3.0</eggLayIntervalDays>
 				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
-				<eggCountRange>1~2</eggCountRange>
+				<eggCountRange>1~1</eggCountRange>
 			</li>
 		</comps>
 		<race>
 			<body>ZWB_QuadrupedLandFish</body>
 			<herdAnimal>true</herdAnimal>
-			<maxPreyBodySize>0.99</maxPreyBodySize>
-			<baseBodySize>0.6</baseBodySize>
+			<baseBodySize>0.45</baseBodySize>
 			<baseHungerRate>0.22</baseHungerRate>
-			<baseHealthScale>0.75</baseHealthScale>
-			<foodType>CarnivoreAnimal</foodType>
-			<leatherDef>Leather_Plain</leatherDef>
-			<trainability>Intermediate</trainability>
-			<lifeExpectancy>8</lifeExpectancy>
-			<manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>
-			<manhunterOnDamageChance>0.5</manhunterOnDamageChance>
+			<baseHealthScale>0.7</baseHealthScale>
+			<foodType>OmnivoreRoughAnimal</foodType>
+			<useMeatFrom>ZWB_Jesterfish</useMeatFrom>
+			<leatherDef>ZWB_Leather_Fishskin</leatherDef>
+			<trainability>None</trainability>
+			<lifeExpectancy>16</lifeExpectancy>
+			<manhunterOnTameFailChance>0.05</manhunterOnTameFailChance>
+			<manhunterOnDamageChance>0.05</manhunterOnDamageChance>
 			<lifeStageAges>
 				<li>
 					<def>AnimalBaby</def>
@@ -43,11 +43,11 @@
 				</li>
 				<li>
 					<def>AnimalJuvenile</def>
-					<minAge>0.13</minAge>
+					<minAge>0.1</minAge>
 				</li>
 				<li>
 					<def>AnimalAdult</def>
-					<minAge>0.32</minAge>
+					<minAge>0.2</minAge>
 					<soundWounded>Pawn_Muffalo_Wounded</soundWounded>
 					<soundDeath>Pawn_Muffalo_Death</soundDeath>
 					<soundCall>Pawn_Muffalo_Call</soundCall>
@@ -57,9 +57,8 @@
 			<soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
 			<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
 			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
-			<soundEating>PredatorSmall_Eat</soundEating>
+			<soundEating>Herbivore_Eat</soundEating>
 			<packAnimal>false</packAnimal>
-			<predator>true</predator>
 			<!-- <headPosPerRotation> -->
 			<!-- <li>(0.0, 0, 0.09)</li> -->
 			<!-- <li>(0.28, 0, 0)</li> -->
@@ -68,15 +67,16 @@
 			<!-- </headPosPerRotation> -->
 		</race>
 		<tradeTags>
-			<li>AnimalUncommon</li>
+			<li>AnimalCommon</li>
+			<!-- <li>AnimalFarm</li> -->
 		</tradeTags>
 		<tools>
 			<li>
 				<capacities>
 					<li>Bite</li>
 				</capacities>
-				<power>12</power>
-				<cooldownTime>1.9</cooldownTime>
+				<power>5.2</power>
+				<cooldownTime>2.45</cooldownTime>
 				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
 				<chanceFactor>0.7</chanceFactor>
 			</li>
@@ -86,18 +86,10 @@
 					<li>Blunt</li>
 				</capacities>
 				<power>5</power>
-				<cooldownTime>2</cooldownTime>
+				<cooldownTime>1.9</cooldownTime>
 				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
 				<chanceFactor>0.2</chanceFactor>
-				<surpriseAttack>
-					<extraMeleeDamages>
-						<li>
-							<def>Stun</def>
-							<amount>14</amount>
-						</li>
-					</extraMeleeDamages>
-				</surpriseAttack>
 			</li>
 			<li>
 				<label>left flipper</label>
@@ -106,17 +98,9 @@
 					<li>Blunt</li>
 					<li>Poke</li>
 				</capacities>
-				<power>6</power>
+				<power>5.3</power>
 				<cooldownTime>2</cooldownTime>
 				<linkedBodyPartsGroup>ZWB_FrontLeftFlipper</linkedBodyPartsGroup>
-				<surpriseAttack>
-					<extraMeleeDamages>
-						<li>
-							<def>Stun</def>
-							<amount>14</amount>
-						</li>
-					</extraMeleeDamages>
-				</surpriseAttack>
 			</li>
 			<li>
 				<label>right flipper</label>
@@ -125,59 +109,51 @@
 					<li>Blunt</li>
 					<li>Poke</li>
 				</capacities>
-				<power>6</power>
+				<power>5.3</power>
 				<cooldownTime>2</cooldownTime>
 				<linkedBodyPartsGroup>ZWB_FrontRightFlipper</linkedBodyPartsGroup>
-				<surpriseAttack>
-					<extraMeleeDamages>
-						<li>
-							<def>Stun</def>
-							<amount>14</amount>
-						</li>
-					</extraMeleeDamages>
-				</surpriseAttack>
 			</li>
 		</tools>
 	</ThingDef>
 
 
 	<PawnKindDef ParentName="AnimalKindBase">
-		<defName>ZWB_RosyZiggler</defName>
-		<label>rosy ziggler</label>
-		<race>ZWB_RosyZiggler</race>
-		<combatPower>45</combatPower>
-		<ecoSystemWeight>0.25</ecoSystemWeight>
+		<defName>ZWB_MidnightTang</defName>
+		<label>midnight tang</label>
+		<race>ZWB_MidnightTang</race>
+		<combatPower>35</combatPower>
+		<ecoSystemWeight>0.35</ecoSystemWeight>
 		<wildGroupSize>1~2</wildGroupSize>
 		<lifeStages>
 			<li>
-				<label>rosy ziggler fry</label>
-				<labelPlural>rosy ziggler fry</labelPlural>
+				<label>midnight tang fry</label>
+				<labelPlural>midnight tang fry</labelPlural>
 				<bodyGraphicData>
-					<texPath>ZWB_Textures/Animals/RosyZiggler/RosyZiggler</texPath>
-					<drawSize>0.6</drawSize>
+					<texPath>ZWB_Textures/Animals/MidnightTang/MidnightTang</texPath>
+					<drawSize>0.5</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>ZWB_Textures/Animals/RosyZiggler/Dessicated_RosyZiggler</texPath>
-					<drawSize>.6</drawSize>
+					<texPath>ZWB_Textures/Animals/MidnightTang/Dessicated_MidnightTang</texPath>
+					<drawSize>0.5</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>ZWB_Textures/Animals/RosyZiggler/RosyZiggler</texPath>
-					<drawSize>0.9</drawSize>
+					<texPath>ZWB_Textures/Animals/MidnightTang/MidnightTang</texPath>
+					<drawSize>0.8</drawSize>
 					<shadowData>
 						<volume>(0.25, 0.3, 0.25)</volume>
 						<offset>(0,0,-0.15)</offset>
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>ZWB_Textures/Animals/RosyZiggler/Dessicated_RosyZiggler</texPath>
-					<drawSize>0.9</drawSize>
+					<texPath>ZWB_Textures/Animals/MidnightTang/Dessicated_MidnightTang</texPath>
+					<drawSize>0.8</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>ZWB_Textures/Animals/RosyZiggler/RosyZiggler</texPath>
+					<texPath>ZWB_Textures/Animals/MidnightTang/MidnightTang</texPath>
 					<drawSize>1.2</drawSize>
 					<shadowData>
 						<volume>(0.3, 0.4, 0.3)</volume>
@@ -185,43 +161,32 @@
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>ZWB_Textures/Animals/RosyZiggler/Dessicated_RosyZiggler</texPath>
+					<texPath>ZWB_Textures/Animals/MidnightTang/Dessicated_MidnightTang</texPath>
 					<drawSize>1.2</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 		</lifeStages>
-		<alternateGraphicChance>0.5</alternateGraphicChance>
-		<alternateGraphics>
-			<li>
-				<texPath>ZWB_Textures/Animals/RosyZiggler/RosyZigglerA</texPath>
-				<weight>2.5</weight>
-			</li>
-			<li>
-				<texPath>ZWB_Textures/Animals/RosyZiggler/RosyZigglerB</texPath>
-				<weight>1</weight>
-			</li>
-		</alternateGraphics>
 	</PawnKindDef>
 
 
 
 	<ThingDef ParentName="EggFertBase">
-		<defName>ZWB_EggRosyZigglerFertilized</defName>
-		<label>rosy ziggler egg (fert.)</label>
-		<description>A fertilized rosy ziggler egg. If all goes well, it should hatch into a baby rosy ziggler. It can be eaten raw, but it's much better cooked.</description>
+		<defName>ZWB_EggMidnightTangFertilized</defName>
+		<label>midnight tang egg (fert.)</label>
+		<description>A fertilized midnight tang egg. If all goes well, it should hatch into a baby midnight tang. It can be eaten raw, but it's much better cooked.</description>
 		<graphicData>
-			<texPath>Things/Item/Resource/AnimalProductRaw/EggOval</texPath>
-			<color>(224,112,141)</color>
+			<texPath>Things/Item/Resource/AnimalProductRaw/EggRound</texPath>
+			<color>(104,146,217)</color>
 			<drawSize>0.7</drawSize>
 		</graphicData>
 		<statBases>
 			<Nutrition>0.5</Nutrition>
-			<MarketValue>25.0</MarketValue>
+			<MarketValue>16.0</MarketValue>
 		</statBases>
 		<comps>
 			<li Class="CompProperties_Hatcher">
 				<hatcherDaystoHatch>5</hatcherDaystoHatch>
-				<hatcherPawn>ZWB_RosyZiggler</hatcherPawn>
+				<hatcherPawn>ZWB_MidnightTang</hatcherPawn>
 			</li>
 		</comps>
 	</ThingDef>
@@ -229,16 +194,16 @@
 
 
 	<ThingDef ParentName="EggUnfertBase">
-		<defName>ZWB_EggRosyZigglerUnfertilized</defName>
-		<label>rosy ziggler egg (unfert.)</label>
-		<description>An unfertilized rosy ziggler egg. It can be eaten raw, but it's much better cooked.</description>
+		<defName>ZWB_EggMidnightTangUnfertilized</defName>
+		<label>midnight tang egg (unfert.)</label>
+		<description>An unfertilized midnight tang egg. It can be eaten raw, but it's much better cooked.</description>
 		<graphicData>
-			<texPath>Things/Item/Resource/AnimalProductRaw/EggOval</texPath>
-			<color>(194,128,146)</color>
+			<texPath>Things/Item/Resource/AnimalProductRaw/EggRound</texPath>
+			<color>(118,136,168)</color>
 			<drawSize>0.7</drawSize>
 		</graphicData>
 		<statBases>
-			<MarketValue>13.0</MarketValue>
+			<MarketValue>10.0</MarketValue>
 			<Nutrition>0.5</Nutrition>
 		</statBases>
 	</ThingDef>

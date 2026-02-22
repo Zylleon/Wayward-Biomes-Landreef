@@ -32,6 +32,7 @@
 			<maxPreyBodySize>2.3</maxPreyBodySize>
 			<foodType>CarnivoreAnimal</foodType>
 			<leatherDef>Leather_Plain</leatherDef>
+			<useMeatFrom>ZWB_Jesterfish</useMeatFrom>
 			<trainability>Advanced</trainability>
 			<lifeExpectancy>22</lifeExpectancy>
 			<manhunterOnTameFailChance>0.40</manhunterOnTameFailChance>

@@ -4,39 +4,36 @@
 
 
 	<ThingDef ParentName="AnimalThingBase">
-		<defName>ZWB_Snurble</defName>
-		<label>snurble</label>
-		<description>PLACEHOLDER</description>
+		<defName>ZWB_AmethystSkrunt</defName>
+		<label>amethyst skrunt</label>
+		<description>A small creature that often makes its nests within amethyst veils. Many consider it a nuisance and see it as a bad omen.</description>
 		<statBases>
-			<MoveSpeed>2.5</MoveSpeed>
+			<MoveSpeed>4.0</MoveSpeed>
 			<ComfyTemperatureMin>-10</ComfyTemperatureMin>
 			<MarketValue>40</MarketValue>
 			<Wildness>0.5</Wildness>
-			<LeatherAmount>0</LeatherAmount>
-			<ArmorRating_Blunt>0.1</ArmorRating_Blunt>
-			<ArmorRating_Sharp>0.25</ArmorRating_Sharp>
 		</statBases>
 		<comps>
 			<li Class="CompProperties_EggLayer">
-				<eggUnfertilizedDef>ZWB_EggSnurbleUnfertilized</eggUnfertilizedDef>
-				<eggFertilizedDef>ZWB_EggSnurbleFertilized</eggFertilizedDef>
+				<eggUnfertilizedDef>ZWB_EggAmethystSkruntUnfertilized</eggUnfertilizedDef>
+				<eggFertilizedDef>ZWB_EggAmethystSkruntFertilized</eggFertilizedDef>
 				<eggFertilizationCountMax>1</eggFertilizationCountMax>
-				<eggLayIntervalDays>4.3</eggLayIntervalDays>
+				<eggLayIntervalDays>3.0</eggLayIntervalDays>
 				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
 				<eggCountRange>1~1</eggCountRange>
 			</li>
 		</comps>
 		<race>
-			<body>ZWB_Snail</body>
+			<body>ZWB_BipedLandFish</body>
 			<herdAnimal>false</herdAnimal>
-			<baseBodySize>0.6</baseBodySize>
-			<baseHungerRate>0.3</baseHungerRate>
-			<baseHealthScale>0.60</baseHealthScale>
+			<baseBodySize>0.2</baseBodySize>
+			<baseHungerRate>0.1</baseHungerRate>
+			<baseHealthScale>0.30</baseHealthScale>
 			<foodType>OmnivoreRoughAnimal</foodType>
-			<trainability>Intermediate</trainability>
-			<lifeExpectancy>11</lifeExpectancy>
-			<petness>0.8</petness>
-			<nuzzleMtbHours>24</nuzzleMtbHours>
+			<useMeatFrom>ZWB_Jesterfish</useMeatFrom>
+			<leatherDef>Leather_Light</leatherDef>
+			<trainability>None</trainability>
+			<lifeExpectancy>8</lifeExpectancy>
 			<lifeStageAges>
 				<li>
 					<def>AnimalBaby</def>
@@ -48,7 +45,7 @@
 				</li>
 				<li>
 					<def>AnimalAdult</def>
-					<minAge>0.23</minAge>
+					<minAge>0.2</minAge>
 					<soundWounded>Pawn_Boomrat_Wounded</soundWounded>
 					<soundDeath>Pawn_Boomrat_Death</soundDeath>
 					<soundCall>Pawn_Boomrat_Call</soundCall>
@@ -85,59 +82,75 @@
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
-				<power>5</power>
+				<power>2.2</power>
 				<cooldownTime>2</cooldownTime>
 				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
 				<chanceFactor>0.2</chanceFactor>
+			</li>
+			<li>
+				<label>left flipper</label>
+				<labelNoLocation>flipper</labelNoLocation>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>3.3</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>ZWB_FrontLeftFlipper</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<label>right flipper</label>
+				<labelNoLocation>flipper</labelNoLocation>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>3.3</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>ZWB_FrontRightFlipper</linkedBodyPartsGroup>
 			</li>
 		</tools>
 	</ThingDef>
 
 
 	<PawnKindDef ParentName="AnimalKindBase">
-		<defName>ZWB_Snurble</defName>
-		<label>snurble</label>
-		<race>ZWB_Snurble</race>
-		<combatPower>60</combatPower>
+		<defName>ZWB_AmethystSkrunt</defName>
+		<label>amethyst skrunt</label>
+		<race>ZWB_AmethystSkrunt</race>
+		<combatPower>30</combatPower>
 		<ecoSystemWeight>0.20</ecoSystemWeight>
 		<lifeStages>
 			<li>
+				<label>amethyst skrunt fry</label>
+				<labelPlural>amethyst skrunt fry</labelPlural>
 				<bodyGraphicData>
-					<texPath>ZWB_Textures/Animals/Snurble/Snurble</texPath>
-					<drawSize>0.7</drawSize>
+					<texPath>ZWB_Textures/Animals/AmethystSkrunt/AmethystSkrunt</texPath>
+					<drawSize>0.35</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>ZWB_Textures/Animals/Snurble/Dessicated_Snurble</texPath>
-					<drawSize>0.7</drawSize>
+					<texPath>ZWB_Textures/Animals/AmethystSkrunt/Dessicated_AmethystSkrunt</texPath>
+					<drawSize>0.35</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>ZWB_Textures/Animals/Snurble/Snurble</texPath>
-					<drawSize>0.95</drawSize>
-					<shadowData>
-						<volume>(0.3, 0.3, 0.3)</volume>
-						<offset>(0,0,-0.3)</offset>
-					</shadowData>
+					<texPath>ZWB_Textures/Animals/AmethystSkrunt/AmethystSkrunt</texPath>
+					<drawSize>0.65</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>ZWB_Textures/Animals/Snurble/Dessicated_Snurble</texPath>
-					<drawSize>0.95</drawSize>
+					<texPath>ZWB_Textures/Animals/AmethystSkrunt/Dessicated_AmethystSkrunt</texPath>
+					<drawSize>0.65</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>ZWB_Textures/Animals/Snurble/Snurble</texPath>
-					<drawSize>1.2</drawSize>
-					<shadowData>
-						<volume>(0.4, 0.4, 0.4)</volume>
-						<offset>(0,0,-0.2)</offset>
-					</shadowData>
+					<texPath>ZWB_Textures/Animals/AmethystSkrunt/AmethystSkrunt</texPath>
+					<drawSize>0.85</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>ZWB_Textures/Animals/Snurble/Dessicated_Snurble</texPath>
-					<drawSize>1.2</drawSize>
+					<texPath>ZWB_Textures/Animals/AmethystSkrunt/Dessicated_AmethystSkrunt</texPath>
+					<drawSize>0.85</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 		</lifeStages>
@@ -146,12 +159,12 @@
 
 
 	<ThingDef ParentName="EggFertBase">
-		<defName>ZWB_EggSnurbleFertilized</defName>
-		<label>snurble egg (fert.)</label>
-		<description>A fertilized snurble egg. If all goes well, it should hatch into a baby snurble. It can be eaten raw, but it's much better cooked.</description>
+		<defName>ZWB_EggAmethystSkruntFertilized</defName>
+		<label>amethyst skrunt egg (fert.)</label>
+		<description>A fertilized amethyst skrunt egg. If all goes well, it should hatch into a baby amethyst skrunt. It can be eaten raw, but it's much better cooked.</description>
 		<graphicData>
 			<texPath>Things/Item/Resource/AnimalProductRaw/EggRound</texPath>
-			<color>(174,133,196)</color>
+			<color>(135,81,150)</color>
 			<drawSize>0.7</drawSize>
 		</graphicData>
 		<statBases>
@@ -161,7 +174,7 @@
 		<comps>
 			<li Class="CompProperties_Hatcher">
 				<hatcherDaystoHatch>5</hatcherDaystoHatch>
-				<hatcherPawn>ZWB_Snurble</hatcherPawn>
+				<hatcherPawn>ZWB_AmethystSkrunt</hatcherPawn>
 			</li>
 		</comps>
 	</ThingDef>
@@ -169,12 +182,12 @@
 
 
 	<ThingDef ParentName="EggUnfertBase">
-		<defName>ZWB_EggSnurbleUnfertilized</defName>
-		<label>snurble egg (unfert.)</label>
-		<description>An unfertilized snurble egg. It can be eaten raw, but it's much better cooked.</description>
+		<defName>ZWB_EggAmethystSkruntUnfertilized</defName>
+		<label>amethyst skrunt egg (unfert.)</label>
+		<description>An unfertilized amethyst skrunt egg. It can be eaten raw, but it's much better cooked.</description>
 		<graphicData>
 			<texPath>Things/Item/Resource/AnimalProductRaw/EggRound</texPath>
-			<color>(179,157,191)</color>
+			<color>(90,49,111)</color>
 			<drawSize>0.7</drawSize>
 		</graphicData>
 		<statBases>
