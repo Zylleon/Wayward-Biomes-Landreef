@@ -163,6 +163,11 @@
 				</dessicatedBodyGraphicData>
 			</li>
 		</lifeStages>
+		<alternateGraphicChance>0.5</alternateGraphicChance>
+		<alternateGraphics>
+			<li><texPath>ZWB_Textures/Animals/SpottedShoobler/SpottedShooblerA</texPath></li>
+			<li><texPath>ZWB_Textures/Animals/SpottedShoobler/SpottedShooblerB</texPath></li>
+		</alternateGraphics>
 	</PawnKindDef>
 
 
