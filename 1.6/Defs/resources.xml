@@ -166,6 +166,53 @@
 			</statFactors>
 		</stuffProps>
 	</ThingDef>
+	
+	
+<!-- Other textiles -->
+
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>ZWB_SnailSilk</defName>
+    <label>snail silk</label>
+    <description>Silk excreted by a marine snail. It is soft, light, strong, and insulates well.</description>
+    <graphicData>
+			<texPath>ZWB_Textures/Things/SnailSilk</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <color>(163,102,122)</color>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>130</MaxHitPoints>
+      <MarketValue>3</MarketValue>
+      <Mass>0.025</Mass>
+      <Flammability>0.5</Flammability>
+      <DeteriorationRate>2.5</DeteriorationRate>
+      <StuffPower_Armor_Sharp>0.88</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.30</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>0.9</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>18</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>24</StuffPower_Insulation_Heat>
+    </statBases>
+    <burnableByRecipe>true</burnableByRecipe>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <minRewardCount>40</minRewardCount>
+    <stuffProps>
+      <categories>
+        <li>Fabric</li>
+      </categories>
+      <commonality>0.05</commonality>
+      <color>(163,102,122)</color>
+      <statFactors>
+        <Flammability>0.7</Flammability>
+        <MaxHitPoints>1.3</MaxHitPoints>
+        <Beauty>2.3</Beauty>
+      </statFactors>
+    </stuffProps>
+    <thingCategories>
+      <li>Textiles</li>
+    </thingCategories>
+    <allowedArchonexusCount>100</allowedArchonexusCount>
+  </ThingDef>
+
 
 </Defs>
 

@@ -6,7 +6,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>ZWB_CoiledBitte</defName>
 		<label>coiled bitte</label>
-		<description>A tiny, hardy snail, commonly found on tidewrack reefs. Though slow, it's shell provides good protection.</description>
+		<description>A tiny, hardy snail, commonly found on tidewrack reefs. It excretes a fine silk that can be harvested periodically.</description>
 		<statBases>
 			<MoveSpeed>2.2</MoveSpeed>
 			<ComfyTemperatureMin>-25</ComfyTemperatureMin>
@@ -24,6 +24,11 @@
 				<eggLayIntervalDays>2.3</eggLayIntervalDays>
 				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
 				<eggCountRange>1~2</eggCountRange>
+			</li>
+				<li Class="CompProperties_Shearable">
+				<woolDef>ZWB_SnailSilk</woolDef>
+				<shearIntervalDays>10</shearIntervalDays>
+				<woolAmount>12</woolAmount>
 			</li>
 		</comps>
 		<race>

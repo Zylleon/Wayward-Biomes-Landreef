@@ -1,8 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-	<ThingDef ParentName="PlantBase" Name="ZWB_AmethystVeilBase" Abstract="True">
+	<ThingDef ParentName="PlantBase">
+		<defName>ZWB_AmethystVeil</defName>
+		<label>amethyst veil</label>
 		<description>A foliose coral, which can be harvested and refined into a textile. This soft, luxurious fabric is highly prized.</description>
+		<neverMultiSelect>false</neverMultiSelect>
 		<statBases>
 			<MaxHitPoints>60</MaxHitPoints>
 			<Nutrition>0.2</Nutrition>
@@ -19,56 +22,32 @@
 		<pathCost>14</pathCost>
 		<ingestible/>
 		<plant>
+			<fertilityMin>0.5</fertilityMin>
+			<fertilitySensitivity>1.0</fertilitySensitivity>
 			<immatureGraphicPath>ZWB_Textures/Plants/AmethystVeil_Immature</immatureGraphicPath>
-			<growDays>7.5</growDays>
 			<dieIfLeafless>false</dieIfLeafless>
 			<harvestWork>400</harvestWork>
 			<harvestTag>Standard</harvestTag>
-
 			<harvestedThingDef>ZWB_AmethystVeilCloth</harvestedThingDef>
-
 			<harvestYield>9</harvestYield>
 			<topWindExposure>0.2</topWindExposure>
 			<visualSizeRange>0.5~1.2</visualSizeRange>
-
-			<wildOrder>2</wildOrder>
+			<wildOrder>3</wildOrder>
 			<wildClusterRadius>5</wildClusterRadius>
 			<wildClusterWeight>250</wildClusterWeight>
-		</plant>
-	</ThingDef>
-
-
-
-
-	<ThingDef ParentName="ZWB_AmethystVeilBase">
-		<defName>ZWB_AmethystVeilWild</defName>
-		<label>wild amethyst veil</label>
-		<neverMultiSelect>false</neverMultiSelect>
-
-	</ThingDef>
-
-
-
-
-	<ThingDef ParentName="ZWB_AmethystVeilBase">
-		<defName>ZWB_AmethystVeil</defName>
-		<label>amethyst veil</label>
-		<plant>
 			<mustBeWildToSow>true</mustBeWildToSow>
 			<growDays>7</growDays>
 			<sowWork>800</sowWork>
+			<sowMinSkill>7</sowMinSkill>
 			<sowTags>
 				<li>Ground</li>
 				<li>Hydroponic</li>
 			</sowTags>
-			<sowMinSkill>7</sowMinSkill>
 			<sowResearchPrerequisites>
 				<li>Devilstrand</li>
 			</sowResearchPrerequisites>
 		</plant>
 	</ThingDef>
-
-
 
 
 

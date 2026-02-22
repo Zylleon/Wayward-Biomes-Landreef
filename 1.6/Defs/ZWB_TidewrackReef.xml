@@ -120,7 +120,7 @@
 		</baseWeatherCommonalities>
 		<wildPlants>
 			<!-- ground cover -->
-			<ZWB_ValentineTrumpets>0.15</ZWB_ValentineTrumpets>
+			<ZWB_ValentineTrumpets>0.08</ZWB_ValentineTrumpets>
 			<ZWB_LilacFrill>0.65</ZWB_LilacFrill>
 			<ZWB_Sinkweed>3.5</ZWB_Sinkweed>
 			<ZWB_Seagrass>1.7</ZWB_Seagrass>
@@ -141,12 +141,12 @@
 			<ZWB_AzureFanwood>0.35</ZWB_AzureFanwood>
 
 			<!-- harvestable food -->
-			<ZWB_AlgfruitCoralWild>0.05</ZWB_AlgfruitCoralWild>
-			<ZWB_BerryGrassWild>0.05</ZWB_BerryGrassWild>
-			<ZWB_LilypadWild>0.1</ZWB_LilypadWild>
+			<ZWB_AlgfruitCoral>0.1</ZWB_AlgfruitCoral>
+			<ZWB_BerryGrass>0.1</ZWB_BerryGrass>
+			<ZWB_MoonLily>0.2</ZWB_MoonLily>
 
 			<!-- harvestable other -->
-			<ZWB_AmethystVeilWild>0.03</ZWB_AmethystVeilWild>
+			<ZWB_AmethystVeil>0.03</ZWB_AmethystVeil>
 			<ZWB_FireCoral>0.003</ZWB_FireCoral>
 
 		</wildPlants>

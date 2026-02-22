@@ -1,8 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-	<ThingDef ParentName="PlantBase" Name="ZWB_BerryGrassBase" Abstract="True">
+	<ThingDef ParentName="PlantBase">
+		<defName>ZWB_BerryGrass</defName>
+		<label>berry grass</label>
 		<description>A unique relative of firegrass, it is taller and leaks a viscous sap that forms large round clumps full of seeds. While the yield is low individually, they provide a reliable food source due to dense growth.</description>
+		<neverMultiSelect>false</neverMultiSelect>
 		<statBases>
 			<MaxHitPoints>120</MaxHitPoints>
 			<Nutrition>0.50</Nutrition>
@@ -15,6 +18,13 @@
 		<pathCost>14</pathCost>
 		<ingestible/>
 		<plant>
+			<sowWork>800</sowWork>
+			<sowMinSkill>3</sowMinSkill>
+			<sowTags>
+				<li>Ground</li>
+				<li>Hydroponic</li>
+			</sowTags>
+			<mustBeWildToSow>true</mustBeWildToSow>
 			<fertilityMin>0.5</fertilityMin>
 			<fertilitySensitivity>0.8</fertilitySensitivity>
 			<growDays>3.5</growDays>
@@ -34,35 +44,8 @@
 			<humanFoodPlant>true</humanFoodPlant>
 		</plant>
 	</ThingDef>
-
-
-
-	<ThingDef ParentName="ZWB_BerryGrassBase">
-		<defName>ZWB_BerryGrassWild</defName>
-		<label>wild berry grass</label>
-		<neverMultiSelect>false</neverMultiSelect>
-	</ThingDef>
 	
 	
-
-	<ThingDef ParentName="ZWB_BerryGrassBase">
-		<defName>ZWB_BerryGrass</defName>
-		<label>berry grass</label>
-		<plant>
-			<sowWork>800</sowWork>
-			<sowMinSkill>3</sowMinSkill>
-			<sowTags>
-				<li>Ground</li>
-				<li>Hydroponic</li>
-			</sowTags>
-			<mustBeWildToSow>true</mustBeWildToSow>
-			<!-- <sowResearchPrerequisites> -->
-				<!-- <li>Devilstrand</li> -->
-			<!-- </sowResearchPrerequisites> -->
-		</plant>
-	</ThingDef>
-
-
 
   <ThingDef ParentName="PlantFoodRawBase">
     <defName>ZWB_RawGrassBerries</defName>

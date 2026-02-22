@@ -2,8 +2,11 @@
 <Defs>
 
 	
-	<ThingDef ParentName="PlantBase" Name="ZWB_AlgfruitBase" Abstract="True">
+	<ThingDef ParentName="PlantBase">
+		<defName>ZWB_AlgfruitCoral</defName>
+		<label>algfruit coral</label>
 		<description>A pale coral that has formed a unique symbiosis with algae. The coral provides structure and height for the algae that forms small lumps on the outside of the coral, which is surprisingly delicious, even when raw.</description>
+		<neverMultiSelect>false</neverMultiSelect>
 		<statBases>
 			<MaxHitPoints>120</MaxHitPoints>
 			<Nutrition>0.50</Nutrition>
@@ -32,40 +35,22 @@
 			<harvestedThingDef>ZWB_Algfruit</harvestedThingDef>
 			<wildClusterRadius>5</wildClusterRadius>
 			<wildClusterWeight>250</wildClusterWeight>
-			<visualSizeRange>0.6~1.0</visualSizeRange>
+			<visualSizeRange>0.6~1.15</visualSizeRange>
 			<topWindExposure>0.3</topWindExposure>
 			<wildOrder>2</wildOrder>
 			<purpose>Food</purpose>
 			<humanFoodPlant>true</humanFoodPlant>
-		</plant>
-	</ThingDef>
-
-
-	<ThingDef ParentName="ZWB_AlgfruitBase">
-		<defName>ZWB_AlgfruitCoralWild</defName>
-		<label>wild algfruit coral</label>
-		<neverMultiSelect>false</neverMultiSelect>
-	</ThingDef>
-	
-
-
-	<ThingDef ParentName="ZWB_AlgfruitBase">
-		<defName>ZWB_AlgfruitCoral</defName>
-		<label>algfruit coral</label>
-		<plant>
 			<mustBeWildToSow>true</mustBeWildToSow>
 			<sowWork>800</sowWork>
 			<sowMinSkill>6</sowMinSkill>
 			<sowTags>
 				<li>Ground</li>
-				<!-- <li>Hydroponic</li> -->
 			</sowTags>
 			<!-- <sowResearchPrerequisites> -->
 				<!-- <li>Devilstrand</li> -->
 			<!-- </sowResearchPrerequisites> -->
 		</plant>
 	</ThingDef>
-
 
 
 
