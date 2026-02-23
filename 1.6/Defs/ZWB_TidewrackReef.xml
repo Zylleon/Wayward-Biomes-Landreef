@@ -14,7 +14,7 @@
 		<plantDensity>0.9</plantDensity>
 		<wildPlantRegrowDays>12</wildPlantRegrowDays>
 		<forageability>1</forageability>
-		<foragedFood>RawBerries</foragedFood>
+		<foragedFood>ZWB_Algfruit</foragedFood>
 		<maxFishPopulation>720</maxFishPopulation>
 		<!-- <wildPlantsCareAboutLocalFertility>false</wildPlantsCareAboutLocalFertility> -->
 		<fishTypes MayRequire="Ludeon.RimWorld.Odyssey">
