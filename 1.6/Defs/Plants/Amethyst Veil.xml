@@ -31,7 +31,7 @@
 			<harvestedThingDef>ZWB_AmethystVeilCloth</harvestedThingDef>
 			<harvestYield>9</harvestYield>
 			<topWindExposure>0.2</topWindExposure>
-			<visualSizeRange>0.5~1.2</visualSizeRange>
+			<visualSizeRange>0.6~1.2</visualSizeRange>
 			<wildOrder>3</wildOrder>
 			<wildClusterRadius>5</wildClusterRadius>
 			<wildClusterWeight>250</wildClusterWeight>
@@ -79,7 +79,7 @@
 				<li>Fabric</li>
 			</categories>
 			<commonality>0.20</commonality>
-			<color>(128,92,148)</color>
+			<color>(101,77,135)</color>
 			<statFactors>
 				<Flammability>0.27</Flammability>
 				<MaxHitPoints>0.85</MaxHitPoints>
