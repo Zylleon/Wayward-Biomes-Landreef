@@ -26,7 +26,7 @@
 			<wildClusterWeight>70</wildClusterWeight>
 			<visualSizeRange>0.75~1.2</visualSizeRange>
 			<topWindExposure>0.20</topWindExposure>
-			<wildOrder>2</wildOrder>
+			<wildOrder>3</wildOrder>
 			<harvestYield>1</harvestYield>
 			<harvestTag>Standard</harvestTag>
 			<harvestedThingDef>ZWB_WeaponFireCoral</harvestedThingDef>

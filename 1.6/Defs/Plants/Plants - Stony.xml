@@ -8,7 +8,7 @@
 			<wildClusterWeight>500</wildClusterWeight>
 			<visualSizeRange>0.4~1.6</visualSizeRange>
 			<topWindExposure>0</topWindExposure>
-			<wildOrder>3</wildOrder>
+			<wildOrder>4</wildOrder>
 			<harvestedThingDef>ZWB_CoralithChunk</harvestedThingDef>
 			<harvestYield>3</harvestYield>
 			<harvestTag>Wood</harvestTag>
@@ -40,7 +40,6 @@
 			<wildClusterRadius>4</wildClusterRadius>
 			<wildClusterWeight>500</wildClusterWeight>
 			<visualSizeRange>0.4~1.6</visualSizeRange>
-			<wildOrder>3</wildOrder>
 			<harvestYield>7</harvestYield>
 		</plant>
 	</ThingDef>
@@ -66,7 +65,6 @@
 			<wildClusterRadius>4</wildClusterRadius>
 			<wildClusterWeight>90</wildClusterWeight>
 			<visualSizeRange>0.4~0.9</visualSizeRange>
-			<wildOrder>3</wildOrder>
 			<harvestYield>2</harvestYield>
 		</plant>
 	</ThingDef>
