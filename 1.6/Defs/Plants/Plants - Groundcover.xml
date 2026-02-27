@@ -9,7 +9,7 @@
 			<MaxHitPoints>85</MaxHitPoints>
 			<Beauty>14</Beauty>
 			<BeautyOutdoors>14</BeautyOutdoors>
-			<Nutrition>0.15</Nutrition>
+			<Nutrition>0.20</Nutrition>
 		</statBases>
 		<graphicData>
 			<texPath>ZWB_Textures/Plants/ValentineTrumpets</texPath>
@@ -54,6 +54,8 @@
 				<offset>(0,0,0)</offset>
 			</shadowData>
 		</graphicData>
+		<fillPercent>0.10</fillPercent>
+		<pathCost>20</pathCost>
 		<plant>
 			<wildClusterRadius>3</wildClusterRadius>
 			<wildClusterWeight>300</wildClusterWeight>
@@ -75,11 +77,12 @@
 		<label>sinkweed</label>
 		<description>A briney frond found in various shades of dull red. Quite common.</description>
 		<statBases>
-			<MaxHitPoints>85</MaxHitPoints>
+			<MaxHitPoints>90</MaxHitPoints>
 			<Beauty>4</Beauty>
 			<BeautyOutdoors>4</BeautyOutdoors>
-			<Nutrition>0.25</Nutrition>
+			<Nutrition>0.4</Nutrition>
 		</statBases>
+		<pathCost>18</pathCost>
 		<graphicData>
 			<texPath>ZWB_Textures/Plants/Sinkweed</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
@@ -109,8 +112,9 @@
 			<MaxHitPoints>85</MaxHitPoints>
 			<Beauty>4</Beauty>
 			<BeautyOutdoors>4</BeautyOutdoors>
-			<Nutrition>0.25</Nutrition>
+			<Nutrition>0.4</Nutrition>
 		</statBases>
+		<pathCost>14</pathCost>
 		<graphicData>
 			<texPath>ZWB_Textures/Plants/Kelp</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
@@ -170,12 +174,11 @@
 		<label>firegrass</label>
 		<description>A sparse grass with a distinctive short and stubby look to its blades. Despite its appearance, it has no combustible properties.</description>
 		<statBases>
-			<MaxHitPoints>90</MaxHitPoints>
+			<MaxHitPoints>80</MaxHitPoints>
 			<Flammability>1.3</Flammability>
-			<Nutrition>0.50</Nutrition>
+			<Nutrition>0.15</Nutrition>
 			<Flammability>0.5</Flammability>
 		</statBases>
-		<pathCost>14</pathCost>
 		<graphicData>
 			<texPath>ZWB_Textures/Plants/Firegrass</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
@@ -206,9 +209,10 @@
 			<MaxHitPoints>150</MaxHitPoints>
 			<Beauty>6</Beauty>
 			<BeautyOutdoors>6</BeautyOutdoors>
-			<Nutrition>0.25</Nutrition>
+			<Nutrition>0.2</Nutrition>
 			<Flammability>0.3</Flammability>
 		</statBases>
+		<pathCost>20</pathCost>
 		<graphicData>
 			<texPath>ZWB_Textures/Plants/SaltPot</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
@@ -236,9 +240,10 @@
 		<description>A blue sponge-like organism that filters minerals from the soil, found throughout tidewrack reefs.</description>
 		<statBases>
 			<MaxHitPoints>90</MaxHitPoints>
-			<Nutrition>0.25</Nutrition>
+			<Nutrition>0.35</Nutrition>
 		</statBases>
 		<selectable>true</selectable>
+		<pathCost>25</pathCost>
 		<graphicData>
 			<texPath>ZWB_Textures/Plants/CobaltScrunge</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
@@ -257,7 +262,7 @@
 
 
 
-	<ThingDef ParentName="PlantBase">
+	<ThingDef ParentName="BushBase">
 		<defName>ZWB_AmberTube</defName>
 		<label>amber tube</label>
 		<description>A small orange tube coral that grows in clusters. It's nice to look at.</description>
@@ -265,13 +270,13 @@
 			<MaxHitPoints>75</MaxHitPoints>
 			<Beauty>9</Beauty>
 			<BeautyOutdoors>9</BeautyOutdoors>
-			<Nutrition>0.15</Nutrition>
+			<Nutrition>0.4</Nutrition>
 		</statBases>
+		<pathCost>20</pathCost>
 		<graphicData>
 			<texPath>ZWB_Textures/Plants/AmberTube</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 		</graphicData>
-		<hideAtSnowOrSandDepth>0.5</hideAtSnowOrSandDepth>
 		<ingestible/>
 		<selectable>true</selectable>
 		<plant>
