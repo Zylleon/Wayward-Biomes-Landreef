@@ -30,7 +30,7 @@
 			<body>ZWB_Snail</body>
 			<herdAnimal>true</herdAnimal>
 			<baseBodySize>3.6</baseBodySize>
-			<baseHungerRate>1.45</baseHungerRate>
+			<baseHungerRate>1.3</baseHungerRate>
 			<baseHealthScale>3.5</baseHealthScale>
 			<foodType>VegetarianRoughAnimal</foodType>
 			<trainability>None</trainability>
@@ -61,7 +61,7 @@
 			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
 			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
 			<soundEating>Rodent_Eat</soundEating>
-			<packAnimal>false</packAnimal>
+			<packAnimal>true</packAnimal>
 		</race>
 		<tradeTags>
 			<li>AnimalExotic</li>

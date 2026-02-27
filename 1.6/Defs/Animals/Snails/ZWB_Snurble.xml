@@ -6,7 +6,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>ZWB_Snurble</defName>
 		<label>snurble</label>
-		<description>A medium sized sea snail, adapted for land. Widely considered to be adorable, these snails are prized as pets.</description>
+		<description>A medium sized sea snail, adapted for land. Widely considered to be adorable, and known for their friendliness, these snails are prized as pets.</description>
 		<statBases>
 			<MoveSpeed>2.5</MoveSpeed>
 			<ComfyTemperatureMin>-10</ComfyTemperatureMin>
