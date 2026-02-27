@@ -168,6 +168,32 @@
 	</ThingDef>
 
 
+	<ThingDef ParentName="LeatherBase">
+		<defName>ZWB_Leather_HeavyFishHide</defName>
+		<label>heavy fish hide</label>
+		<description>Tanned, dried, scraped fish skin, harvested from a large, tough fish. This thick skin protects very well.</description>
+		<graphicData>
+			<color>(60,61,105)</color>
+		</graphicData>
+		<statBases>
+			<MarketValue>3.5</MarketValue>
+			<Flammability>0.7</Flammability>
+			<StuffPower_Armor_Sharp>1.28</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.31</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>1.7</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>20</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>30</StuffPower_Insulation_Heat>
+		</statBases>
+		<stuffProps>
+			<color>(60,61,105)</color>
+			<commonality>0.1</commonality>
+			<statFactors>
+				<Flammability>0.7</Flammability>
+			</statFactors>
+		</stuffProps>
+	</ThingDef>
+
+
 
 	<ThingDef ParentName="LeatherBase">
 		<defName>ZWB_Leather_Ziggler</defName>

@@ -1,6 +1,0 @@
-- no trainability
-- spawns in groups of about 3-5
-- high revenge chance on harm, lower revenge chance on tame
-- drops chitin (chitin still to be implemented)
-- pack animal
-- herbivore/grazer
