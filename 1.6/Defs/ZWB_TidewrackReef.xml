@@ -159,9 +159,10 @@
 			<ZWB_Ramari>0.4</ZWB_Ramari>
 			<ZWB_Jesterfish>0.8</ZWB_Jesterfish>
 			<ZWB_Melu>0.35</ZWB_Melu>
+			<ZWB_SumpterSnail>0.05</ZWB_SumpterSnail>
 
 			<!-- Small Grazers -->
-			<ZWB_MidnightTang>1.5</ZWB_MidnightTang>
+			<ZWB_MidnightTang>1.2</ZWB_MidnightTang>
 			<ZWB_AmethystSkrunt>0.2</ZWB_AmethystSkrunt>
 			<ZWB_SpottedShoobler>1.0</ZWB_SpottedShoobler>
 
