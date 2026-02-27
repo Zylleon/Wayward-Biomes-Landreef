@@ -24,7 +24,7 @@ namespace Tidewrack
             {
                 return 0f;
             }
-            if (tile.rainfall < 800f)
+            if (tile.rainfall < 1000f)
             {
                 return 0f;
             }
@@ -41,7 +41,7 @@ namespace Tidewrack
                 return 0f;
             }
 
-            return 37 - (tile.elevation / 7f) + 2f * (tile.temperature - 18f);
+            return 37 - (tile.elevation / 9f) + 2f * (tile.temperature - 18f);
 
         }
 

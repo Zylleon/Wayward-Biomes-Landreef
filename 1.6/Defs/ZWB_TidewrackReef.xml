@@ -72,6 +72,9 @@
 				<commonality>100</commonality>
 			</li>
 		</diseases>
+		<riverbankTerrain>ZWB_BiogenicSand</riverbankTerrain>
+		<waterShallowTerrain>WaterOceanShallow</waterShallowTerrain>
+		<waterDeepTerrain>WaterOceanDeep</waterDeepTerrain>
 		<terrainsByFertility>
 			<li>
 				<terrain>Sand</terrain>
@@ -126,7 +129,7 @@
 			<ZWB_Seagrass>1.7</ZWB_Seagrass>
 			<ZWB_Kelp>1.7</ZWB_Kelp>
 			<ZWB_AmberTube>0.05</ZWB_AmberTube>
-			
+
 			<ZWB_Firegrass>0.15</ZWB_Firegrass>
 			<ZWB_SaltPot>1.3</ZWB_SaltPot>
 			<ZWB_CobaltScrunge>0.25</ZWB_CobaltScrunge>
@@ -156,27 +159,41 @@
 			<ZWB_Ramari>0.4</ZWB_Ramari>
 			<ZWB_Jesterfish>0.8</ZWB_Jesterfish>
 			<ZWB_Melu>0.35</ZWB_Melu>
-			
-			<!-- Small Grazers --> 	
+
+			<!-- Small Grazers -->
 			<ZWB_MidnightTang>1.5</ZWB_MidnightTang>
 			<ZWB_AmethystSkrunt>0.2</ZWB_AmethystSkrunt>
 			<ZWB_SpottedShoobler>1.0</ZWB_SpottedShoobler>
-			
+
 			<ZWB_Snurble>0.5</ZWB_Snurble>
 			<ZWB_CoiledBitte>0.5</ZWB_CoiledBitte>
 			
+			<HermitCrab MayRequire="Ludeon.RimWorld.Odyssey">0.1</HermitCrab>
+			
+			
 			<!-- scavengers -->
 			<ZWB_Flumbie>0.7</ZWB_Flumbie>
-		
+
 			<!-- Predators -->
 			<ZWB_RainbowZiggler>0.1</ZWB_RainbowZiggler>
 			<ZWB_SeafoamZiggler>0.1</ZWB_SeafoamZiggler>
 			<ZWB_RosyZiggler>0.1</ZWB_RosyZiggler>
-	
+
 		</wildAnimals>
 		<pollutionWildAnimals MayRequire="Ludeon.RimWorld.Biotech">
 			<ZWB_Flumbie>1</ZWB_Flumbie>
+			<WasteRat MayRequire="Ludeon.RimWorld.Biotech">0.1</WasteRat>
+			<Rat>1</Rat>
+			<Boomrat>0.4</Boomrat>
+			<Boomalope>0.1</Boomalope>
 		</pollutionWildAnimals>
+		<coastalWildAnimals>
+			<SeaLion MayRequire="Ludeon.RimWorld.Odyssey">0.1</SeaLion>
+			<Seal MayRequire="Ludeon.RimWorld.Odyssey">0.1</Seal>
+			<StoneCrab MayRequire="Ludeon.RimWorld.Odyssey">0.1</StoneCrab>
+			<Otter MayRequire="Ludeon.RimWorld.Odyssey">0.1</Otter>
+			<SeaTurtle MayRequire="Ludeon.RimWorld.Odyssey">0.1</SeaTurtle>
+		</coastalWildAnimals>
 		<allowedPackAnimals>
 			<li>Muffalo</li>
 			<li>Alpaca</li>
