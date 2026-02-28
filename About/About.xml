@@ -5,14 +5,14 @@
 	<supportedVersions><li>1.6</li></supportedVersions>
 	<packageId>zylle.WaywardBiomes.Landreef</packageId>
 	<modIconPath IgnoreIfNoMatchingField="True">GUI/ZModLogo</modIconPath>
-	<description>Tidewrack Reef: The remnants of what was once a tropical coral reef. Over time, the oceans receded and the land dried up. Rather than follow the ocean, the flora and fauna that made the reef their home have instead adapted to land.
+	<description>Tidewrack Reef: The remnants of what was once a tropical coral reef. Over time, the oceans receded and the land dried up. Rather than follow the ocean, the flora and fauna that made the reef their home have adapted to land.
 	
 A colorful, warm biome teeming with life.
-	
+
 Should not be added or removed mid save.
 	
 Discord: https://discord.gg/RCY5bpCu9q
-Github: github.com/Zylleon/Wayward-Biomes-Landreef/releases/latest
+Github: https://github.com/Zylleon/Wayward-Biomes-Landreef/releases/latest
 </description>
 	<modDependencies>
 		<li>
@@ -28,6 +28,7 @@ Github: github.com/Zylleon/Wayward-Biomes-Landreef/releases/latest
 		<li>Ludeon.RimWorld.Royalty</li>
 		<li>Ludeon.RimWorld.Ideology</li>
 		<li>Ludeon.RimWorld.Biotech</li>
+		<li>Ludeon.RimWorld.Anomaly</li>
 		<li>Ludeon.RimWorld.Odyssey</li>
 	</loadAfter>
 </ModMetaData>

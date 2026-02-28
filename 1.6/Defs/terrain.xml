@@ -14,7 +14,7 @@
 		<edgeType>FadeRough</edgeType>
 		<categoryType>Sand</categoryType>
 		<renderPrecedence>350</renderPrecedence>
-		<pathCost>4</pathCost>
+		<pathCost>2</pathCost>
 		<statBases>
 			<Beauty>-3</Beauty>
 			<BeautyOutdoors>0</BeautyOutdoors>
@@ -54,7 +54,7 @@
 		<edgeType>FadeRough</edgeType>
 		<categoryType>Sand</categoryType>
 		<renderPrecedence>350</renderPrecedence>
-		<pathCost>4</pathCost>
+		<pathCost>3</pathCost>
 		<statBases>
 			<Beauty>-3</Beauty>
 			<BeautyOutdoors>0</BeautyOutdoors>

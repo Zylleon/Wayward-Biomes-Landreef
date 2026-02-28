@@ -100,11 +100,11 @@
 					<li>
 						<terrain>ZWB_BiogenicSand</terrain>
 						<min>0.45</min>
-						<max>0.85</max>
+						<max>0.82</max>
 					</li>
 					<li>
 						<terrain>WaterOceanShallow</terrain>
-						<min>0.85</min>
+						<min>0.82</min>
 						<max>999</max>
 					</li>
 				</thresholds>
@@ -155,19 +155,19 @@
 		</wildPlants>
 		<wildAnimals>
 			<!-- Large grazers -->
-			<ZWB_SunriseTang>0.8</ZWB_SunriseTang>
-			<ZWB_Ramari>0.4</ZWB_Ramari>
-			<ZWB_Jesterfish>0.8</ZWB_Jesterfish>
-			<ZWB_Melu>0.35</ZWB_Melu>
+			<ZWB_SunriseTang>0.6</ZWB_SunriseTang>
+			<ZWB_Ramari>0.3</ZWB_Ramari>
+			<ZWB_Jesterfish>0.6</ZWB_Jesterfish>
+			<ZWB_Melu>0.25</ZWB_Melu>
 			<ZWB_SumpterSnail>0.05</ZWB_SumpterSnail>
 
 			<!-- Small Grazers -->
-			<ZWB_MidnightTang>1.2</ZWB_MidnightTang>
+			<ZWB_MidnightTang>1.0</ZWB_MidnightTang>
 			<ZWB_AmethystSkrunt>0.2</ZWB_AmethystSkrunt>
-			<ZWB_SpottedShoobler>1.0</ZWB_SpottedShoobler>
+			<ZWB_SpottedShoobler>0.8</ZWB_SpottedShoobler>
 
-			<ZWB_Snurble>0.5</ZWB_Snurble>
-			<ZWB_CoiledBitte>0.5</ZWB_CoiledBitte>
+			<ZWB_Snurble>0.3</ZWB_Snurble>
+			<ZWB_CoiledBitte>0.4</ZWB_CoiledBitte>
 			
 			<HermitCrab MayRequire="Ludeon.RimWorld.Odyssey">0.1</HermitCrab>
 			

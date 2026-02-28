@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="ZWB_TidewrackReef"]/wildAnimals</xpath>
+		<value>
+			<AA_PebbleMit>0.01</AA_PebbleMit>
+			<AA_BoulderMit>0.02</AA_BoulderMit>
+			
+		</value>
+	</Operation>
+
+
+</Patch>
+
