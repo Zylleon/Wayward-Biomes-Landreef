@@ -15,7 +15,7 @@
 			<graphicClass>Graphic_Random</graphicClass>
 		</graphicData>
 		<selectable>true</selectable>
-		<pathCost>14</pathCost>
+		<pathCost>12</pathCost>
 		<ingestible/>
 		<plant>
 			<sowMinSkill>3</sowMinSkill>

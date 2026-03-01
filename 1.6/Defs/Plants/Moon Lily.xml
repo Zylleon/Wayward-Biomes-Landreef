@@ -19,12 +19,12 @@
 			</shadowData>
 		</graphicData>
 		<selectable>true</selectable>
-		<pathCost>30</pathCost>
+		<pathCost>15</pathCost>
 		<ingestible/>
 		<plant>
 			<fertilityMin>0.5</fertilityMin>
 			<dieIfLeafless>true</dieIfLeafless>
-			<fertilitySensitivity>0.5</fertilitySensitivity>
+			<fertilitySensitivity>1.2</fertilitySensitivity>
 			<growDays>9.5</growDays>
 			<immatureGraphicPath>ZWB_Textures/Plants/MoonLily_Immature</immatureGraphicPath>
 			<harvestYield>21</harvestYield>
@@ -40,7 +40,7 @@
 			<purpose>Food</purpose>
 			<humanFoodPlant>true</humanFoodPlant>
 			<mustBeWildToSow>true</mustBeWildToSow>
-			<sowWork>800</sowWork>
+			<sowWork>400</sowWork>
 			<sowMinSkill>5</sowMinSkill>
 			<sowTags>
 				<li>Ground</li>

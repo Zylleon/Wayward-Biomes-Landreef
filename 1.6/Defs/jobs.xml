@@ -18,7 +18,7 @@
     <giverClass>Tidewrack.WorkGiver_GatherAnimalResource</giverClass>
     <workType>Handling</workType>
     <verb>gather</verb>
-    <gerund>gathering</gerund>
+    <gerund>gathering from</gerund>
     <priorityInType>85</priorityInType>
     <requiredCapacities>
       <li>Manipulation</li>
