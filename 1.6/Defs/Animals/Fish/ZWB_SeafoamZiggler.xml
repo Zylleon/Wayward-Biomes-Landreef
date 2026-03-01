@@ -165,13 +165,13 @@
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>ZWB_Textures/Animals/SeafoamZiggler/Dessicated_SeafoamZiggler</texPath>
-					<drawSize>.6</drawSize>
+					<drawSize>0.8</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
 					<texPath>ZWB_Textures/Animals/SeafoamZiggler/SeafoamZiggler</texPath>
-					<drawSize>1.8</drawSize>
+					<drawSize>1.2</drawSize>
 					<shadowData>
 						<volume>(0.25, 0.3, 0.25)</volume>
 						<offset>(0,0,-0.15)</offset>
