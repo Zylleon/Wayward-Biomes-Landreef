@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+
+
+	<ThingDef ParentName="AnimalThingBase">
+		<defName>ZWB_IronheadDunk</defName>
+		<label>ironhead dunk</label>
+		<description>PLACEHOLDER</description>
+		<statBases>
+			<MoveSpeed>4.8</MoveSpeed>
+			<ComfyTemperatureMin>-10</ComfyTemperatureMin>
+			<MarketValue>3600</MarketValue>
+			<Wildness>0.99</Wildness>
+			<ArmorRating_Sharp>0.50</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.35</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.35</ArmorRating_Heat>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_EggLayer">
+				<eggUnfertilizedDef>ZWB_EggIronheadDunkUnfertilized</eggUnfertilizedDef>
+				<eggFertilizedDef>ZWB_EggIronheadDunkFertilized</eggFertilizedDef>
+				<eggFertilizationCountMax>1</eggFertilizationCountMax>
+				<eggLayIntervalDays>9</eggLayIntervalDays>
+				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
+				<eggCountRange>1~1</eggCountRange>
+			</li>
+		</comps>
+		<race>
+			<body>ZWB_QuadrupedLandFish</body>
+			<herdAnimal>false</herdAnimal>
+			<baseBodySize>2.5</baseBodySize>
+			<baseHungerRate>0.45</baseHungerRate>
+			<baseHealthScale>3.0</baseHealthScale>
+			<!-- <maxPreyBodySize>2.3</maxPreyBodySize> -->
+			<foodType>CarnivoreAnimalStrict</foodType>
+			<leatherDef>ZWB_Leather_Ironhide</leatherDef>
+			<useMeatFrom>ZWB_Jesterfish</useMeatFrom>
+			<trainability>Intermediate</trainability>
+			<lifeExpectancy>36</lifeExpectancy>
+			<manhunterOnTameFailChance>0.85</manhunterOnTameFailChance>
+			<manhunterOnDamageChance>1.00</manhunterOnDamageChance>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.35</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.6</minAge>
+					<soundWounded>Pawn_Muffalo_Wounded</soundWounded>
+					<soundDeath>Pawn_Muffalo_Death</soundDeath>
+					<soundCall>Pawn_Muffalo_Call</soundCall>
+					<soundAngry>Pawn_Muffalo_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+			<soundEating>PredatorSmall_Eat</soundEating>
+			<packAnimal>false</packAnimal>
+			<predator>true</predator>
+			<!-- <headPosPerRotation> -->
+			<!-- <li>(0.0, 0, 0.09)</li> -->
+			<!-- <li>(0.28, 0, 0)</li> -->
+			<!-- <li>(0.0, 0, -0.04)</li> -->
+			<!-- <li>(-0.28, 0, 0)</li> -->
+			<!-- </headPosPerRotation> -->
+		</race>
+		<tradeTags>
+			<li>AnimalExotic</li>
+			<li>AnimalFighter</li>
+		</tradeTags>
+		<tools>
+			<li>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>28</power>
+				<cooldownTime>1.7</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<chanceFactor>0.7</chanceFactor>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>18</power>
+				<cooldownTime>1.8</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>22</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>left flipper</label>
+				<labelNoLocation>flipper</labelNoLocation>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>14</power>
+				<cooldownTime>1.8</cooldownTime>
+				<linkedBodyPartsGroup>ZWB_FrontLeftFlipper</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>20</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>right flipper</label>
+				<labelNoLocation>flipper</labelNoLocation>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>14</power>
+				<cooldownTime>1.8</cooldownTime>
+				<linkedBodyPartsGroup>ZWB_FrontRightFlipper</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>20</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+		</tools>
+	</ThingDef>
+
+
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>ZWB_IronheadDunk</defName>
+		<label>ironhead dunk</label>
+		<race>ZWB_IronheadDunk</race>
+		<combatPower>550</combatPower>
+		<ecoSystemWeight>0.6</ecoSystemWeight>
+		<lifeStages>
+			<li>
+				<label>ironhead dunk fry</label>
+				<labelPlural>ironhead dunk fry</labelPlural>
+				<bodyGraphicData>
+					<texPath>ZWB_Textures/Animals/IronheadDunk/IronheadDunk</texPath>
+					<drawSize>1.5</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>ZWB_Textures/Animals/IronheadDunk/Dessicated_IronheadDunk</texPath>
+					<drawSize>1.5</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>ZWB_Textures/Animals/IronheadDunk/IronheadDunk</texPath>
+					<drawSize>2.6</drawSize>
+					<shadowData>
+						<volume>(0.25, 0.3, 0.25)</volume>
+						<offset>(0,0,-0.15)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>ZWB_Textures/Animals/IronheadDunk/Dessicated_IronheadDunk</texPath>
+					<drawSize>2.6</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>ZWB_Textures/Animals/IronheadDunk/IronheadDunk</texPath>
+					<drawSize>3.3</drawSize>
+					<shadowData>
+						<volume>(0.3, 0.4, 0.3)</volume>
+						<offset>(0,0,-0.15)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>ZWB_Textures/Animals/IronheadDunk/Dessicated_IronheadDunk</texPath>
+					<drawSize>3.3</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+		<alternateGraphicChance>0.8</alternateGraphicChance>
+		<alternateGraphics>
+			<li><texPath>ZWB_Textures/Animals/IronheadDunk/IronheadDunkA</texPath></li>
+			<li><texPath>ZWB_Textures/Animals/IronheadDunk/IronheadDunkB</texPath></li>
+			<li><texPath>ZWB_Textures/Animals/IronheadDunk/IronheadDunkC</texPath></li>
+			<li><texPath>ZWB_Textures/Animals/IronheadDunk/IronheadDunkD</texPath></li>
+			<li><texPath>ZWB_Textures/Animals/IronheadDunk/IronheadDunkE</texPath></li>
+		</alternateGraphics>
+	</PawnKindDef>
+
+
+
+	<ThingDef ParentName="EggFertBase">
+		<defName>ZWB_EggIronheadDunkFertilized</defName>
+		<label>ironhead dunk (fert.)</label>
+		<description>A fertilized ironhead dunk egg. If all goes well, it should hatch into a baby ironhead dunk. It can be eaten raw, but it's much better cooked.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/AnimalProductRaw/EggOval</texPath>
+			<color>(130,110,87)</color>
+			<drawSize>1.1</drawSize>
+		</graphicData>
+		<statBases>
+			<Nutrition>0.5</Nutrition>
+			<MarketValue>63.0</MarketValue>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Hatcher">
+				<hatcherDaystoHatch>8.5</hatcherDaystoHatch>
+				<hatcherPawn>ZWB_IronheadDunk</hatcherPawn>
+			</li>
+		</comps>
+	</ThingDef>
+
+
+
+	<ThingDef ParentName="EggUnfertBase">
+		<defName>ZWB_EggIronheadDunkUnfertilized</defName>
+		<label>ironhead dunk egg (unfert.)</label>
+		<description>An unfertilized ironhead dunk egg. It can be eaten raw, but it's much better cooked.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/AnimalProductRaw/EggOval</texPath>
+			<color>(87,75,61)</color>
+			<drawSize>1.1</drawSize>
+		</graphicData>
+		<statBases>
+			<MarketValue>33.0</MarketValue>
+			<Nutrition>0.5</Nutrition>
+		</statBases>
+	</ThingDef>
+
+
+
+</Defs>
+

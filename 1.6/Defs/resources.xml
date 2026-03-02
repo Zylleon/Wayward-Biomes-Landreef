@@ -221,6 +221,31 @@
 	</ThingDef>
 
 
+	<ThingDef ParentName="LeatherBase">
+		<defName>ZWB_Leather_Ironhide</defName>
+		<label>ironhide</label>
+		<description>Extremely tough and durable, this leather comes only from the ironhide dunk. It is tough and difficult to pierce.</description>
+		<graphicData>
+			<color>(81,76,83)</color>
+		</graphicData>
+		<statBases>
+			<MarketValue>17</MarketValue>
+			<Flammability>0.5</Flammability>
+			<StuffPower_Armor_Sharp>2.22</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.40</StuffPower_Armor_Blunt>
+			<StuffPower_Insulation_Cold>12</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>14</StuffPower_Insulation_Heat>
+		</statBases>
+		<stuffProps>
+			<color>(81,76,83)</color>
+			<commonality>0.001</commonality>
+			<statFactors>
+				<MaxHitPoints>2.0</MaxHitPoints>
+				<Flammability>0.6</Flammability>
+			</statFactors>
+		</stuffProps>
+	</ThingDef>
+	
 	<!-- Other textiles -->
 
 
