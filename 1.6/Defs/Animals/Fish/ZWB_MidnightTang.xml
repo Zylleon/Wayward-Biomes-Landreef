@@ -6,7 +6,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>ZWB_MidnightTang</defName>
 		<label>midnight tang</label>
-		<description>PLACEHOLDER</description>
+		<description>A small omnivorous fish adapted for life on land, it shares a distant relative with the sunrise tang. unlike its larger cousin, the midnight tang cannot be trained.</description>
 		<statBases>
 			<MoveSpeed>3.3</MoveSpeed>
 			<ComfyTemperatureMin>-10</ComfyTemperatureMin>
