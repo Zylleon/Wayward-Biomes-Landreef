@@ -6,7 +6,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>ZWB_IronheadDunk</defName>
 		<label>ironhead dunk</label>
-		<description>A large apex predator of the reef, the ironhead dunk is known for its incredible bite force and thick skull.</description>
+		<description>A large apex predator of the reef, the Ironhead Dunk is known for its incredible bite force and thick skull.</description>
 		<statBases>
 			<MoveSpeed>4.8</MoveSpeed>
 			<ComfyTemperatureMin>-10</ComfyTemperatureMin>
