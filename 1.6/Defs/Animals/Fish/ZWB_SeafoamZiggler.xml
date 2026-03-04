@@ -6,7 +6,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>ZWB_SeafoamZiggler</defName>
 		<label>seafoam ziggler</label>
-		<description>PLACEHOLDER</description>
+		<description>A mid sized predatory fish, adapted for land. Though quite wild, the seafoam ziggler is the smartest and most loyal of the ziggler family. They make great pets and work animals once tamed.</description>
 		<statBases>
 			<MoveSpeed>5.3</MoveSpeed>
 			<ComfyTemperatureMin>-15</ComfyTemperatureMin>
