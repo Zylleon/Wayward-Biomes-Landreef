@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+	<SoundDef>
+		<defName>ZWB_SmallFish_Call</defName>
+		<context>MapOnly</context>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>ZWB_Animals/SmallFish/Call</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>29~33</volumeRange>
+				<distRange>0~50</distRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>ZWB_SmallFish_Angry</defName>
+		<context>MapOnly</context>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>ZWB_Animals/SmallFish/Angry</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>32~35</volumeRange>
+				<distRange>0~70</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>ZWB_SmallFish_Wounded</defName>
+		<context>MapOnly</context>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>ZWB_Animals/SmallFish/Wounded</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>32~35</volumeRange>
+				<distRange>0~70</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+
+	<SoundDef>
+		<defName>ZWB_SmallFish_Death</defName>
+		<context>MapOnly</context>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>ZWB_Animals/SmallFish/Death</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>32~35</volumeRange>
+				<distRange>0~70</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+</Defs>
