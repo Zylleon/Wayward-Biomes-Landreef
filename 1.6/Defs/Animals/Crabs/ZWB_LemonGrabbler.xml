@@ -35,8 +35,7 @@
 			<foodType>OmnivoreRoughAnimal</foodType>
 			<trainability>Advanced</trainability>
 			<lifeExpectancy>18</lifeExpectancy>
-			<!-- <useMeatFrom>ZWB_LemonGrabbler</useMeatFrom> -->
-			<meatLabel>crab meat</meatLabel>
+			<useMeatFrom>ZWB_LemonGrabbler</useMeatFrom>
 			<lifeStageAges>
 				<li>
 					<def>AnimalBaby</def>
