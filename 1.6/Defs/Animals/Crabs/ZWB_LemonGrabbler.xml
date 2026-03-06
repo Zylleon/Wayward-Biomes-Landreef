@@ -35,7 +35,7 @@
 			<foodType>OmnivoreRoughAnimal</foodType>
 			<trainability>Advanced</trainability>
 			<lifeExpectancy>18</lifeExpectancy>
-			<useMeatFrom>ZWB_LemonGrabbler</useMeatFrom>
+			<useMeatFrom>ZWB_Bubbler</useMeatFrom>
 			<lifeStageAges>
 				<li>
 					<def>AnimalBaby</def>
