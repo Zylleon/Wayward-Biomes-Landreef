@@ -99,49 +99,49 @@
 				</li>
 				<li>
 					<def>ZWB_CrabLeg</def>
-					<customLabel>front left leg</customLabel>
+					<customLabel>first left leg</customLabel>
 					<coverage>0.05</coverage>
 					<height>Bottom</height>
 				</li>
 				<li>
 					<def>ZWB_CrabLeg</def>
-					<customLabel>front right leg</customLabel>
+					<customLabel>second left leg</customLabel>
 					<coverage>0.05</coverage>
 					<height>Bottom</height>
 				</li>
 				<li>
 					<def>ZWB_CrabLeg</def>
-					<customLabel>middle left leg</customLabel>
+					<customLabel>third left leg</customLabel>
 					<coverage>0.05</coverage>
 					<height>Bottom</height>
 				</li>
 				<li>
 					<def>ZWB_CrabLeg</def>
-					<customLabel>middle right leg</customLabel>
+					<customLabel>fourth left leg</customLabel>
 					<coverage>0.05</coverage>
 					<height>Bottom</height>
 				</li>
 				<li>
 					<def>ZWB_CrabLeg</def>
-					<customLabel>rear left leg</customLabel>
+					<customLabel>first right leg</customLabel>
 					<coverage>0.05</coverage>
 					<height>Bottom</height>
 				</li>
 				<li>
 					<def>ZWB_CrabLeg</def>
-					<customLabel>rear right leg</customLabel>
+					<customLabel>second right leg</customLabel>
 					<coverage>0.05</coverage>
 					<height>Bottom</height>
 				</li>
 				<li>
 					<def>ZWB_CrabLeg</def>
-					<customLabel>rear right leg</customLabel>
+					<customLabel>third right leg</customLabel>
 					<coverage>0.05</coverage>
 					<height>Bottom</height>
 				</li>
 				<li>
 					<def>ZWB_CrabLeg</def>
-					<customLabel>rear right leg</customLabel>
+					<customLabel>fourth right leg</customLabel>
 					<coverage>0.05</coverage>
 					<height>Bottom</height>
 				</li>
