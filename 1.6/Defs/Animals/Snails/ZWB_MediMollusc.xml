@@ -67,7 +67,7 @@
 		<tools>
 			<li>
 				<capacities>
-					<li>Bite</li>
+					<li>ToxicBite</li>
 				</capacities>
 				<power>6</power>
 				<cooldownTime>2</cooldownTime>
@@ -77,7 +77,7 @@
 			<li>
 				<label>head</label>
 				<capacities>
-					<li>ToxicBlunt</li>
+					<li>Blunt</li>
 				</capacities>
 				<power>5</power>
 				<cooldownTime>2</cooldownTime>
