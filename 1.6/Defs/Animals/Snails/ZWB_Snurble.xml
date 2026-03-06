@@ -11,7 +11,7 @@
 			<MoveSpeed>2.5</MoveSpeed>
 			<ComfyTemperatureMin>-10</ComfyTemperatureMin>
 			<MarketValue>40</MarketValue>
-			<Wildness>0.5</Wildness>
+			<Wildness>0</Wildness>
 			<LeatherAmount>0</LeatherAmount>
 			<ArmorRating_Blunt>0.1</ArmorRating_Blunt>
 			<ArmorRating_Sharp>0.25</ArmorRating_Sharp>
@@ -27,7 +27,7 @@
 			</li>
 		</comps>
 		<race>
-			<body>ZWB_Snail</body>
+			<body>ZWB_SnailLike</body>
 			<herdAnimal>false</herdAnimal>
 			<baseBodySize>0.6</baseBodySize>
 			<baseHungerRate>0.3</baseHungerRate>

@@ -39,21 +39,6 @@
 
 
 
-	<BodyPartGroupDef>
-		<defName>ZWB_FrontLeftFlipper</defName>
-		<label>front left flipper</label>
-		<labelShort>flipper</labelShort>
-	</BodyPartGroupDef>
-
-	<BodyPartGroupDef>
-		<defName>ZWB_FrontRightFlipper</defName>
-		<label>front right flipper</label>
-		<labelShort>flipper</labelShort>
-	</BodyPartGroupDef>
-
-
-
-
   <BodyPartDef>
     <defName>ZWB_Shell</defName>
     <label>shell</label>
@@ -77,7 +62,59 @@
     </tags>
   </BodyPartDef>
 
+  <BodyPartDef>
+    <defName>ZWB_Eyestalk</defName>
+    <label>eyestalk</label>
+    <hitPoints>10</hitPoints>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+    <bleedRate>0.6</bleedRate>
+  </BodyPartDef>
+  
+  
 
+  <BodyPartDef>
+    <defName>ZWB_CrabLeg</defName>
+    <label>leg</label>
+    <hitPoints>20</hitPoints>
+    <frostbiteVulnerability>0.5</frostbiteVulnerability>
+    <skinCovered>false</skinCovered>
+    <tags>
+      <li>MovingLimbCore</li>
+      <li>ManipulationLimbCore</li>
+    </tags>
+  </BodyPartDef>
+
+
+
+
+
+	<BodyPartGroupDef>
+		<defName>ZWB_FrontLeftFlipper</defName>
+		<label>front left flipper</label>
+		<labelShort>flipper</labelShort>
+	</BodyPartGroupDef>
+
+	<BodyPartGroupDef>
+		<defName>ZWB_FrontRightFlipper</defName>
+		<label>front right flipper</label>
+		<labelShort>flipper</labelShort>
+	</BodyPartGroupDef>
+
+
+
+
+
+	<BodyPartGroupDef>
+		<defName>ZWB_LeftClaw</defName>
+		<label>left claw</label>
+		<labelShort>claw</labelShort>
+	</BodyPartGroupDef>
+
+	<BodyPartGroupDef>
+		<defName>ZWB_RightClaw</defName>
+		<label>right claw</label>
+		<labelShort>claw</labelShort>
+	</BodyPartGroupDef>
 
 
 </Defs>

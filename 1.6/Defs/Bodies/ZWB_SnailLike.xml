@@ -5,7 +5,7 @@
 
 
 	<BodyDef>
-		<defName>ZWB_Snail</defName>
+		<defName>ZWB_SnailLike</defName>
 		<label>snail</label>
 		<corePart>
 			<def>ZWB_Shell</def>
@@ -55,14 +55,28 @@
 							<depth>Inside</depth>
 						</li>
 						<li>
-							<def>Eye</def>
+							<def>ZWB_Eyestalk</def>
 							<customLabel>left eyestalk</customLabel>
 							<coverage>0.15</coverage>
+							<parts>
+								<li>
+									<def>Eye</def>
+									<customLabel>left eye</customLabel>
+									<coverage>0.3</coverage>
+								</li>
+							</parts>
 						</li>
 						<li>
-							<def>Eye</def>
+							<def>ZWB_Eyestalk</def>
 							<customLabel>right eyestalk</customLabel>
 							<coverage>0.15</coverage>
+							<parts>
+								<li>
+									<def>Eye</def>
+									<customLabel>right eye</customLabel>
+									<coverage>0.3</coverage>
+								</li>
+							</parts>
 						</li>
 
 						<li>
