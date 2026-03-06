@@ -6,7 +6,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>ZWB_LemonGrabbler</defName>
 		<label>lemon grabbler</label>
-		<description>A tiny omnivorous crab.</description>
+		<description>A mid-sized crab. Quite sturdy, and capable of being trained as a work animal.</description>
 		<statBases>
 			<MoveSpeed>4.5</MoveSpeed>
 			<ComfyTemperatureMin>-25</ComfyTemperatureMin>
