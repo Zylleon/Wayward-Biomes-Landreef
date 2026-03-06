@@ -77,8 +77,7 @@
 			<li>
 				<label>head</label>
 				<capacities>
-					<li>Blunt</li>
-					<li>Toxic</li>
+					<li>ToxicBlunt</li>
 				</capacities>
 				<power>5</power>
 				<cooldownTime>2</cooldownTime>
