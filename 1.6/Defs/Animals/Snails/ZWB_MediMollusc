@@ -104,7 +104,7 @@
 					<shaderType>CutoutComplex</shaderType>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>ZWB_Textures/Animals/Snurble/Dessicated_Medimollusc</texPath>
+					<texPath>ZWB_Textures/Animals/MediMollusc/Dessicated_Medimollusc</texPath>
 					<drawSize>0.7</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
@@ -120,7 +120,7 @@
 					</shadowData>
 					</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>ZWB_Textures/Animals/Snurble/Dessicated_Medimollusc</texPath>
+					<texPath>ZWB_Textures/Animals/MediMollusc/Dessicated_Medimollusc</texPath>
 					<drawSize>0.95</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
