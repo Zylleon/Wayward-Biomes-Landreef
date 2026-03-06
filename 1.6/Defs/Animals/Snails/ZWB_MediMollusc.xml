@@ -78,6 +78,15 @@
 				<label>head</label>
 				<capacities>
 					<li>Blunt</li>
+					<additionalHediffs>
+<li>
+<hediff>ToxicBuildup</hediff>
+<severityPerDamageDealt>0.0065</severityPerDamageDealt>
+<victimSeverityScaling>ToxicResistance</victimSeverityScaling>
+<inverseStatScaling>true</inverseStatScaling>
+<victimSeverityScalingByInvBodySize>true</victimSeverityScalingByInvBodySize>
+</li>
+</additionalHediffs>
 				</capacities>
 				<power>5</power>
 				<cooldownTime>2</cooldownTime>
