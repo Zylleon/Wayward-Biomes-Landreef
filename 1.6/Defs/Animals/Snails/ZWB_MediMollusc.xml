@@ -85,15 +85,12 @@
 				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
 				<chanceFactor>0.2</chanceFactor>
 
-					<additionalHediffs>
-						<li>
-							<hediff>ToxicBuildup</hediff>
-							<severityPerDamageDealt>0.0065</severityPerDamageDealt>
-							<victimSeverityScaling>ToxicResistance</victimSeverityScaling>
-							<inverseStatScaling>true</inverseStatScaling>
-							<victimSeverityScalingByInvBodySize>true</victimSeverityScalingByInvBodySize>
-						</li>
-					</additionalHediffs>
+					<extraMeleeEffects>
+			<li>
+				<hediff>ToxicBuildup</hediff>
+				<severityPerHit>0.03</severityPerHit>
+			</li>
+		</extraMeleeEffects>
 			</li>
 		</tools>
 	</ThingDef>
