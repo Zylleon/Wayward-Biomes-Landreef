@@ -85,8 +85,21 @@
   </BodyPartDef>
 
 
+  <BodyPartDef>
+    <defName>ZWB_SnailGland</defName>
+    <label>gland</label>
+    <hitPoints>15</hitPoints>
+    <skinCovered>false</skinCovered>
+  </BodyPartDef>
 
 
+	<BodyPartGroupDef>
+		<defName>ZWB_GlandGroup</defName>
+		<label>gland</label>
+		<labelShort>gland</labelShort>
+	</BodyPartGroupDef>
+	
+	
 
 	<BodyPartGroupDef>
 		<defName>ZWB_FrontLeftFlipper</defName>
