@@ -309,8 +309,8 @@
 		<MarketValue>15</MarketValue>
 		<Mass>0.25</Mass>
 		<Flammability>1.3</Flammability>
-		<MedicalPotency>0.80</MedicalPotency>
-		<MedicalQualityMax>0.68</MedicalQualityMax>
+		<MedicalPotency>0.90</MedicalPotency>
+		<MedicalQualityMax>0.90</MedicalQualityMax>
 		<DeteriorationRate>8</DeteriorationRate>
 	</statBases>
 		<tickerType>Rare</tickerType>

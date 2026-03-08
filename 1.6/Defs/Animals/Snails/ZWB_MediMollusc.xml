@@ -30,7 +30,7 @@
 			<body>ZWB_SnailLike</body>
 			<herdAnimal>true</herdAnimal>
 			<baseBodySize>0.6</baseBodySize>
-			<baseHungerRate>0.4</baseHungerRate>
+			<baseHungerRate>0.3</baseHungerRate>
 			<baseHealthScale>0.60</baseHealthScale>
 			<foodType>VegetarianRoughAnimal</foodType>
 			<trainability>None</trainability>
