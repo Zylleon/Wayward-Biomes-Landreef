@@ -331,5 +331,37 @@
 
 
 
+	<ThingDef ParentName="BushBase">
+		<defName>ZWB_SeaFingers</defName>
+		<label>sea fingers</label>
+		<description>A spongelike coral that grows as clusters of finger-like columns.</description>
+		<statBases>
+			<MaxHitPoints>75</MaxHitPoints>
+			<Beauty>2</Beauty>
+			<BeautyOutdoors>4</BeautyOutdoors>
+			<Nutrition>0.3</Nutrition>
+		</statBases>
+		<pathCost>20</pathCost>
+		<graphicData>
+			<texPath>ZWB_Textures/Plants/SeaFingers</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<ingestible/>
+		<selectable>true</selectable>
+		<plant>
+			<fertilitySensitivity>0.0</fertilitySensitivity>
+			<growDays>4.5</growDays>
+			<fertilityMin>0.9</fertilityMin>
+			<visualSizeRange>0.45~0.95</visualSizeRange>
+			<topWindExposure>0.2</topWindExposure>
+			<wildClusterRadius>4</wildClusterRadius>
+			<wildClusterWeight>80</wildClusterWeight>
+			<wildOrder>1</wildOrder>
+		</plant>
+	</ThingDef>
+	
+	
+	
+
 </Defs>
 
