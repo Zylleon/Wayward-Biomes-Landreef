@@ -133,6 +133,7 @@
 			<ZWB_Firegrass>0.15</ZWB_Firegrass>
 			<ZWB_SaltPot>1.3</ZWB_SaltPot>
 			<ZWB_CobaltScrunge>0.25</ZWB_CobaltScrunge>
+			<ZWB_Anemone>0.015</ZWB_Anemone>
 
 			<!-- harvestable for materials -->
 			<ZWB_StarCoral>1.1</ZWB_StarCoral>

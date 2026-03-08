@@ -291,6 +291,45 @@
 			<wildOrder>1</wildOrder>
 		</plant>
 	</ThingDef>
+	
+	
+	
+
+	<ThingDef ParentName="PlantBase">
+		<defName>ZWB_Anemone</defName>
+		<label>anemone</label>
+		<description>A large, soft sea anemone. Emits a soft glow.</description>
+		<statBases>
+			<MaxHitPoints>30</MaxHitPoints>
+			<Nutrition>0.35</Nutrition>
+		</statBases>
+		<selectable>true</selectable>
+		<pathCost>25</pathCost>
+		<graphicData>
+			<texPath>ZWB_Textures/Plants/Anemone</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<uiIconScale>0.85</uiIconScale>
+		<plant>
+			<fertilitySensitivity>0.5</fertilitySensitivity>
+			<growDays>6</growDays>
+			<wildClusterRadius>4</wildClusterRadius>
+			<wildClusterWeight>70</wildClusterWeight>
+			<visualSizeRange>0.4~1.1</visualSizeRange>
+			<topWindExposure>0.90</topWindExposure>
+			<wildOrder>2</wildOrder>
+		</plant>
+		<comps>
+			<li Class="CompProperties_Glower">
+				<!-- <overlightRadius>7.0</overlightRadius> -->
+				<glowRadius>3</glowRadius>
+				<glowColor>(234,94,94,0)</glowColor>
+			</li>
+		</comps>
+	</ThingDef>
+
+
+
 
 </Defs>
 
