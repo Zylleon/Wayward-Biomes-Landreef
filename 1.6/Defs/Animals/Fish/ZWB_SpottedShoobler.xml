@@ -33,6 +33,7 @@
 			<leatherDef>ZWB_Leather_FishHide</leatherDef>
 			<useMeatFrom>ZWB_Jesterfish</useMeatFrom>
 			<trainability>None</trainability>
+			<roamMtbDays>3</roamMtbDays>
 			<lifeExpectancy>12</lifeExpectancy>
 			<lifeStageAges>
 				<li>
