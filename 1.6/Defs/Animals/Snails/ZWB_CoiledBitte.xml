@@ -10,6 +10,7 @@
 		<statBases>
 			<MoveSpeed>2.2</MoveSpeed>
 			<ComfyTemperatureMin>-25</ComfyTemperatureMin>
+			<ComfyTemperatureMax>45</ComfyTemperatureMax>
 			<MarketValue>30</MarketValue>
 			<Wildness>0.2</Wildness>
 			<LeatherAmount>0</LeatherAmount>

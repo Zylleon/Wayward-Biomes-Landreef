@@ -62,11 +62,12 @@
 			<sowWork>750</sowWork>
 			<sowTags>
 				<li>Ground</li>
-				<li>Decorative</li>
+				<!-- <li>Decorative</li> --> <!-- can't plant this in plant pots, it's invisible -->
 			</sowTags>
 			<growDays>4.5</growDays>
 			<growMinGlow>0.3</growMinGlow>
 			<wildOrder>2</wildOrder>
+			<purpose>Beauty</purpose>
 		</plant>
 	</ThingDef>
 

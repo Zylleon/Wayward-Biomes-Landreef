@@ -10,6 +10,7 @@
 		<statBases>
 			<MoveSpeed>3.0</MoveSpeed>
 			<ComfyTemperatureMin>-20</ComfyTemperatureMin>
+			<ComfyTemperatureMax>45</ComfyTemperatureMax>
 			<MarketValue>500</MarketValue>
 			<FilthRate>22</FilthRate>
 			<Wildness>0.85</Wildness>
