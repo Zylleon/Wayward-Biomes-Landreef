@@ -160,6 +160,7 @@
 						<volume>(0.8, 0.6, 0.6)</volume>
 						<offset>(0,0,-0.3)</offset>
 					</shadowData>
+					<shaderType>MoteGlow</shaderType>
 				</bodyGraphicData>
 				<femaleGraphicData>
 					<texPath>ZWB_Textures/Animals/SumpterSnail/SumpterSnail_Female</texPath>
