@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+
+
+	<ThingDef ParentName="AnimalThingBase">
+		<defName>ZWB_BananaGraf</defName>
+		<label>banana graf</label>
+		<description>A peaceful herbivore that often travels in small herds, the banana graf is known for its bright coloring.</description>
+		<statBases>
+			<MoveSpeed>4.1</MoveSpeed>
+			<ComfyTemperatureMin>-20</ComfyTemperatureMin>
+			<ComfyTemperatureMax>50</ComfyTemperatureMax>
+			<MarketValue>90</MarketValue>
+			<Wildness>0.75</Wildness>
+			<ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_EggLayer">
+				<eggUnfertilizedDef>ZWB_EggBananaGrafUnfertilized</eggUnfertilizedDef>
+				<eggFertilizedDef>ZWB_EggBananaGrafFertilized</eggFertilizedDef>
+				<eggFertilizationCountMax>1</eggFertilizationCountMax>
+				<eggLayIntervalDays>6</eggLayIntervalDays>
+				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
+				<eggCountRange>1~2</eggCountRange>
+			</li>
+		</comps>
+		<race>
+			<body>ZWB_QuadrupedLandFish</body>
+			<herdAnimal>false</herdAnimal>
+			<baseBodySize>0.4</baseBodySize>
+			<baseHungerRate>0.2</baseHungerRate>
+			<baseHealthScale>0.45</baseHealthScale>
+			<foodType>VegetarianRoughAnimal</foodType>
+			<leatherDef>ZWB_Leather_Fishskin</leatherDef>
+			<trainability>None</trainability>
+			<useMeatFrom>ZWB_Jesterfish</useMeatFrom>
+			<lifeExpectancy>7</lifeExpectancy>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.12</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.22</minAge>
+					<soundWounded>ZWB_SmallFish_Wounded</soundWounded>
+					<soundDeath>ZWB_SmallFish_Death</soundDeath>
+					<soundCall>ZWB_SmallFish_Call</soundCall>
+					<soundAngry>ZWB_SmallFish_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+			<soundEating>Herbivore_Eat</soundEating>
+			<packAnimal>false</packAnimal>
+			<!-- <headPosPerRotation> -->
+			<!-- <li>(0.0, 0, 0.09)</li> -->
+			<!-- <li>(0.28, 0, 0)</li> -->
+			<!-- <li>(0.0, 0, -0.04)</li> -->
+			<!-- <li>(-0.28, 0, 0)</li> -->
+			<!-- </headPosPerRotation> -->
+		</race>
+		<tradeTags>
+			<li>AnimalCommon</li>
+			<!-- <li>AnimalFarm</li> -->
+		</tradeTags>
+		<tools>
+			<li>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>7</power>
+				<cooldownTime>2.2</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<chanceFactor>0.6</chanceFactor>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>6</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+			<li>
+				<label>left flipper</label>
+				<labelNoLocation>flipper</labelNoLocation>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>7.5</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>ZWB_FrontLeftFlipper</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<label>right flipper</label>
+				<labelNoLocation>flipper</labelNoLocation>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>7.5</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>ZWB_FrontRightFlipper</linkedBodyPartsGroup>
+			</li>
+		</tools>
+	</ThingDef>
+
+
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>ZWB_BananaGraf</defName>
+		<label>banana graf</label>
+		<race>ZWB_BananaGraf</race>
+		<combatPower>35</combatPower>
+		<ecoSystemWeight>0.3</ecoSystemWeight>
+		<lifeStages>
+			<li>
+				<label>banana graf fry</label>
+				<labelPlural>banana graf fry</labelPlural>
+				<bodyGraphicData>
+					<texPath>ZWB_Textures/Animals/BananaGraf/BananaGraf</texPath>
+					<drawSize>0.6</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>ZWB_Textures/Animals/BananaGraf/Dessicated_BananaGraf</texPath>
+					<drawSize>0.6</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>ZWB_Textures/Animals/BananaGraf/BananaGraf</texPath>
+					<drawSize>0.95</drawSize>
+					<shadowData>
+						<volume>(0.25, 0.3, 0.25)</volume>
+						<offset>(0,0,-0.15)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>ZWB_Textures/Animals/BananaGraf/Dessicated_BananaGraf</texPath>
+					<drawSize>0.95</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>ZWB_Textures/Animals/BananaGraf/BananaGraf</texPath>
+					<drawSize>1.25</drawSize>
+					<shadowData>
+						<volume>(0.3, 0.4, 0.3)</volume>
+						<offset>(0,0,-0.15)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>ZWB_Textures/Animals/BananaGraf/Dessicated_BananaGraf</texPath>
+					<drawSize>1.25</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+
+
+	<ThingDef ParentName="EggFertBase">
+		<defName>ZWB_EggBananaGrafFertilized</defName>
+		<label>banana graf egg (fert.)</label>
+		<description>A fertilized banana graf egg. If all goes well, it should hatch into a baby banana graf. It can be eaten raw, but it's much better cooked.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/AnimalProductRaw/EggRound</texPath>
+			<color>(237,190,98)</color>
+			<drawSize>0.7</drawSize>
+		</graphicData>
+		<statBases>
+			<Nutrition>0.5</Nutrition>
+			<MarketValue>18.0</MarketValue>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Hatcher">
+				<hatcherDaystoHatch>4</hatcherDaystoHatch>
+				<hatcherPawn>ZWB_BananaGraf</hatcherPawn>
+			</li>
+		</comps>
+	</ThingDef>
+
+
+
+	<ThingDef ParentName="EggUnfertBase">
+		<defName>ZWB_EggBananaGrafUnfertilized</defName>
+		<label>banana graf egg (unfert.)</label>
+		<description>An unfertilized banana graf egg. It can be eaten raw, but it's much better cooked.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/AnimalProductRaw/EggRound</texPath>
+			<color>(176,153,108)</color>
+			<drawSize>0.7</drawSize>
+		</graphicData>
+		<statBases>
+			<MarketValue>11.0</MarketValue>
+			<Nutrition>0.5</Nutrition>
+		</statBases>
+	</ThingDef>
+
+
+</Defs>
+
