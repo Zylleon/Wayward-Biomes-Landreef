@@ -28,15 +28,16 @@
 		<race>
 			<body>ZWB_BipedLandFish</body>
 			<herdAnimal>true</herdAnimal>
-			<baseBodySize>2.6</baseBodySize>
-			<baseHungerRate>0.55</baseHungerRate>
-			<baseHealthScale>1.85</baseHealthScale>
+			<baseBodySize>2.75</baseBodySize>
+			<baseHungerRate>0.58</baseHungerRate>
+			<baseHealthScale>1.9</baseHealthScale>
 			<foodType>VegetarianRoughAnimal</foodType>
 			<leatherDef>ZWB_Leather_HeavyFishHide</leatherDef>
 			<useMeatFrom>ZWB_Jesterfish</useMeatFrom>
 			<trainability>Intermediate</trainability>
 			<lifeExpectancy>37</lifeExpectancy>
-			<manhunterOnDamageChance>0.1</manhunterOnDamageChance>
+			<manhunterOnDamageChance>0.2</manhunterOnDamageChance>
+			<manhunterOnTameFailChance>0.2</manhunterOnTameFailChance>
 			<lifeStageAges>
 				<li>
 					<def>AnimalBaby</def>
