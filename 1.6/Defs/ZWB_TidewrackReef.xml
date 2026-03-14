@@ -130,12 +130,14 @@
 			<ZWB_Kelp>1.7</ZWB_Kelp>
 			<ZWB_AmberTube>0.05</ZWB_AmberTube>
 			<ZWB_SeaGourd>0.2</ZWB_SeaGourd>
+			<ZWB_LilacShabble>0.2</ZWB_LilacShabble>
 
 			<ZWB_Firegrass>0.15</ZWB_Firegrass>
 			<ZWB_SaltPot>1.3</ZWB_SaltPot>
 			<ZWB_CobaltScrunge>0.25</ZWB_CobaltScrunge>
 			<ZWB_SeaFingers>0.005</ZWB_SeaFingers>
 			<ZWB_Anemone>0.015</ZWB_Anemone>
+			<ZWB_AmberFrill>0.025</ZWB_AmberFrill>
 
 			<!-- harvestable for materials -->
 			<ZWB_StarCoral>1.1</ZWB_StarCoral>

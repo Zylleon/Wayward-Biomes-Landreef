@@ -31,45 +31,11 @@
 			<wildClusterWeight>150</wildClusterWeight>
 			<wildOrder>1</wildOrder>
 			<purpose>Beauty</purpose>
+			<dieIfLeafless>true</dieIfLeafless>
 		</plant>
 	</ThingDef>
 
 
-	<ThingDef ParentName="BushBase">
-		<defName>ZWB_LilacFrill</defName>
-		<label>lilac frill</label>
-		<description>A kind of sea fan adapted for life on land. It’s nice to look at, and commonly found in tidewrack reefs. Its flexible structure allows it to survive wind and shifting sand.</description>
-		<statBases>
-			<Beauty>8</Beauty>
-			<BeautyOutdoors>8</BeautyOutdoors>
-			<Nutrition>0.25</Nutrition>
-			<Flammability>0.8</Flammability>
-		</statBases>
-		<graphicData>
-			<texPath>ZWB_Textures/Plants/LilacFrill</texPath>
-			<graphicClass>Graphic_Random</graphicClass>
-			<shaderType>TransparentPlant</shaderType>
-			<shadowData>
-				<volume>(0,0,0)</volume>
-				<offset>(0,0,0)</offset>
-			</shadowData>
-		</graphicData>
-		<fillPercent>0.10</fillPercent>
-		<pathCost>20</pathCost>
-		<plant>
-			<wildClusterRadius>3</wildClusterRadius>
-			<wildClusterWeight>300</wildClusterWeight>
-			<sowWork>750</sowWork>
-			<sowTags>
-				<li>Ground</li>
-				<!-- <li>Decorative</li> --> <!-- can't plant this in plant pots, it's invisible -->
-			</sowTags>
-			<growDays>4.5</growDays>
-			<growMinGlow>0.3</growMinGlow>
-			<wildOrder>2</wildOrder>
-			<purpose>Beauty</purpose>
-		</plant>
-	</ThingDef>
 
 
 
@@ -132,6 +98,7 @@
 			<wildClusterRadius>8</wildClusterRadius>
 			<wildClusterWeight>200</wildClusterWeight>
 			<wildOrder>1</wildOrder>
+			<dieIfLeafless>true</dieIfLeafless>
 		</plant>
 	</ThingDef>
 
@@ -234,134 +201,6 @@
 	</ThingDef>
 
 
-
-	<ThingDef ParentName="PlantBase">
-		<defName>ZWB_CobaltScrunge</defName>
-		<label>cobalt scrunge</label>
-		<description>A blue sponge-like organism that filters minerals from the soil, found throughout tidewrack reefs.</description>
-		<statBases>
-			<MaxHitPoints>90</MaxHitPoints>
-			<Nutrition>0.35</Nutrition>
-		</statBases>
-		<selectable>true</selectable>
-		<pathCost>25</pathCost>
-		<graphicData>
-			<texPath>ZWB_Textures/Plants/CobaltScrunge</texPath>
-			<graphicClass>Graphic_Random</graphicClass>
-		</graphicData>
-		<uiIconScale>0.85</uiIconScale>
-		<plant>
-			<fertilitySensitivity>0.5</fertilitySensitivity>
-			<growDays>4.5</growDays>
-			<wildClusterRadius>4</wildClusterRadius>
-			<wildClusterWeight>70</wildClusterWeight>
-			<visualSizeRange>0.4~0.9</visualSizeRange>
-			<topWindExposure>0.20</topWindExposure>
-			<wildOrder>2</wildOrder>
-		</plant>
-	</ThingDef>
-
-
-
-	<ThingDef ParentName="BushBase">
-		<defName>ZWB_AmberTube</defName>
-		<label>amber tube</label>
-		<description>A small orange tube coral that grows in clusters. It's nice to look at.</description>
-		<statBases>
-			<MaxHitPoints>75</MaxHitPoints>
-			<Beauty>9</Beauty>
-			<BeautyOutdoors>9</BeautyOutdoors>
-			<Nutrition>0.4</Nutrition>
-		</statBases>
-		<pathCost>20</pathCost>
-		<graphicData>
-			<texPath>ZWB_Textures/Plants/AmberTube</texPath>
-			<graphicClass>Graphic_Random</graphicClass>
-		</graphicData>
-		<ingestible/>
-		<selectable>true</selectable>
-		<plant>
-			<fertilitySensitivity>0.0</fertilitySensitivity>
-			<growDays>3.0</growDays>
-			<fertilityMin>0.05</fertilityMin>
-			<maxMeshCount>9</maxMeshCount>
-			<visualSizeRange>0.35~0.8</visualSizeRange>
-			<topWindExposure>0.2</topWindExposure>
-			<wildClusterRadius>4</wildClusterRadius>
-			<wildClusterWeight>150</wildClusterWeight>
-			<wildOrder>1</wildOrder>
-		</plant>
-	</ThingDef>
-	
-	
-	
-
-	<ThingDef ParentName="PlantBase">
-		<defName>ZWB_Anemone</defName>
-		<label>anemone</label>
-		<description>A large, soft sea anemone. Emits a soft glow.</description>
-		<statBases>
-			<MaxHitPoints>30</MaxHitPoints>
-			<Nutrition>0.35</Nutrition>
-		</statBases>
-		<selectable>true</selectable>
-		<pathCost>25</pathCost>
-		<graphicData>
-			<texPath>ZWB_Textures/Plants/Anemone</texPath>
-			<graphicClass>Graphic_Random</graphicClass>
-		</graphicData>
-		<uiIconScale>0.85</uiIconScale>
-		<plant>
-			<fertilitySensitivity>0.5</fertilitySensitivity>
-			<growDays>6</growDays>
-			<wildClusterRadius>4</wildClusterRadius>
-			<wildClusterWeight>70</wildClusterWeight>
-			<visualSizeRange>0.4~1.1</visualSizeRange>
-			<topWindExposure>0.90</topWindExposure>
-			<wildOrder>2</wildOrder>
-		</plant>
-		<comps>
-			<li Class="CompProperties_Glower">
-				<!-- <overlightRadius>7.0</overlightRadius> -->
-				<glowRadius>3</glowRadius>
-				<glowColor>(234,94,94,0)</glowColor>
-			</li>
-		</comps>
-	</ThingDef>
-
-
-
-
-	<ThingDef ParentName="BushBase">
-		<defName>ZWB_SeaFingers</defName>
-		<label>sea fingers</label>
-		<description>A spongelike coral that grows as clusters of finger-like columns.</description>
-		<statBases>
-			<MaxHitPoints>75</MaxHitPoints>
-			<Beauty>2</Beauty>
-			<BeautyOutdoors>4</BeautyOutdoors>
-			<Nutrition>0.3</Nutrition>
-		</statBases>
-		<pathCost>20</pathCost>
-		<graphicData>
-			<texPath>ZWB_Textures/Plants/SeaFingers</texPath>
-			<graphicClass>Graphic_Random</graphicClass>
-		</graphicData>
-		<ingestible/>
-		<selectable>true</selectable>
-		<plant>
-			<fertilitySensitivity>0.0</fertilitySensitivity>
-			<growDays>4.5</growDays>
-			<fertilityMin>0.9</fertilityMin>
-			<visualSizeRange>0.45~0.95</visualSizeRange>
-			<topWindExposure>0.2</topWindExposure>
-			<wildClusterRadius>4</wildClusterRadius>
-			<wildClusterWeight>80</wildClusterWeight>
-			<wildOrder>1</wildOrder>
-		</plant>
-	</ThingDef>
-	
-	
 	
 
 	<ThingDef ParentName="PlantBase">
@@ -391,6 +230,39 @@
 	</ThingDef>
 
 
+
+	<ThingDef ParentName="PlantBase">
+		<defName>ZWB_LilacShabble</defName>
+		<label>lilac shabble</label>
+		<description>A small type of tubular coral that grows in small clusters. It is praised and sought after for its beauty. Many will often give a bouquet of these to their loved ones as gifts.</description>
+		<statBases>
+			<MaxHitPoints>85</MaxHitPoints>
+			<Beauty>3</Beauty>
+			<BeautyOutdoors>3</BeautyOutdoors>
+			<Nutrition>0.15</Nutrition>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<graphicData>
+			<texPath>ZWB_Textures/Plants/LilacShabble</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<hideAtSnowOrSandDepth>0.5</hideAtSnowOrSandDepth>
+		<ingestible/>
+		<plant>
+			<fertilitySensitivity>0.0</fertilitySensitivity>
+			<growDays>3.5</growDays>
+			<sowTags>
+				<li>Ground</li>
+			</sowTags>
+			<fertilityMin>0.05</fertilityMin>
+			<maxMeshCount>4</maxMeshCount>
+			<visualSizeRange>0.22~0.8</visualSizeRange>
+			<topWindExposure>0.1</topWindExposure>
+			<wildClusterRadius>4</wildClusterRadius>
+			<wildClusterWeight>150</wildClusterWeight>
+			<wildOrder>2</wildOrder>
+		</plant>
+	</ThingDef>
 
 
 </Defs>
