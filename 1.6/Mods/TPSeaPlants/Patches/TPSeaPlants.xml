@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="ZWB_TidewrackReef"]/wildPlants</xpath>
+		<value>
+			<TP_Coral>0.2</TP_Coral>
+			<TP_SeaWeed>1.0</TP_SeaWeed>
+		</value>
+	</Operation>
+
+
+</Patch>
+
