@@ -6,7 +6,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>ZWB_BananaGraf</defName>
 		<label>banana graf</label>
-		<description>A peaceful herbivore that often travels in small herds, the banana graf is known for its bright coloring.</description>
+		<description>A peaceful, solitary land fish.</description>
 		<statBases>
 			<MoveSpeed>4.1</MoveSpeed>
 			<ComfyTemperatureMin>-20</ComfyTemperatureMin>

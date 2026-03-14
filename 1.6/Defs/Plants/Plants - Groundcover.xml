@@ -364,5 +364,34 @@
 	
 	
 
+	<ThingDef ParentName="PlantBase">
+		<defName>ZWB_SeaGourd</defName>
+		<label>sea gourd</label>
+		<description>A hollow blue gourd-like sea plant.</description>
+		<statBases>
+			<MaxHitPoints>90</MaxHitPoints>
+			<Nutrition>0.35</Nutrition>
+		</statBases>
+		<selectable>false</selectable>
+		<pathCost>25</pathCost>
+		<graphicData>
+			<texPath>ZWB_Textures/Plants/SeaGourd</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<uiIconScale>0.85</uiIconScale>
+		<plant>
+			<fertilitySensitivity>0.5</fertilitySensitivity>
+			<growDays>4.5</growDays>
+			<wildClusterRadius>4</wildClusterRadius>
+			<wildClusterWeight>70</wildClusterWeight>
+			<visualSizeRange>0.25~0.5</visualSizeRange>
+			<topWindExposure>0.20</topWindExposure>
+			<wildOrder>2</wildOrder>
+		</plant>
+	</ThingDef>
+
+
+
+
 </Defs>
 

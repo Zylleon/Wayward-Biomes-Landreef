@@ -129,6 +129,7 @@
 			<ZWB_Seagrass>1.7</ZWB_Seagrass>
 			<ZWB_Kelp>1.7</ZWB_Kelp>
 			<ZWB_AmberTube>0.05</ZWB_AmberTube>
+			<ZWB_SeaGourd>0.2</ZWB_SeaGourd>
 
 			<ZWB_Firegrass>0.15</ZWB_Firegrass>
 			<ZWB_SaltPot>1.3</ZWB_SaltPot>
@@ -161,6 +162,7 @@
 			<ZWB_Ramari>0.3</ZWB_Ramari>
 			<ZWB_Jesterfish>0.6</ZWB_Jesterfish>
 			<ZWB_Melu>0.25</ZWB_Melu>
+			<ZWB_Flumbus>0.2</ZWB_Flumbus>
 			<ZWB_Harbler>0.2</ZWB_Harbler>
 			
 			<ZWB_SumpterSnail>0.1</ZWB_SumpterSnail>
