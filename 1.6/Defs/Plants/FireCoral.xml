@@ -31,6 +31,12 @@
 			<harvestTag>Standard</harvestTag>
 			<harvestedThingDef>ZWB_WeaponFireCoral</harvestedThingDef>
 		</plant>
+		<comps>
+			<li Class="CompProperties_Glower">
+				<glowRadius>2</glowRadius>
+				<glowColor>(233,145,48,0)</glowColor>
+			</li>
+		</comps>
 	</ThingDef>
 	
 	
