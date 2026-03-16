@@ -109,7 +109,7 @@
 		<ecoSystemWeight>0.7</ecoSystemWeight>
 		<lifeStages>
 			<li>
-				<label>lemon grabblet</label>
+				<label>lemon grabbling</label>
 				<bodyGraphicData>
 					<texPath>ZWB_Textures/Animals/LemonGrabbler/LemonGrabbler</texPath>
 					<drawSize>0.9</drawSize>

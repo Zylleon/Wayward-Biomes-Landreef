@@ -133,7 +133,7 @@
 				<labelPlural>flumbus fry</labelPlural>
 				<bodyGraphicData>
 					<texPath>ZWB_Textures/Animals/Flumbus/FlumbusC</texPath>
-					<drawSize>1.9</drawSize>
+					<drawSize>1.7</drawSize>
 					<shadowData>
 						<volume>(0.4, 0.3, 0.3)</volume>
 						<offset>(0,0,-0.2)</offset>
@@ -141,7 +141,7 @@
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>ZWB_Textures/Animals/Flumbus/Dessicated_Flumbus</texPath>
-					<drawSize>1.9</drawSize>
+					<drawSize>1.7</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
@@ -199,11 +199,12 @@
 		<graphicData>
 			<texPath>Things/Item/Resource/AnimalProductRaw/EggRound</texPath>
 			<color>(195,195,195)</color>
-			<drawSize>1.0</drawSize>
+			<drawSize>1.35</drawSize>
 		</graphicData>
+		<uiIconScale>0.666</uiIconScale>
 		<statBases>
 			<Nutrition>0.5</Nutrition>
-			<MarketValue>22.0</MarketValue>
+			<MarketValue>47.0</MarketValue>
 		</statBases>
 		<comps>
 			<li Class="CompProperties_Hatcher">
@@ -222,10 +223,11 @@
 		<graphicData>
 			<texPath>Things/Item/Resource/AnimalProductRaw/EggOval</texPath>
 			<color>(166,166,166)</color>
-			<drawSize>1.0</drawSize>
+			<drawSize>1.35</drawSize>
 		</graphicData>
+		<uiIconScale>0.666</uiIconScale>
 		<statBases>
-			<MarketValue>15.0</MarketValue>
+			<MarketValue>25.0</MarketValue>
 			<Nutrition>0.5</Nutrition>
 		</statBases>
 	</ThingDef>
