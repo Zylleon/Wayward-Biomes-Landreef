@@ -39,58 +39,87 @@
 
 
 
-  <BodyPartDef>
-    <defName>ZWB_Shell</defName>
-    <label>shell</label>
-    <hitPoints>45</hitPoints>
-    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
-    <skinCovered>false</skinCovered>
-    <solid>true</solid>
-    <alive>false</alive>
-    <bleedRate>0</bleedRate>
-  </BodyPartDef>
 
-<BodyPartDef>
-    <defName>ZWB_SnailFoot</defName>
-    <label>snail foot</label>
-    <hitPoints>30</hitPoints>
-    <frostbiteVulnerability>0.5</frostbiteVulnerability>
-    <permanentInjuryChanceFactor>0.20</permanentInjuryChanceFactor>
-    <skinCovered>true</skinCovered>
-    <tags>
-      <li>MovingLimbCore</li>
-    </tags>
-  </BodyPartDef>
+	<BodyPartDef>
+		<defName>ZWB_Shell</defName>
+		<label>shell</label>
+		<hitPoints>45</hitPoints>
+		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+		<skinCovered>false</skinCovered>
+		<solid>true</solid>
+		<alive>false</alive>
+		<bleedRate>0</bleedRate>
+	</BodyPartDef>
 
-  <BodyPartDef>
-    <defName>ZWB_Eyestalk</defName>
-    <label>eyestalk</label>
-    <hitPoints>10</hitPoints>
-    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
-    <bleedRate>0.6</bleedRate>
-  </BodyPartDef>
-  
-  
+	<BodyPartDef>
+		<defName>ZWB_SnailFoot</defName>
+		<label>snail foot</label>
+		<hitPoints>45</hitPoints>
+		<frostbiteVulnerability>0.5</frostbiteVulnerability>
+		<permanentInjuryChanceFactor>0.20</permanentInjuryChanceFactor>
+		<skinCovered>true</skinCovered>
+		<tags>
+			<li>MovingLimbCore</li>
+		</tags>
+	</BodyPartDef>
 
-  <BodyPartDef>
-    <defName>ZWB_CrabLeg</defName>
-    <label>leg</label>
-    <hitPoints>20</hitPoints>
-    <frostbiteVulnerability>0.5</frostbiteVulnerability>
-    <skinCovered>false</skinCovered>
-    <tags>
-      <li>MovingLimbCore</li>
-      <li>ManipulationLimbCore</li>
-    </tags>
-  </BodyPartDef>
+	<BodyPartDef>
+		<defName>ZWB_Eyestalk</defName>
+		<label>eyestalk</label>
+		<hitPoints>10</hitPoints>
+		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+		<bleedRate>0.6</bleedRate>
+	</BodyPartDef>
 
 
-  <BodyPartDef>
-    <defName>ZWB_SnailGland</defName>
-    <label>gland</label>
-    <hitPoints>15</hitPoints>
-    <skinCovered>false</skinCovered>
-  </BodyPartDef>
+
+	<BodyPartDef>
+		<defName>ZWB_CrabLeg</defName>
+		<label>leg</label>
+		<hitPoints>20</hitPoints>
+		<frostbiteVulnerability>0.5</frostbiteVulnerability>
+		<skinCovered>false</skinCovered>
+		<tags>
+			<li>MovingLimbCore</li>
+		</tags>
+	</BodyPartDef>
+
+
+	<BodyPartDef>
+		<defName>ZWB_CrabClaw</defName>
+		<label>claw</label>
+		<hitPoints>15</hitPoints>
+		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+		<skinCovered>false</skinCovered>
+		<solid>true</solid>
+		<alive>false</alive>
+		<bleedRate>0</bleedRate>
+		<tags>
+			<li>ManipulationLimbCore</li>
+		</tags>
+	</BodyPartDef>
+
+	<BodyPartDef>
+		<defName>ZWB_CrabMouth</defName>
+		<label>mouth</label>
+		<hitPoints>10</hitPoints>
+		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+		<skinCovered>false</skinCovered>
+		<solid>true</solid>
+		<bleedRate>0</bleedRate>
+		<tags>
+			<li>EatingSource</li>
+		</tags>
+	</BodyPartDef>
+
+
+
+	<BodyPartDef>
+		<defName>ZWB_SnailGland</defName>
+		<label>gland</label>
+		<hitPoints>15</hitPoints>
+		<skinCovered>false</skinCovered>
+	</BodyPartDef>
 
 
 	<BodyPartGroupDef>
@@ -98,8 +127,8 @@
 		<label>gland</label>
 		<labelShort>gland</labelShort>
 	</BodyPartGroupDef>
-	
-	
+
+
 
 	<BodyPartGroupDef>
 		<defName>ZWB_FrontLeftFlipper</defName>

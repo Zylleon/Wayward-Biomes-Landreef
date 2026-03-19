@@ -72,7 +72,7 @@
 							<coverage>0.06</coverage>
 						</li>
 						<li>
-							<def>InsectMouth</def>
+							<def>ZWB_CrabMouth</def>
 							<coverage>0.08</coverage>
 							<groups>
 								<li>Mouth</li>
@@ -82,7 +82,7 @@
 
 				</li>
 				<li>
-					<def>HeadClaw</def>
+					<def>ZWB_CrabClaw</def>
 					<coverage>0.1</coverage>
 					<customLabel>left claw</customLabel>
 					<groups>
@@ -90,7 +90,7 @@
 					</groups>
 				</li>
 				<li>
-					<def>HeadClaw</def>
+					<def>ZWB_CrabClaw</def>
 					<coverage>0.1</coverage>
 					<customLabel>right claw</customLabel>
 					<groups>
