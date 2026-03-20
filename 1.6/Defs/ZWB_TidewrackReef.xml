@@ -138,6 +138,7 @@
 			<ZWB_SeaFingers>0.005</ZWB_SeaFingers>
 			<ZWB_Anemone>0.015</ZWB_Anemone>
 			<ZWB_AmberFrill>0.025</ZWB_AmberFrill>
+			<ZWB_SpindledBiffin>0.07</ZWB_SpindledBiffin>
 
 			<!-- harvestable for materials -->
 			<ZWB_StarCoral>1.1</ZWB_StarCoral>
