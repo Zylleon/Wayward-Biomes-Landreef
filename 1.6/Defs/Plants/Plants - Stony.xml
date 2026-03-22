@@ -64,7 +64,7 @@
 			<growDays>18</growDays>
 			<wildClusterRadius>4</wildClusterRadius>
 			<wildClusterWeight>90</wildClusterWeight>
-			<visualSizeRange>0.4~0.9</visualSizeRange>
+			<visualSizeRange>0.4~1.0</visualSizeRange>
 			<harvestYield>2</harvestYield>
 		</plant>
 	</ThingDef>

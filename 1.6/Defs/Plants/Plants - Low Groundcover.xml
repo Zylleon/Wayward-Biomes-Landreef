@@ -223,7 +223,7 @@
 			<growDays>4.5</growDays>
 			<wildClusterRadius>4</wildClusterRadius>
 			<wildClusterWeight>70</wildClusterWeight>
-			<visualSizeRange>0.25~0.5</visualSizeRange>
+			<visualSizeRange>0.25~0.6</visualSizeRange>
 			<topWindExposure>0.20</topWindExposure>
 			<wildOrder>2</wildOrder>
 		</plant>
@@ -251,9 +251,6 @@
 		<plant>
 			<fertilitySensitivity>0.0</fertilitySensitivity>
 			<growDays>3.5</growDays>
-			<sowTags>
-				<li>Ground</li>
-			</sowTags>
 			<fertilityMin>0.05</fertilityMin>
 			<maxMeshCount>4</maxMeshCount>
 			<visualSizeRange>0.22~0.8</visualSizeRange>

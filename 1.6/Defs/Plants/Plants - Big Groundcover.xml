@@ -32,7 +32,7 @@
 			<wildClusterWeight>150</wildClusterWeight>
 			<growDays>3.5</growDays>
 			<wildOrder>2</wildOrder>
-			<visualSizeRange>0.4~1.4</visualSizeRange>
+			<visualSizeRange>0.4~2.1</visualSizeRange>
 			<dieIfLeafless>true</dieIfLeafless>
 			<harvestWork>30</harvestWork>
 		</plant>

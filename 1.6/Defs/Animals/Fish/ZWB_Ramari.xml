@@ -31,7 +31,7 @@
 			<baseHungerRate>0.30</baseHungerRate>
 			<baseHealthScale>0.85</baseHealthScale>
 			<foodType>VegetarianRoughAnimal</foodType>
-			<leatherDef>ZWB_Leather_FishHide</leatherDef>
+			<leatherDef>ZWB_Leather_Fishskin</leatherDef>
 			<trainability>None</trainability>
 			<roamMtbDays>2</roamMtbDays>
 			<useMeatFrom>ZWB_Jesterfish</useMeatFrom>
