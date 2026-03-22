@@ -13,12 +13,14 @@
 			<harvestYield>3</harvestYield>
 			<harvestTag>Wood</harvestTag>
 			<harvestMinGrowth>0.85</harvestMinGrowth>
+			<harvestWork>250</harvestWork>
 			<soundHarvesting>Harvest_Tree</soundHarvesting>
 			<soundHarvestFinish>Harvest_Standard_Finish</soundHarvestFinish>
 		</plant>
 		<statBases>
 			<Flammability>0.1</Flammability>
 		</statBases>
+		<altitudeLayer>Building</altitudeLayer>
 	</ThingDef>
 
 

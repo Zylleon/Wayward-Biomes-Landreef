@@ -62,7 +62,7 @@
 			<fertilityMin>0.05</fertilityMin>
 			<maxMeshCount>4</maxMeshCount>
 			<visualSizeRange>0.35~1.2</visualSizeRange>
-			<topWindExposure>0.2</topWindExposure>
+			<topWindExposure>0.5</topWindExposure>
 			<wildClusterRadius>4</wildClusterRadius>
 			<wildClusterWeight>200</wildClusterWeight>
 			<wildOrder>1</wildOrder>
@@ -94,7 +94,7 @@
 			<fertilityMin>0.05</fertilityMin>
 			<maxMeshCount>4</maxMeshCount>
 			<visualSizeRange>0.5~1.5</visualSizeRange>
-			<topWindExposure>0.2</topWindExposure>
+			<topWindExposure>0.6</topWindExposure>
 			<wildClusterRadius>8</wildClusterRadius>
 			<wildClusterWeight>200</wildClusterWeight>
 			<wildOrder>1</wildOrder>
@@ -126,7 +126,7 @@
 			<harvestWork>60</harvestWork>
 			<maxMeshCount>4</maxMeshCount>
 			<visualSizeRange>0.5~0.85</visualSizeRange>
-			<topWindExposure>0.4</topWindExposure>
+			<topWindExposure>0.3</topWindExposure>
 			<wildClusterRadius>4</wildClusterRadius>
 			<wildClusterWeight>250</wildClusterWeight>
 			<wildOrder>1</wildOrder>
@@ -159,7 +159,7 @@
 			<harvestWork>60</harvestWork>
 			<maxMeshCount>4</maxMeshCount>
 			<visualSizeRange>0.45~0.85</visualSizeRange>
-			<topWindExposure>0.2</topWindExposure>
+			<topWindExposure>0.1</topWindExposure>
 			<wildClusterRadius>4</wildClusterRadius>
 			<wildClusterWeight>350</wildClusterWeight>
 			<wildOrder>1</wildOrder>

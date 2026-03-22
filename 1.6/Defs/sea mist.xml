@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+
+	<IncidentDef>
+		<defName>ZWB_SeaMist</defName>
+		<label>sea mist</label>
+		<category>Misc</category>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<workerClass>IncidentWorker_MakeGameCondition</workerClass>
+		<gameCondition>ZWB_SeaMist</gameCondition>
+		<letterLabel>Sea mist</letterLabel>
+		<letterDef>NeutralEvent</letterDef>
+		<baseChance>0.5</baseChance>
+		<earliestDay>15</earliestDay>
+		<minRefireDays>30</minRefireDays>
+		<!-- <disabledWhen> -->
+			<!-- <extremeWeatherIncidentsDisabled>true</extremeWeatherIncidentsDisabled> -->
+		<!-- </disabledWhen> -->
+		<durationDays>2~6</durationDays>
+		<tale>ZWB_SeaMist</tale>
+		<allowedBiomes>
+			<li>ZWB_TidewrackReef</li>
+		</allowedBiomes>
+	</IncidentDef>
+
+
+	<GameConditionDef>
+		<defName>ZWB_SeaMist</defName>
+		<conditionClass>Tidewrack.GameCondition_SeaMist</conditionClass>
+		<label>sea mist</label>
+		<description>A swirling mist is blanketing the region. This mist carries salt and other minerals, which will boost the growth of some plants while slowing others.</description>
+		<descriptionFuture>a salty mist will blanket the area around [map_definite] for [gameConditionDuration_duration], boosting some plants and slowing the growth of others.</descriptionFuture>
+		<endMessage>The sea mist has dispersed.</endMessage>
+		<letterText>A swirling mist has blanketed the region. This mist carries salt and other minerals, which will boost the growth of some plants while slowing others.</letterText>
+		<letterDef>NeutralEvent</letterDef>
+		<canBePermanent>true</canBePermanent>
+		<allowUnderground>false</allowUnderground>
+		<pennedAnimalsSeekShelter>false</pennedAnimalsSeekShelter>
+	</GameConditionDef>
+
+
+<!-- PLACEHOLDER -->
+	<TaleDef>
+		<defName>ZWB_SeaMist</defName>
+		<label>sea mist</label>
+		<taleClass>Tale_SinglePawn</taleClass>
+		<type>Volatile</type>
+		<baseInterest>50</baseInterest>
+		<rulePack>
+			<rulesStrings>
+				<li>tale_noun->fallout settling over [PAWN_nameDef]'s [Community]</li>
+				<li>tale_noun->the atmosphere near [PAWN_nameDef]'s [Community] becoming toxic</li>
+				<li>image->an ominous sky, [circumstance_group]</li>
+				<li>image->the air becoming thick and [circumstance_group]</li>
+				<li>image->the ground glowing gently and [circumstance_group]</li>
+				<li>image->fields of dead plants [circumstance_group]</li>
+				<li>image->[Quantity_adjphrase] graves [circumstance_group]</li>
+				<li>circumstance_phrase->with no life in sight</li>
+				<li>circumstance_phrase->covered by a faint sheen of luminous dust</li>
+				<li>circumstance_phrase->arranged in a pattern that suggests bones</li>
+				<li>circumstance_phrase->waiting for the poison to stop</li>
+				<li>desc_sentence->[PAWN_nameDef] lies on the ground, [PAWN_possessive] body twisted at an unusual angle.</li>
+				<li>desc_sentence->[PAWN_nameDef] hides near a [TerrainFeature], gazing out with a [AdjectiveAngsty] look.</li>
+				<li>desc_sentence->[PAWN_nameDef] looks on in shock.</li>
+				<li>desc_sentence->[PAWN_nameDef] rests quietly with a layer of sweat upon [PAWN_possessive] face.</li>
+				<li>desc_sentence->[Quantity_adjphrase] dead [Animal]s lay on the ground.</li>
+				<li>desc_sentence->[Quantity_adjphrase] dying [Animal]s lay on the ground.</li>
+				<li>desc_sentence->[Quantity_adjphrase] [Animal]s mill around uncertainly.</li>
+			</rulesStrings>
+		</rulePack>
+	</TaleDef>
+
+
+
+</Defs>
+
