@@ -2,6 +2,38 @@
 <Defs>
 
 
-
+	<ThoughtDef>
+		<defName>ZWB_AVApparelHappy</defName>
+		<workerClass>Tidewrack.ThoughtWorker_AmethystVeilApparel</workerClass>
+		<validWhileDespawned>true</validWhileDespawned>
+		<stages>
+			<li>
+				<label>amethyst veil {0}</label>
+				<description>This fabric feels comfortable.</description>
+				<baseMoodEffect>2</baseMoodEffect>
+			</li>
+			<li>
+				<label>amethyst veil {0} (+1)</label>
+				<description>I look important, people are starting to stare.</description>
+				<baseMoodEffect>3</baseMoodEffect>
+			</li>
+			<li>
+				<label>amethyst veil {0} (+2)</label>
+				<description>I look like a movie star!</description>
+				<baseMoodEffect>4</baseMoodEffect>
+			</li>
+			<li>
+				<label>amethyst veil {0} etc</label>
+				<description>This fabric is so soft and luxurious, I feel like royalty.</description>
+				<baseMoodEffect>5</baseMoodEffect>
+			</li>
+		</stages>
+		<nullifyingTraits>
+			<li>Ascetic</li>
+		</nullifyingTraits>
+	</ThoughtDef>
+	
+	
+	
 
 </Defs>
