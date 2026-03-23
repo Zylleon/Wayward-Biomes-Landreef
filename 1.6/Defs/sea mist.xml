@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-
+<!--
 	<IncidentDef>
 		<defName>ZWB_SeaMist</defName>
 		<label>sea mist</label>
@@ -16,9 +16,6 @@
 		<baseChance>0.5</baseChance>
 		<earliestDay>15</earliestDay>
 		<minRefireDays>30</minRefireDays>
-		<!-- <disabledWhen> -->
-			<!-- <extremeWeatherIncidentsDisabled>true</extremeWeatherIncidentsDisabled> -->
-		<!-- </disabledWhen> -->
 		<durationDays>2~6</durationDays>
 		<tale>ZWB_SeaMist</tale>
 		<allowedBiomes>
@@ -40,7 +37,7 @@
 		<allowUnderground>false</allowUnderground>
 		<pennedAnimalsSeekShelter>false</pennedAnimalsSeekShelter>
 	</GameConditionDef>
-
+-->
 
 <!-- PLACEHOLDER -->
 	<TaleDef>
