@@ -161,18 +161,18 @@
 		</wildPlants>
 		<wildAnimals>
 			<!-- Large grazers -->
-			<ZWB_SunriseTang>0.6</ZWB_SunriseTang>
+			<ZWB_SunriseTang>0.8</ZWB_SunriseTang>
 			<ZWB_Ramari>0.3</ZWB_Ramari>
 			<ZWB_Jesterfish>0.6</ZWB_Jesterfish>
 			<ZWB_Melu>0.25</ZWB_Melu>
 			<ZWB_Flumbus>0.2</ZWB_Flumbus>
-			<ZWB_Harbler>0.2</ZWB_Harbler>
+			<ZWB_Harbler>0.3</ZWB_Harbler>
 			
 			<ZWB_SumpterSnail>0.1</ZWB_SumpterSnail>
 			<ZWB_LemonGrabbler>0.15</ZWB_LemonGrabbler>
 
 			<!-- Small Grazers -->
-			<ZWB_MidnightTang>1.0</ZWB_MidnightTang>
+			<ZWB_MidnightTang>0.6</ZWB_MidnightTang>
 			<ZWB_AmethystSkrunt>0.2</ZWB_AmethystSkrunt>
 			<ZWB_SpottedShoobler>0.8</ZWB_SpottedShoobler>
 			<ZWB_BananaGraf>0.25</ZWB_BananaGraf>
