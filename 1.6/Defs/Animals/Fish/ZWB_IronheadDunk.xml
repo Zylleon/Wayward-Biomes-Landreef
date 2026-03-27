@@ -53,10 +53,10 @@
 				<li>
 					<def>AnimalAdult</def>
 					<minAge>0.6</minAge>
-					<!-- <soundWounded>Pawn_Muffalo_Wounded</soundWounded> -->
-					<!-- <soundDeath>Pawn_Muffalo_Death</soundDeath> -->
-					<!-- <soundCall>Pawn_Muffalo_Call</soundCall> -->
-					<!-- <soundAngry>Pawn_Muffalo_Angry</soundAngry> -->
+					<soundWounded>ZWB_Dunk_Wounded</soundWounded>
+					<soundDeath>ZWB_Dunk_Death</soundDeath>
+					<soundCall>ZWB_Dunk_Call</soundCall>
+					<soundAngry>ZWB_Dunk_Angry</soundAngry>
 				</li>
 			</lifeStageAges>
 			<soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
@@ -65,12 +65,6 @@
 			<soundEating>PredatorSmall_Eat</soundEating>
 			<packAnimal>false</packAnimal>
 			<predator>true</predator>
-			<!-- <headPosPerRotation> -->
-			<!-- <li>(0.0, 0, 0.09)</li> -->
-			<!-- <li>(0.28, 0, 0)</li> -->
-			<!-- <li>(0.0, 0, -0.04)</li> -->
-			<!-- <li>(-0.28, 0, 0)</li> -->
-			<!-- </headPosPerRotation> -->
 		</race>
 		<tradeTags>
 			<li>AnimalExotic</li>

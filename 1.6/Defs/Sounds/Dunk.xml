@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+	<SoundDef>
+		<defName>ZWB_Dunk_Call</defName>
+		<context>MapOnly</context>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>ZWB_Animals/Dunk/Call</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>29~37</volumeRange>
+				<distRange>0~50</distRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>ZWB_Dunk_Angry</defName>
+		<context>MapOnly</context>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>ZWB_Animals/Dunk/Angry</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>32~39</volumeRange>
+				<distRange>0~70</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>ZWB_Dunk_Wounded</defName>
+		<context>MapOnly</context>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>ZWB_Animals/Dunk/Wounded</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>32~37</volumeRange>
+				<distRange>0~70</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+
+	<SoundDef>
+		<defName>ZWB_Dunk_Death</defName>
+		<context>MapOnly</context>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>ZWB_Animals/Dunk/Death</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>32~37</volumeRange>
+				<distRange>0~70</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+</Defs>
