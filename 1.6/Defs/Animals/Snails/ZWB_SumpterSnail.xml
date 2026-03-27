@@ -13,7 +13,7 @@
 			<ComfyTemperatureMax>40</ComfyTemperatureMax>
 			<MarketValue>470</MarketValue>
 			<Wildness>0.6</Wildness>
-			<LeatherAmount>0</LeatherAmount>
+			<LeatherAmount>21</LeatherAmount>	 <!-- 75 -->
 			<ArmorRating_Blunt>0.15</ArmorRating_Blunt>
 			<ArmorRating_Sharp>0.30</ArmorRating_Sharp>
 		</statBases>
@@ -36,7 +36,7 @@
 			<foodType>VegetarianRoughAnimal</foodType>
 			<trainability>None</trainability>
 			<meatLabel>snail meat</meatLabel>
-			<leatherDef>Leather_Plain</leatherDef>
+			<leatherDef>ZWB_MarineChitin</leatherDef>
 			<lifeExpectancy>33</lifeExpectancy>
 			<manhunterOnDamageChance>0.50</manhunterOnDamageChance>
 			<manhunterOnTameFailChance>0</manhunterOnTameFailChance>

@@ -13,7 +13,7 @@
 			<ComfyTemperatureMax>50</ComfyTemperatureMax>
 			<MarketValue>350</MarketValue>
 			<Wildness>0</Wildness>
-			<LeatherAmount>0</LeatherAmount>
+			<LeatherAmount>13</LeatherAmount>	 <!-- 19 -->
 			<ArmorRating_Blunt>0.25</ArmorRating_Blunt>
 			<ArmorRating_Sharp>0.4</ArmorRating_Sharp>
 		</statBases>
@@ -37,6 +37,7 @@
 			<trainability>Advanced</trainability>
 			<lifeExpectancy>18</lifeExpectancy>
 			<useMeatFrom>ZWB_Bubbler</useMeatFrom>
+			<leatherDef>ZWB_MarineChitin</leatherDef>
 			<lifeStageAges>
 				<li>
 					<def>AnimalBaby</def>

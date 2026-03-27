@@ -245,7 +245,7 @@
 			</statFactors>
 		</stuffProps>
 	</ThingDef>
-	
+
 	<!-- Other textiles -->
 
 
@@ -290,38 +290,103 @@
 		</thingCategories>
 		<allowedArchonexusCount>100</allowedArchonexusCount>
 	</ThingDef>
-	
-	
-<!-- misc -->
 
-  <ThingDef ParentName="MedicineBase">
-	<defName>ZWB_MedicinalGland</defName>
-	<label>medicinal gland</label>
-	<description>A medicinal gland extracted from a snail during the butchering process. It is more potent than herbal medicine but expires much faster when not frozen.</description>
-	<possessionCount>2</possessionCount>
-	<graphicData>
-		<texPath>ZWB_Textures/Things/MedicinalGland</texPath>
-	<graphicClass>Graphic_StackCount</graphicClass>
-	<drawSize>0.85</drawSize>
-	</graphicData>
+
+	<!-- misc -->
+
+	<ThingDef ParentName="MedicineBase">
+		<defName>ZWB_MedicinalGland</defName>
+		<label>medicinal gland</label>
+		<description>A medicinal gland extracted from a snail during the butchering process. It is more potent than herbal medicine but expires much faster when not frozen.</description>
+		<possessionCount>2</possessionCount>
+		<graphicData>
+			<texPath>ZWB_Textures/Things/MedicinalGland</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<drawSize>0.85</drawSize>
+		</graphicData>
 		<techLevel>Neolithic</techLevel>
-	<statBases>
-		<MarketValue>15</MarketValue>
-		<Mass>0.25</Mass>
-		<Flammability>1.3</Flammability>
-		<MedicalPotency>0.90</MedicalPotency>
-		<MedicalQualityMax>0.90</MedicalQualityMax>
-		<DeteriorationRate>8</DeteriorationRate>
-	</statBases>
+		<statBases>
+			<MarketValue>15</MarketValue>
+			<Mass>0.25</Mass>
+			<Flammability>1.3</Flammability>
+			<MedicalPotency>0.90</MedicalPotency>
+			<MedicalQualityMax>0.90</MedicalQualityMax>
+			<DeteriorationRate>8</DeteriorationRate>
+		</statBases>
 		<tickerType>Rare</tickerType>
-	<comps>
-		<li Class="CompProperties_Rottable">
-		<daysToRotStart>75</daysToRotStart>
-		<rotDestroys>true</rotDestroys>
-		</li>
-	</comps>
-	<allowedArchonexusCount>20</allowedArchonexusCount>
-  </ThingDef>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>75</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+		<allowedArchonexusCount>20</allowedArchonexusCount>
+	</ThingDef>
+
+
+
+	<!-- chitin, for large snails and crabs -->
+	
+	<ThingDef ParentName="ResourceBase">
+		<defName>ZWB_MarineChitin</defName>
+		<label>marine chitin</label>
+		<description>A metallic chitin, probably harvested from a large snail or crab.</description>
+		<graphicData>
+			<texPath>ZWB_Textures/Things/MarineChitin</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<color>(110,93,75)</color>
+		</graphicData>
+		<soundInteract>Metal_Drop</soundInteract>
+		<soundDrop>Metal_Drop</soundDrop>
+		<statBases>
+			<MarketValue>3.7</MarketValue>
+			<Mass>0.35</Mass>
+			<StuffPower_Armor_Sharp>1.0</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.48</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>0.70</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>3</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>0</StuffPower_Insulation_Heat>
+			<SharpDamageMultiplier>1.02</SharpDamageMultiplier>
+			<BluntDamageMultiplier>.95</BluntDamageMultiplier>
+		</statBases>
+		<useHitPoints>false</useHitPoints>
+		<healthAffectsPrice>false</healthAffectsPrice>
+		<!-- <slagDef>ChunkSlagSteel</slagDef> -->
+		<thingCategories>
+			<li>ResourcesRaw</li>
+		</thingCategories>
+		<deepCommonality>4</deepCommonality>
+		<deepCountPerPortion>45</deepCountPerPortion>
+		<deepLumpSizeRange>20~30</deepLumpSizeRange>
+		<burnableByRecipe>false</burnableByRecipe>
+		<smeltable>false</smeltable>
+		<stuffProps>
+			<stuffAdjective>chitinous</stuffAdjective>
+			<categories>
+				<li>Metallic</li>
+			</categories>
+			<appearance>Metal</appearance>
+			<commonality>0.2</commonality>
+			<constructEffect>ConstructMetal</constructEffect>
+			<isAirtight>true</isAirtight>
+			<color>(110,93,75)</color>
+			<soundImpactBullet>BulletImpact_Metal</soundImpactBullet>
+			<soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+			<soundImpactMelee>Pawn_Melee_Punch_HitBuilding_Metal</soundImpactMelee>
+			<statFactors>
+				<MaxHitPoints>1.1</MaxHitPoints>
+				<Beauty>1</Beauty>
+				<Flammability>0.1</Flammability>
+				<WorkToMake>1.25</WorkToMake>
+				<WorkToBuild>1.25</WorkToBuild>
+			</statFactors>
+			<canSuggestUseDefaultStuff>true</canSuggestUseDefaultStuff>
+		</stuffProps>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<allowedArchonexusCount>80</allowedArchonexusCount>
+	</ThingDef>
+
 
 
 </Defs>

@@ -13,7 +13,7 @@
 			<ComfyTemperatureMax>50</ComfyTemperatureMax>
 			<MarketValue>40</MarketValue>
 			<Wildness>0</Wildness>
-			<LeatherAmount>0</LeatherAmount>
+			<LeatherAmount>11</LeatherAmount>	 <!-- 15 -->
 			<ArmorRating_Blunt>0.1</ArmorRating_Blunt>
 			<ArmorRating_Sharp>0.25</ArmorRating_Sharp>
 		</statBases>
@@ -39,6 +39,7 @@
 			<lifeExpectancy>11</lifeExpectancy>
 			<petness>0.8</petness>
 			<nuzzleMtbHours>24</nuzzleMtbHours>
+			<leatherDef>ZWB_MarineChitin</leatherDef>
 			<lifeStageAges>
 				<li>
 					<def>AnimalBaby</def>
