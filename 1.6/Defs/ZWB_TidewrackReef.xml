@@ -187,6 +187,7 @@
 			
 			<!-- scavengers -->
 			<ZWB_Flumbie>0.9</ZWB_Flumbie>
+			<ZWB_ReefGull>0.7</ZWB_ReefGull>
 
 			<!-- Predators -->
 			<ZWB_IronheadDunk>0.025</ZWB_IronheadDunk>
