@@ -35,7 +35,7 @@
 			<foodType>OmnivoreAnimal</foodType>
 			<leatherDef>Leather_Bird</leatherDef>
 			<trainability>Intermediate</trainability>
-			<!-- <useMeatFrom>ZWB_Jesterfish</useMeatFrom> -->
+			<useMeatFrom>Cassowary</useMeatFrom>
 			<lifeExpectancy>11</lifeExpectancy>
 			<flightStartChanceOnJobStart>0.15</flightStartChanceOnJobStart>
 			<canFlyIntoMap>true</canFlyIntoMap>
@@ -131,8 +131,6 @@
 		<flyingAnimationDrawSizeIsMultiplier>false</flyingAnimationDrawSizeIsMultiplier>
 		<lifeStages>
 			<li>
-				<label>reef gull fry</label>
-				<labelPlural>reef gull fry</labelPlural>
 				<bodyGraphicData>
 					<texPath>ZWB_Textures/Animals/ReefGull/ReefGull</texPath>
 					<drawSize>0.9</drawSize>

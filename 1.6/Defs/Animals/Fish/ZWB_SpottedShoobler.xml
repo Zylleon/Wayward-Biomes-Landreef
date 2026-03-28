@@ -19,7 +19,7 @@
 				<eggUnfertilizedDef>ZWB_EggSpottedShooblerUnfertilized</eggUnfertilizedDef>	
 				<eggFertilizedDef>ZWB_EggSpottedShooblerFertilized</eggFertilizedDef>
 				<eggFertilizationCountMax>1</eggFertilizationCountMax>
-				<eggLayIntervalDays>7.7</eggLayIntervalDays>
+				<eggLayIntervalDays>2.2</eggLayIntervalDays>
 				<eggCountRange>1~2</eggCountRange>
 			</li>
 		</comps>
@@ -27,7 +27,7 @@
 			<body>ZWB_QuadrupedLandFish</body>
 			<herdAnimal>true</herdAnimal>
 			<baseBodySize>0.85</baseBodySize>
-			<baseHungerRate>0.30</baseHungerRate>
+			<baseHungerRate>0.28</baseHungerRate>
 			<baseHealthScale>0.85</baseHealthScale>
 			<foodType>OmnivoreRoughAnimal</foodType>
 			<leatherDef>ZWB_Leather_FishHide</leatherDef>
@@ -58,12 +58,6 @@
 			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
 			<soundEating>Herbivore_Eat</soundEating>
 			<packAnimal>false</packAnimal>
-			<!-- <headPosPerRotation> -->
-			<!-- <li>(0.0, 0, 0.09)</li> -->
-			<!-- <li>(0.28, 0, 0)</li> -->
-			<!-- <li>(0.0, 0, -0.04)</li> -->
-			<!-- <li>(-0.28, 0, 0)</li> -->
-			<!-- </headPosPerRotation> -->
 		</race>
 		<tradeTags>
 			<li>AnimalCommon</li>

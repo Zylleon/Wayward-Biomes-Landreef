@@ -120,6 +120,9 @@
 			<FoggyRain>1</FoggyRain>
 			<SnowGentle>2</SnowGentle>
 			<SnowHard>4</SnowHard>
+			<GrayPall MayRequire="Ludeon.RimWorld.Anomaly">1</GrayPall>
+			<Overcast MayRequire="Ludeon.RimWorld.Odyssey">2</Overcast>
+			<TorrentialRain MayRequire="Ludeon.RimWorld.Odyssey">0.5</TorrentialRain>
 		</baseWeatherCommonalities>
 		<wildPlants>
 			<!-- ground cover -->
@@ -155,7 +158,7 @@
 			<ZWB_MoonLily>0.2</ZWB_MoonLily>
 
 			<!-- harvestable other -->
-			<ZWB_AmethystVeil>0.03</ZWB_AmethystVeil>
+			<ZWB_AmethystVeil>0.035</ZWB_AmethystVeil>
 			<ZWB_FireCoral>0.003</ZWB_FireCoral>
 
 		</wildPlants>

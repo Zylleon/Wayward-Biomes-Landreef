@@ -12,7 +12,7 @@
 						<clipFolderPath>ZWB_Animals/ReefGull/Call</clipFolderPath>
 					</li>
 				</grains>
-				<volumeRange>29~33</volumeRange>
+				<volumeRange>33~37</volumeRange>
 				<distRange>0~50</distRange>
 			</li>
 		</subSounds>
@@ -28,7 +28,7 @@
 						<clipFolderPath>ZWB_Animals/ReefGull/Angry</clipFolderPath>
 					</li>
 				</grains>
-				<volumeRange>32~35</volumeRange>
+				<volumeRange>36~39</volumeRange>
 				<distRange>0~70</distRange>
 				<sustainLoop>False</sustainLoop>
 			</li>
@@ -45,7 +45,7 @@
 						<clipFolderPath>ZWB_Animals/ReefGull/Wounded</clipFolderPath>
 					</li>
 				</grains>
-				<volumeRange>32~35</volumeRange>
+				<volumeRange>36~39</volumeRange>
 				<distRange>0~70</distRange>
 				<sustainLoop>False</sustainLoop>
 			</li>
