@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="ZWB_TidewrackReef"]/wildPlants</xpath>
+		<value>
+			<WildorangeTree>0.001</WildorangeTree>
+			<Wild_PlantPlumeria>0.005</Wild_PlantPlumeria>
+			<WildBananaTree>0.005</WildBananaTree>
+			<WildPeachTree>0.01</WildPeachTree>
+			<WildCoconuttree>0.005</WildCoconuttree>
+			<WildPlantpineapple>0.004</WildPlantpineapple>
+			<ST_WildHoneyTree>0.01</ST_WildHoneyTree>
+		</value>
+	</Operation>
+
+
+</Patch>
+
